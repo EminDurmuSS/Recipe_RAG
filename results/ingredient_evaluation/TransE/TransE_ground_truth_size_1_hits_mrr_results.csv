@@ -1,0 +1,413 @@
+scenario_global_id,scenario_index_in_size,combo_size,criteria,matching_recipe_count,candidate_recipe_count,hits@1,hits@5,hits@10,mrr
+ground_truth_size_1,0,1,"[('containsIngredient', 'MORNINGSTAR FARMS BRKFST SAUSAGE LINKS,FRZ,UNPREP')]",1,90656,0.0,0.0,0.0,0.027777777777777776
+ground_truth_size_1,1,1,"[('containsIngredient', 'WATER,W/ CORN SYRUP AND/OR SUGAR & LO CAL SWTNR,FRUIT FLAV')]",2,90656,0.0,0.0,0.0,0.0044444444444444444
+ground_truth_size_1,2,1,"[('containsIngredient', 'BREAD,WHOLE-WHEAT,PREP FROM RECIPE,TSTD')]",1,90656,0.0,0.0,0.0,0.00847457627118644
+ground_truth_size_1,3,1,"[('containsIngredient', 'BLUEBERRIES,DRIED,SWTND')]",2,90656,0.0,0.0,0.0,0.025
+ground_truth_size_1,4,1,"[('containsIngredient', 'BEANS,FRENCH,MATURE SEEDS,CKD,BLD,WO/SALT')]",2,90656,0.0,0.0,0.0,0.013888888888888888
+ground_truth_size_1,5,1,"[('containsIngredient', 'SALAD DRSNG,BLUE OR ROQUEFORT CHS DRSNG,LT')]",1,90656,0.0,0.0,0.0,0.014492753623188406
+ground_truth_size_1,6,1,"[('containsIngredient', 'RESTAURANT,ITALIAN,CHICK PARMESAN WO/ PASTA')]",2,90656,0.0,0.0,0.0,0.0625
+ground_truth_size_1,7,1,"[('containsIngredient', 'SPINACH SOUFFLE')]",2,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,8,1,"[('containsIngredient', 'NOODLES,JAPANESE,SOMEN,DRY')]",2,90656,0.0,0.0,0.0,0.07142857142857142
+ground_truth_size_1,9,1,"[('containsIngredient', 'TOMATO PRODUCTS,CND,SAU,W/MUSHROOMS')]",2,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,10,1,"[('containsIngredient', 'YOGURT,PLN,SKIM MILK,13 GRAMS PROT PER 8 OZ')]",1,90656,0.0,0.0,1.0,0.125
+ground_truth_size_1,11,1,"[('containsIngredient', 'PIE CRUST,STANDARD-TYPE,DRY MIX')]",1,90656,0.0,0.0,0.0,0.0022988505747126436
+ground_truth_size_1,12,1,"[('containsIngredient', 'TURKEY  WHITE  ROTISSERIE  DELI CUT')]",1,90656,0.0,0.0,0.0,0.014925373134328358
+ground_truth_size_1,13,1,"[('containsIngredient', 'SIDE DISHES,POTATO SALAD')]",2,90656,0.0,0.0,0.0,0.012658227848101266
+ground_truth_size_1,14,1,"[('containsIngredient', 'TURKEY FROM WHL,LT MEAT,RAW')]",1,90656,0.0,0.0,0.0,0.05555555555555555
+ground_truth_size_1,15,1,"[('containsIngredient', 'FLAN,CARAMEL CUSTARD,DRY MIX')]",1,90656,0.0,0.0,0.0,0.047619047619047616
+ground_truth_size_1,16,1,"[('containsIngredient', 'SEAWEED,WAKAME,RAW')]",1,90656,0.0,0.0,0.0,0.0045662100456621
+ground_truth_size_1,17,1,"[('containsIngredient', 'SOUP,BF BROTH,BOUILLON,CONSOMME,PREP W/ EQ VOLUME H2O')]",1,90656,0.0,0.0,0.0,0.02702702702702703
+ground_truth_size_1,18,1,"[('containsIngredient', ""CAMPBELL'S HOMESTYLE MEXICAN STYLE CHICK TORTILLA SOUP"")]",1,90656,0.0,0.0,1.0,0.1
+ground_truth_size_1,19,1,"[('containsIngredient', ""CAMPBELL'S HOMESTYLE NEW ENGLAND CLAM CHOWDER"")]",2,90656,0.0,0.0,0.0,0.03225806451612903
+ground_truth_size_1,20,1,"[('containsIngredient', 'MILK,BTTRMLK,FLUID,WHL')]",2,90656,0.0,0.0,0.0,0.001893939393939394
+ground_truth_size_1,21,1,"[('containsIngredient', 'CEREALS RTE,QUAKER,LOFAT 100% NAT GRANOLA W/ RAISINS')]",1,90656,0.0,0.0,0.0,0.013888888888888888
+ground_truth_size_1,22,1,"[('containsIngredient', 'W/ CONDMNT')]",1,90656,0.0,0.0,0.0,0.015151515151515152
+ground_truth_size_1,23,1,"[('containsIngredient', 'RESTAURANT,MEXICAN,CHS ENCHILADA')]",1,90656,0.0,0.0,0.0,0.0005827505827505828
+ground_truth_size_1,24,1,"[('containsIngredient', 'OIL,NUTMEG BUTTER')]",1,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,25,1,"[('containsIngredient', 'MARGARINE-LIKE,VEG OIL SPRD,FAT-FREE,TUB')]",1,90656,0.0,0.0,0.0,0.03571428571428571
+ground_truth_size_1,26,1,"[('containsIngredient', 'KASHI PIZZA,TIKKA MASALA,SINGLE SERVE')]",1,90656,0.0,0.0,1.0,0.14285714285714285
+ground_truth_size_1,27,1,"[('containsIngredient', 'DUCK,WILD,MEAT&SKN,RAW')]",1,90656,0.0,0.0,0.0,0.010309278350515464
+ground_truth_size_1,28,1,"[('containsIngredient', 'CREAM SUBSTITUTE,POWDERED')]",2,90656,0.0,0.0,1.0,0.125
+ground_truth_size_1,29,1,"[('containsIngredient', 'BREADFRUIT,RAW')]",1,90656,0.0,0.0,0.0,0.00423728813559322
+ground_truth_size_1,30,1,"[('containsIngredient', 'PORK,CURED,BACON,CKD,MICROWAVED')]",1,90656,0.0,0.0,0.0,0.018867924528301886
+ground_truth_size_1,31,1,"[('containsIngredient', 'Cress')]",1,90656,0.0,0.0,0.0,0.0625
+ground_truth_size_1,32,1,"[('containsIngredient', 'SWEET ROLLS,CINN,REFR DOUGH W/FRSTNG,BKD')]",2,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,33,1,"[('containsIngredient', 'CAKE,WHITE,PREP FROM RECIPE W/COCNT FRSTNG')]",1,90656,0.0,0.0,0.0,0.02564102564102564
+ground_truth_size_1,34,1,"[('containsIngredient', 'BAKING CHOC,MEXICAN,SQUARES')]",1,90656,0.0,0.0,0.0,0.037037037037037035
+ground_truth_size_1,35,1,"[('containsIngredient', 'SALMON,ATLANTIC,FARMED,RAW')]",1,90656,0.0,0.0,0.0,0.0007974481658692185
+ground_truth_size_1,36,1,"[('containsIngredient', 'ALCOHOLIC BEV,DAIQUIRI,CND')]",1,90656,0.0,0.0,0.0,0.0007662835249042146
+ground_truth_size_1,37,1,"[('containsIngredient', 'Sardines grilled')]",2,90656,0.0,0.0,0.0,0.0045871559633027525
+ground_truth_size_1,38,1,"[('containsIngredient', 'HAZELNUTS OR FILBERTS,BLANCHED')]",1,90656,0.0,0.0,0.0,0.0022371364653243847
+ground_truth_size_1,39,1,"[('containsIngredient', 'SNACKS,PITA CHIPS,SALTED')]",1,90656,0.0,0.0,0.0,0.024390243902439025
+ground_truth_size_1,40,1,"[('containsIngredient', 'BARBECUE LOAF,PORK,BEEF')]",1,90656,0.0,0.0,0.0,0.0018484288354898336
+ground_truth_size_1,41,1,"[('containsIngredient', 'SILK STRAWBERRY SOY YOGURT')]",1,90656,0.0,0.0,0.0,0.0011441647597254005
+ground_truth_size_1,42,1,"[('containsIngredient', 'Grapes, muscadine, raw')]",2,90656,0.0,0.0,0.0,0.00011179429849077697
+ground_truth_size_1,43,1,"[('containsIngredient', 'BREAD STICKS,PLAIN')]",2,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,44,1,"[('containsIngredient', 'PUDDINGS,CHOC,RTE,FAT FREE')]",2,90656,0.0,0.0,0.0,0.01282051282051282
+ground_truth_size_1,45,1,"[('containsIngredient', 'MALT BEV,INCL NON-ALCOHOLIC BEER')]",2,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,46,1,"[('containsIngredient', 'BUCKWHEAT')]",2,90656,0.0,0.0,0.0,0.0015600624024961
+ground_truth_size_1,47,1,"[('containsIngredient', 'OSCAR MAYER,WIENERS (BEEF FRANKS)')]",1,90656,0.0,0.0,0.0,0.047619047619047616
+ground_truth_size_1,48,1,"[('containsIngredient', 'CRANBERRY JUC COCKTAIL,FRZ CONC')]",1,90656,0.0,0.0,0.0,0.07142857142857142
+ground_truth_size_1,49,1,"[('containsIngredient', 'PAPAYA,CND,HVY SYRUP,DRND')]",1,90656,0.0,0.0,0.0,0.008
+ground_truth_size_1,50,1,"[('containsIngredient', 'INF FORMULA, MEAD JOHNSON, ENFAMIL, LACTOFREE, RTF')]",2,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,51,1,"[('containsIngredient', 'MARGARINE-LIKE SPRD,SMART BALANCE OMEGA PLUS SPRD')]",2,90656,0.0,0.0,0.0,0.043478260869565216
+ground_truth_size_1,52,1,"[('containsIngredient', 'RADISHES,ORIENTAL,DRIED')]",1,90656,0.0,0.0,0.0,0.012195121951219513
+ground_truth_size_1,53,1,"[('containsIngredient', 'APRICOTS,CND,HVY SYRUP PK,WO/SKN,SOL&LIQUIDS')]",1,90656,0.0,0.0,1.0,0.1111111111111111
+ground_truth_size_1,54,1,"[('containsIngredient', 'PINEAPPLE,RAW,EX SWT VAR')]",2,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,55,1,"[('containsIngredient', 'CARROTS,BABY,RAW')]",1,90656,0.0,0.0,0.0,0.0004438526409232135
+ground_truth_size_1,56,1,"[('containsIngredient', 'SUPPER MEAL KITS,SAVORY PORK CHOPS W/ HERB STUFFING')]",1,90656,0.0,0.0,0.0,0.0007194244604316547
+ground_truth_size_1,57,1,"[('containsIngredient', 'EGG,GOOSE,WHOLE,FRESH,RAW')]",2,90656,0.0,0.0,0.0,0.038461538461538464
+ground_truth_size_1,58,1,"[('containsIngredient', 'PRUNE JUICE,CANNED')]",1,90656,0.0,0.0,0.0,0.0011792452830188679
+ground_truth_size_1,59,1,"[('containsIngredient', 'PUDDINGS,CHOC,DRY MIX,INST,PREP W/ 2% MILK')]",1,90656,0.0,0.0,0.0,0.0001416029453412631
+ground_truth_size_1,60,1,"[('containsIngredient', 'RESTAURANT,CHINESE,SWT & SOUR PORK')]",1,90656,0.0,0.0,0.0,0.038461538461538464
+ground_truth_size_1,61,1,"[('containsIngredient', 'PIGEON PEAS (RED GM),MATURE SEEDS,RAW')]",1,90656,0.0,0.0,0.0,0.07142857142857142
+ground_truth_size_1,62,1,"[('containsIngredient', 'COOKIES,SHORTBREAD,COMMLY PREP,PECAN')]",1,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,63,1,"[('containsIngredient', 'SAUCE,STEAK,TOMATO BSD')]",1,90656,0.0,0.0,0.0,0.011764705882352941
+ground_truth_size_1,64,1,"[('containsIngredient', 'FROZEN NOVELTIES,ICE TYPE,PINEAPPLE-COCONUT')]",1,90656,0.0,0.0,0.0,0.0038461538461538464
+ground_truth_size_1,65,1,"[('containsIngredient', 'PORK,FRSH,VAR MEATS&BY-PRODUCTS,JOWL,RAW')]",1,90656,0.0,0.0,0.0,0.0004807692307692308
+ground_truth_size_1,66,1,"[('containsIngredient', 'CRANBERRY JUC COCKTAIL,BTLD,LO CAL,W/CA,SACCHARIN&CORN SWTNR')]",2,90656,0.0,0.0,0.0,0.011904761904761904
+ground_truth_size_1,67,1,"[('containsIngredient', 'Tapenade tomato')]",1,90656,0.0,0.0,0.0,0.0015105740181268882
+ground_truth_size_1,68,1,"[('containsIngredient', 'PERSIMMONS,JAPANESE,RAW')]",2,90656,0.0,0.0,0.0,0.02631578947368421
+ground_truth_size_1,69,1,"[('containsIngredient', 'GRAVY,BROWN,DRY')]",1,90656,0.0,0.0,0.0,0.006756756756756757
+ground_truth_size_1,70,1,"[('containsIngredient', 'WHEAT FLR,WHITE,ALL-PURPOSE,ENR,CALCIUM-FORTIFIED')]",1,90656,0.0,0.0,0.0,0.005847953216374269
+ground_truth_size_1,71,1,"[('containsIngredient', 'DOMINO\'S 14"" CHS PIZZA,CLASSIC HAND-TOSSED CRUST')]",1,90656,0.0,0.0,0.0,0.003125
+ground_truth_size_1,72,1,"[('containsIngredient', 'PUMPKIN&SQUASH SEEDS,WHL,RSTD,W/SALT')]",1,90656,0.0,0.0,0.0,0.002702702702702703
+ground_truth_size_1,73,1,"[('containsIngredient', 'ORANGE PNAPPL JUC BLEND')]",1,90656,0.0,0.0,0.0,0.00012405408758218582
+ground_truth_size_1,74,1,"[('containsIngredient', 'CEREALS RTE,GRANOLA,HOMEMADE')]",1,90656,0.0,0.0,0.0,0.009433962264150943
+ground_truth_size_1,75,1,"[('containsIngredient', 'SALMON,SOCKEYE,CKD,DRY HEAT')]",1,90656,0.0,0.0,0.0,0.004694835680751174
+ground_truth_size_1,76,1,"[('containsIngredient', 'SABLEFISH,RAW')]",1,90656,0.0,0.0,0.0,0.0196078431372549
+ground_truth_size_1,77,1,"[('containsIngredient', 'MORNINGSTAR FARMS BRKFST SAUSAGE PATTIES MAPLE FLAV,FRZ,UNPR')]",1,90656,0.0,0.0,0.0,0.00037397157816005983
+ground_truth_size_1,78,1,"[('containsIngredient', 'POTATOES,FRENCH FR,SHOESTRING,SALT ADDED IN PROC,FRZ,AS PRCH')]",2,90656,0.0,0.0,0.0,0.012658227848101266
+ground_truth_size_1,79,1,"[('containsIngredient', 'TORTILLA CHIPS,LOFAT,UNSALTED')]",4,90656,0.0,0.0,0.0,0.00558659217877095
+ground_truth_size_1,80,1,"[('containsIngredient', 'ALCOHOLIC BEV,BEER,LT,BUDWEISER SEL')]",4,90656,0.0,0.0,0.0,0.09090909090909091
+ground_truth_size_1,81,1,"[('containsIngredient', 'CANDIES,TRUFFLES,PREPARED-FROM-RECIPE')]",4,90656,0.0,0.0,1.0,0.1
+ground_truth_size_1,82,1,"[('containsIngredient', 'WHEAT,HARD WHITE')]",3,90656,0.0,0.0,0.0,0.041666666666666664
+ground_truth_size_1,83,1,"[('containsIngredient', 'BEANS,PINK,MATURE SEEDS,CKD,BLD,WO/SALT')]",4,90656,0.0,0.0,0.0,0.0625
+ground_truth_size_1,84,1,"[('containsIngredient', 'BEANS,BLACK TURTLE,MATURE SEEDS,CKD,BLD,W/ SALT')]",3,90656,0.0,0.0,0.0,0.00022036139268400177
+ground_truth_size_1,85,1,"[('containsIngredient', 'BEEF,LOIN,TOP LOIN STEAK,BNLESS,LIP-ON,LN,1/8"" FAT,SEL,RAW')]",3,90656,0.0,0.0,0.0,0.018518518518518517
+ground_truth_size_1,86,1,"[('containsIngredient', 'FROSTINGS,VANILLA,CREAMY,DRY MIX,PREP W/ MARGARINE')]",4,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,87,1,"[('containsIngredient', 'Lemon sole raw')]",4,90656,0.0,0.0,1.0,0.14285714285714285
+ground_truth_size_1,88,1,"[('containsIngredient', 'HONEY ROLL SAUSAGE,BEEF')]",3,90656,0.0,0.0,0.0,0.00684931506849315
+ground_truth_size_1,89,1,"[('containsIngredient', 'PERCH,MIXED SPECIES,RAW')]",4,90656,0.0,0.0,0.0,0.007142857142857143
+ground_truth_size_1,90,1,"[('containsIngredient', 'CORNMEAL,DEGERMED,ENR,WHITE')]",3,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,91,1,"[('containsIngredient', 'GRAPES,AMERICAN TYPE (SLIP SKN),RAW')]",4,90656,0.0,0.0,0.0,0.015625
+ground_truth_size_1,92,1,"[('containsIngredient', 'SOUP,CLAM CHOWDER,MANHATTAN,CND,COND')]",4,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,93,1,"[('containsIngredient', 'ANISE SEED')]",3,90656,0.0,0.0,0.0,0.0011534025374855825
+ground_truth_size_1,94,1,"[('containsIngredient', ""CAMPBELL'S HOMESTYLE HARVEST TOMATO W/ BASIL SOUP"")]",3,90656,0.0,0.0,0.0,0.001976284584980237
+ground_truth_size_1,95,1,"[('containsIngredient', 'PORK,FRSH,SHLDR,BLADE,BOSTON (ROASTS),LN,CKD,RSTD')]",3,90656,0.0,0.0,0.0,0.007692307692307693
+ground_truth_size_1,96,1,"[('containsIngredient', 'TUNA,WHITE,CND IN H2O,DRND SOL')]",4,90656,0.0,0.0,0.0,0.037037037037037035
+ground_truth_size_1,97,1,"[('containsIngredient', 'SAUCE,BARBECUE,KC MASTERPIECE,ORIGINAL')]",3,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,98,1,"[('containsIngredient', 'CHICKEN,STEWING,MEAT ONLY,RAW')]",3,90656,0.0,0.0,0.0,0.07692307692307693
+ground_truth_size_1,99,1,"[('containsIngredient', 'PEPPERS,HUNGARIAN,RAW')]",3,90656,0.0,0.0,0.0,0.05263157894736842
+ground_truth_size_1,100,1,"[('containsIngredient', 'NUTS,WALNUTS,GLAZED')]",4,90656,0.0,0.0,0.0,0.030303030303030304
+ground_truth_size_1,101,1,"[('containsIngredient', 'MACARONI,DRY,ENR')]",4,90656,0.0,0.0,0.0,0.03571428571428571
+ground_truth_size_1,102,1,"[('containsIngredient', 'LENTILS,RAW')]",3,90656,0.0,0.0,0.0,0.021739130434782608
+ground_truth_size_1,103,1,"[('containsIngredient', 'HADDOCK,SMOKED')]",4,90656,0.0,0.0,0.0,0.03225806451612903
+ground_truth_size_1,104,1,"[('containsIngredient', 'Monosodium glutamate Ve-tsin')]",4,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,105,1,"[('containsIngredient', 'LAMB,NZ,IMP,NECK CHOPS,LN,RAW')]",4,90656,0.0,0.0,1.0,0.14285714285714285
+ground_truth_size_1,106,1,"[('containsIngredient', 'SMART SOUP,FRENCH LENTIL')]",3,90656,0.0,0.0,0.0,0.06666666666666667
+ground_truth_size_1,107,1,"[('containsIngredient', 'PANCAKES,SPL DIETARY,DRY MIX')]",3,90656,0.0,0.0,0.0,0.009433962264150943
+ground_truth_size_1,108,1,"[('containsIngredient', 'GUAVAS,COMMON,RAW')]",3,90656,0.0,0.0,0.0,0.012658227848101266
+ground_truth_size_1,109,1,"[('containsIngredient', 'FROZ NOVELTIES,ICE TYPE,SUGAR FREE,ORNGE,CHRY,& GRP POPSICLE')]",5,90656,0.0,0.0,0.0,0.03225806451612903
+ground_truth_size_1,110,1,"[('containsIngredient', 'CANDIES,MR. GOODBAR CHOC BAR')]",6,90656,0.0,0.0,0.0,0.0625
+ground_truth_size_1,111,1,"[('containsIngredient', 'TUNA,LT,CND IN OIL,WO/SALT,DRND SOL')]",5,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,112,1,"[('containsIngredient', 'Potato croquettes frozen prepared')]",6,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,113,1,"[('containsIngredient', 'CHICKEN,WING,FRZ,GLAZED,BARBECUE FLAV')]",6,90656,0.0,0.0,0.0,0.043478260869565216
+ground_truth_size_1,114,1,"[('containsIngredient', 'SHORTENING,MULTIPURPOSE,SOYBN (HYDR)&PALM (HYDR)')]",5,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,115,1,"[('containsIngredient', 'Cassava raw')]",6,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,116,1,"[('containsIngredient', ""MCDONALD'S,HASH BROWN"")]",6,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,117,1,"[('containsIngredient', 'WALNUTS,ENGLISH')]",6,90656,0.0,0.0,0.0,0.015151515151515152
+ground_truth_size_1,118,1,"[('containsIngredient', 'CHICKEN,DK MEAT,THIGH,MEAT ONLY,ENHANCED,RAW')]",5,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,119,1,"[('containsIngredient', 'APPLE JUC,CND OR BTLD,UNSWTND,W/ ADDED VIT C')]",6,90656,0.0,0.0,0.0,0.06666666666666667
+ground_truth_size_1,120,1,"[('containsIngredient', 'CHEESE,AMERICAN CHEDDAR,IMITN')]",6,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,121,1,"[('containsIngredient', 'Beans soya dried')]",6,90656,0.0,0.0,0.0,0.030303030303030304
+ground_truth_size_1,122,1,"[('containsIngredient', 'PICKLE RELISH,SWEET')]",5,90656,0.0,0.0,0.0,0.058823529411764705
+ground_truth_size_1,123,1,"[('containsIngredient', 'BEANS,ADZUKI,YOKAN,MATURE SEEDS')]",5,90656,0.0,0.0,0.0,0.06666666666666667
+ground_truth_size_1,124,1,"[('containsIngredient', 'SYRUPS,MALT')]",5,90656,0.0,0.0,0.0,0.024390243902439025
+ground_truth_size_1,125,1,"[('containsIngredient', 'ICE CREAMS,BREYERS,NO SUGAR ADDED,VANILLA')]",6,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,126,1,"[('containsIngredient', 'GARLIC BREAD,FRZ')]",5,90656,0.0,0.0,0.0,0.011235955056179775
+ground_truth_size_1,127,1,"[('containsIngredient', 'SAUSAGE,MEATLESS')]",6,90656,0.0,0.0,0.0,0.01098901098901099
+ground_truth_size_1,128,1,"[('containsIngredient', 'Tzatziki')]",6,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,129,1,"[('containsIngredient', 'RICE & VERMICELLI MIX,BF FLAVOR,UNPREP')]",6,90656,0.0,0.0,0.0,0.018518518518518517
+ground_truth_size_1,130,1,"[('containsIngredient', 'CHILI WITH BEANS,CANNED')]",9,90656,0.0,0.0,1.0,0.1111111111111111
+ground_truth_size_1,131,1,"[('containsIngredient', 'BEANS,ADZUKI,MATURE SEEDS,RAW')]",8,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,132,1,"[('containsIngredient', 'SNACKS,BAGEL CHIPS,PLN')]",6,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,133,1,"[('containsIngredient', 'BEEF,CHUCK,SHRT RIBS,BNLESS,LN,0"" FAT,SEL,CKD,BRSD')]",8,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,134,1,"[('containsIngredient', 'STRAWBERRIES,CND,HVY SYRUP PK,SOL&LIQUIDS')]",8,90656,0.0,0.0,1.0,0.125
+ground_truth_size_1,135,1,"[('containsIngredient', 'BISCUITS,PLN OR BTTRMLK,REFR DOUGH,LOWER FAT,BKD')]",7,90656,0.0,0.0,0.0,0.01694915254237288
+ground_truth_size_1,136,1,"[('containsIngredient', 'Puddings, rice, ready-to-eat')]",7,90656,0.0,0.0,0.0,0.005555555555555556
+ground_truth_size_1,137,1,"[('containsIngredient', 'CHICKEN,BROILERS OR FRYERS,MEAT ONLY,RAW')]",8,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,138,1,"[('containsIngredient', 'CHEESE,MEXICAN,QUESO ASADERO')]",10,90656,0.0,0.0,0.0,0.02564102564102564
+ground_truth_size_1,139,1,"[('containsIngredient', 'SOYBEAN,CURD CHEESE')]",10,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,140,1,"[('containsIngredient', 'LIVER CHEESE,PORK')]",10,90656,0.0,0.0,0.0,0.0625
+ground_truth_size_1,141,1,"[('containsIngredient', 'OIL,SOYBN LECITHIN')]",9,90656,0.0,0.0,1.0,0.1
+ground_truth_size_1,142,1,"[('containsIngredient', 'TUNA,FRESH,SKIPJACK,RAW')]",7,90656,0.0,0.0,0.0,0.08333333333333333
+ground_truth_size_1,143,1,"[('containsIngredient', 'Rainbow trout, aquaculture')]",7,90656,0.0,0.0,0.0,0.08333333333333333
+ground_truth_size_1,144,1,"[('containsIngredient', 'PLUMS,DRIED (PRUNES),UNCKD')]",7,90656,0.0,0.0,0.0,0.0018115942028985507
+ground_truth_size_1,145,1,"[('containsIngredient', 'Herring fillet in tomato sauce tinned')]",10,90656,0.0,0.0,0.0,0.03125
+ground_truth_size_1,146,1,"[('containsIngredient', 'SORGHUM GRAIN')]",7,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,147,1,"[('containsIngredient', 'SALMON,CHINOOK,SMOKED,(LOX),REG')]",9,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,148,1,"[('containsIngredient', 'PEANUTS,SPANISH,RAW')]",10,90656,0.0,0.0,0.0,0.019230769230769232
+ground_truth_size_1,149,1,"[('containsIngredient', ""CEREALS RTE,KELLOGG,KELLOGG'S LOFAT GRANOLA W/ RAISINS"")]",9,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,150,1,"[('containsIngredient', 'PUDDINGS,BANANA,DRY MIX,INST,PREP W/ WHL MILK')]",7,90656,0.0,0.0,0.0,0.0625
+ground_truth_size_1,151,1,"[('containsIngredient', 'PIE CRUST,STANDARD-TYPE,PREP FROM RECIPE,UNBAKED')]",8,90656,0.0,0.0,0.0,0.041666666666666664
+ground_truth_size_1,152,1,"[('containsIngredient', 'MARGARINE-LIKE,VEG OIL-BUTTER SPRD,TUB,W/ SALT')]",9,90656,0.0,0.0,0.0,0.07692307692307693
+ground_truth_size_1,153,1,"[('containsIngredient', 'MARGARINE,REG,80% FAT,COMP,STK,W/ SALT')]",7,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,154,1,"[('containsIngredient', 'PUDDINGS,VANILLA,DRY MIX,INST,PREP W/ WHL MILK')]",9,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,155,1,"[('containsIngredient', 'SILK LT VANILLA,SOYMILK')]",8,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,156,1,"[('containsIngredient', 'SHERBET,ORANGE')]",12,90656,0.0,0.0,0.0,0.022222222222222223
+ground_truth_size_1,157,1,"[('containsIngredient', 'COFFEE,INST,REG,PDR')]",12,90656,0.0,0.0,1.0,0.125
+ground_truth_size_1,158,1,"[('containsIngredient', 'BEEF,BTTM SIRLOIN,TRI-TIP RST,LN,0"" FAT,CHOIC,RAW')]",11,90656,0.0,0.0,1.0,0.125
+ground_truth_size_1,159,1,"[('containsIngredient', 'PEAS,EDIBLE-PODDED,FRZ,UNPREP')]",15,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,160,1,"[('containsIngredient', 'SOUP,STOCK,CHICK,HOME-PREPARED')]",11,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,161,1,"[('containsIngredient', 'CHEESECAKE PREP FROM MIX,NO-BAKE TYPE')]",11,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,162,1,"[('containsIngredient', 'BACON,MEATLESS')]",12,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,163,1,"[('containsIngredient', 'CARAMBOLA,(STARFRUIT),RAW')]",13,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,164,1,"[('containsIngredient', 'KUMQUATS,RAW')]",15,90656,0.0,0.0,1.0,0.1
+ground_truth_size_1,165,1,"[('containsIngredient', 'PINEAPPLE,CND,EX HVY SYRUP PK,SOL&LIQUIDS')]",15,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,166,1,"[('containsIngredient', 'BEANS,BKD,CND,PLN OR VEGETARIAN')]",14,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,167,1,"[('containsIngredient', 'SOYBEANS,GREEN,RAW')]",11,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,168,1,"[('containsIngredient', 'WALNUTS,BLACK,DRIED')]",12,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,169,1,"[('containsIngredient', 'FAT,DUCK')]",12,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,170,1,"[('containsIngredient', 'AMARANTH GRAIN,UNCKD')]",13,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,171,1,"[('containsIngredient', 'NOODLES,CHINESE,CELLOPHANE OR LONG RICE (MUNG BNS),DEHYD')]",15,90656,0.0,0.0,0.0,0.06666666666666667
+ground_truth_size_1,172,1,"[('containsIngredient', 'PREGO PASTA,TOMATO,BASIL & GARLIC ITAL SAU,RTS')]",14,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,173,1,"[('containsIngredient', 'CHOCOLATE-FLAVORED HAZELNUT SPRD')]",15,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,174,1,"[('containsIngredient', 'CORNED BEEF LOAF,JELLIED')]",11,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,175,1,"[('containsIngredient', 'TOMATO PRODUCTS,CND,SAU,W/ONIONS')]",12,90656,0.0,0.0,0.0,0.043478260869565216
+ground_truth_size_1,176,1,"[('containsIngredient', 'SAUCE,PIZZA,CND,RTS')]",11,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,177,1,"[('containsIngredient', 'LIMA BNS,THIN SEEDED (BABY),MATURE SEEDS,RAW')]",12,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,178,1,"[('containsIngredient', ""POTATOES,O'BRIEN,HOME-PREPARED"")]",12,90656,0.0,0.0,0.0,0.006535947712418301
+ground_truth_size_1,179,1,"[('containsIngredient', 'TOMATO PRODUCTS,CND,PASTE,WO/ SALT ADDED')]",15,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,180,1,"[('containsIngredient', 'COOKIES,GRAHAM CRACKERS,PLN OR HONEY,LOWFAT')]",18,90656,0.0,0.0,0.0,0.09090909090909091
+ground_truth_size_1,181,1,"[('containsIngredient', 'RADICCHIO,RAW')]",24,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,182,1,"[('containsIngredient', 'BLACKBERRIES,FRZ,UNSWTND')]",24,90656,0.0,0.0,0.0,0.08333333333333333
+ground_truth_size_1,183,1,"[('containsIngredient', 'LAMB,NZ,IMP,LOIN,BNLESS,LN,RAW')]",18,90656,0.0,0.0,0.0,0.09090909090909091
+ground_truth_size_1,184,1,"[('containsIngredient', 'ONION RINGS,BREADED,PAR FR,FRZ,PREP,HTD IN OVEN')]",19,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,185,1,"[('containsIngredient', 'BAGEL,PLN,TSTD, ENR W/CA PROP(INCLUDE ONION,POPPY,SESAME)')]",19,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,186,1,"[('containsIngredient', 'Hazelnut, roasted')]",22,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,187,1,"[('containsIngredient', 'CHEESE,COTTAGE,LOWFAT,2% MILKFAT')]",21,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,188,1,"[('containsIngredient', 'Swede boiled')]",17,90656,0.0,0.0,0.0,0.07692307692307693
+ground_truth_size_1,189,1,"[('containsIngredient', 'CHEESE,COTTAGE,CRMD,LRG OR SML CURD')]",24,90656,0.0,0.0,0.0,0.017857142857142856
+ground_truth_size_1,190,1,"[('containsIngredient', 'SILK CHAI,SOYMILK')]",17,90656,0.0,0.0,1.0,0.125
+ground_truth_size_1,191,1,"[('containsIngredient', 'BRUSSELS SPROUTS,FRZ,UNPREP')]",18,90656,0.0,0.0,0.0,0.02702702702702703
+ground_truth_size_1,192,1,"[('containsIngredient', 'SEA BASS,MXD SP,CKD,DRY HEAT')]",24,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,193,1,"[('containsIngredient', 'SEEDS,SUNFLOWER SD KRNLS FROM SHELL,DRY RSTD,W/ SALT ADDED')]",17,90656,0.0,0.0,0.0,0.038461538461538464
+ground_truth_size_1,194,1,"[('containsIngredient', 'Gherkins sour pickled')]",23,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,195,1,"[('containsIngredient', 'CHAYOTE,FRUIT,RAW')]",18,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,196,1,"[('containsIngredient', 'SEASONING MIX,DRY,TACO,ORIGINAL')]",20,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,197,1,"[('containsIngredient', 'MILK,WHL,3.25% MILKFAT,WO/ ADDED VIT A & VITAMIN D')]",18,90656,0.0,0.0,1.0,0.1
+ground_truth_size_1,198,1,"[('containsIngredient', 'HAM AND CHEESE SPREAD')]",16,90656,0.0,0.0,0.0,0.07692307692307693
+ground_truth_size_1,199,1,"[('containsIngredient', 'Salmon tinned')]",21,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,200,1,"[('containsIngredient', 'COUSCOUS,DRY')]",24,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,201,1,"[('containsIngredient', 'VANILLA EXTRACT,IMITN,ALCOHOL')]",21,90656,0.0,0.0,1.0,0.14285714285714285
+ground_truth_size_1,202,1,"[('containsIngredient', 'CLEMENTINES,RAW')]",18,90656,0.0,0.0,0.0,0.05555555555555555
+ground_truth_size_1,203,1,"[('containsIngredient', 'LEMON JUC,CND OR BTLD')]",22,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,204,1,"[('containsIngredient', 'SILK PLN,SOYMILK')]",22,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,205,1,"[('containsIngredient', 'Shrimp paste trassie')]",22,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,206,1,"[('containsIngredient', 'CHICKPEAS,MATURE SEEDS,CND,SOL & LIQUIDS,LO NA')]",20,90656,0.0,0.0,0.0,0.024390243902439025
+ground_truth_size_1,207,1,"[('containsIngredient', 'PUDDINGS,CHOC,DRY MIX,INST')]",17,90656,0.0,0.0,1.0,0.1111111111111111
+ground_truth_size_1,208,1,"[('containsIngredient', 'TOMATO PRODUCTS,CND,SAU,W/ONIONS,GRN PEPPERS,&CELERY')]",26,90656,0.0,0.0,0.0,0.045454545454545456
+ground_truth_size_1,209,1,"[('containsIngredient', 'ARTICHOKES,(GLOBE OR FRENCH),FRZ,UNPREP')]",27,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,210,1,"[('containsIngredient', 'PASSION-FRUIT JUC,YEL,RAW')]",25,90656,0.0,0.0,0.0,0.07692307692307693
+ground_truth_size_1,211,1,"[('containsIngredient', 'BEEF,TOP SIRLOIN,STEAK,LN & FAT,1/8"" FAT,CHOIC,RAW')]",25,90656,0.0,0.0,0.0,0.08333333333333333
+ground_truth_size_1,212,1,"[('containsIngredient', 'Salad cheese')]",33,90656,0.0,0.0,0.0,0.05263157894736842
+ground_truth_size_1,213,1,"[('containsIngredient', 'STRAWBERRIES,FRZ,SWTND,SLICED')]",25,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,214,1,"[('containsIngredient', 'BREAD STUFFING,BREAD,DRY MIX,PREP')]",28,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,215,1,"[('containsIngredient', 'Wallnut, shelled, dried')]",33,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,216,1,"[('containsIngredient', 'SAUCE,HOMEMADE,WHITE,THICK')]",38,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,217,1,"[('containsIngredient', 'BEEF,CHUCK FOR STEW,LN & FAT,CHOIC,CKD,BRSD')]",38,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,218,1,"[('containsIngredient', 'ENGLISH MUFFINS,WHOLE-WHEAT')]",29,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,219,1,"[('containsIngredient', 'PORK,FRSH,LOIN,COUNTRY-STYLE RIBS,LN,CKD,BRSD')]",34,90656,0.0,0.0,0.0,0.08333333333333333
+ground_truth_size_1,220,1,"[('containsIngredient', 'YAMBEAN (JICAMA),RAW')]",37,90656,0.0,0.0,0.0,0.08333333333333333
+ground_truth_size_1,221,1,"[('containsIngredient', 'FLATFISH (FLOUNDER&SOLE SP),RAW')]",39,90656,0.0,0.0,1.0,0.14285714285714285
+ground_truth_size_1,222,1,"[('containsIngredient', 'CANDIES,MILK CHOC COATD COFFEE BNS')]",31,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,223,1,"[('containsIngredient', 'QUESO COTIJA')]",35,90656,0.0,0.0,0.0,0.058823529411764705
+ground_truth_size_1,224,1,"[('containsIngredient', 'Tomato beef raw')]",38,90656,0.0,0.0,1.0,0.14285714285714285
+ground_truth_size_1,225,1,"[('containsIngredient', 'SALMON,SOCKEYE,CND,DRND SOL,WO/ SKN & BONES')]",36,90656,0.0,0.0,0.0,0.02564102564102564
+ground_truth_size_1,226,1,"[('containsIngredient', 'YOGURT,GREEK,NON FAT,VANILLA,DANNON OIKOS')]",31,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,227,1,"[('containsIngredient', 'BAGELS,PLN,ENR,WO/CA PROP (INCL ONION,POPPY,SESAME)')]",26,90656,0.0,0.0,1.0,0.14285714285714285
+ground_truth_size_1,228,1,"[('containsIngredient', 'MORI-NU,TOFU,SILKEN,SOFT')]",33,90656,0.0,0.0,0.0,0.019230769230769232
+ground_truth_size_1,229,1,"[('containsIngredient', 'TROUT,MIXED SPECIES,RAW')]",28,90656,0.0,0.0,1.0,0.14285714285714285
+ground_truth_size_1,230,1,"[('containsIngredient', 'NOODLES,JAPANESE,SOBA,DRY')]",38,90656,0.0,0.0,1.0,0.125
+ground_truth_size_1,231,1,"[('containsIngredient', 'TUNA,WHITE,CND IN OIL,WO/SALT,DRND SOL')]",28,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,232,1,"[('containsIngredient', 'MILK,RED FAT,FLUID,2% MILKFAT,WO/ ADDED VIT A & VIT D')]",43,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,233,1,"[('containsIngredient', 'PICKLES,CUCUMBER,SOUR')]",48,90656,0.0,0.0,0.0,0.08333333333333333
+ground_truth_size_1,234,1,"[('containsIngredient', 'ENGLISH MUFFIN, PLN,ENCHED.W/CA PROP (INCLD SOURDOUGH)')]",47,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,235,1,"[('containsIngredient', 'BEEF,CHUCK,SHRT RIBS,BNLESS,LN,0"" FAT,CHOIC,RAW')]",47,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,236,1,"[('containsIngredient', 'BEEF,TOP SIRLOIN,STEAK,LN,1/8"" FAT,SEL,CKD,BRLD')]",51,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,237,1,"[('containsIngredient', 'PORK,CURED,HAM,STEAK,BNLESS,EX LN,UNHTD')]",52,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,238,1,"[('containsIngredient', 'PEARS,RAW,BARTLETT')]",56,90656,0.0,0.0,1.0,0.1
+ground_truth_size_1,239,1,"[('containsIngredient', 'BLACKBERRY JUC,CND')]",52,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,240,1,"[('containsIngredient', 'BEANS,KIDNEY,CALIFORNIA RED,MATURE SEEDS,CKD,BLD,WO/SALT')]",60,90656,0.0,0.0,1.0,0.1111111111111111
+ground_truth_size_1,241,1,"[('containsIngredient', 'SQUASH,SMMR,ALL VAR,RAW')]",60,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,242,1,"[('containsIngredient', 'KRAFT,STOVE TOP STUFFING MIX CHICKEN FLAVOR')]",57,90656,0.0,0.0,1.0,0.1111111111111111
+ground_truth_size_1,243,1,"[('containsIngredient', 'Courgettes raw')]",54,90656,0.0,0.0,1.0,0.1
+ground_truth_size_1,244,1,"[('containsIngredient', 'SORGHUM FLR,WHOLE-GRAIN')]",40,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,245,1,"[('containsIngredient', 'YOGURT,FRUIT,LOFAT,10 GRAMS PROT PER 8 OZ')]",52,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,246,1,"[('containsIngredient', 'CHEESE,SWISS,LOW FAT')]",44,90656,0.0,0.0,0.0,0.037037037037037035
+ground_truth_size_1,247,1,"[('containsIngredient', 'CORN FLR,MASA,UNENR,WHITE')]",61,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,248,1,"[('containsIngredient', 'PEARS,RAW,BOSC')]",40,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,249,1,"[('containsIngredient', 'BEEF,SNDWCH STEAKS,FLAKED,CHOPD,FORMED & THINLY SLICED,RAW')]",44,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,250,1,"[('containsIngredient', 'CABBAGE,SAVOY,RAW')]",59,90656,0.0,0.0,0.0,0.0625
+ground_truth_size_1,251,1,"[('containsIngredient', 'ALCOHOLIC BEV,WINE,TABLE,RED,BURGUNDY')]",53,90656,0.0,0.0,0.0,0.07692307692307693
+ground_truth_size_1,252,1,"[('containsIngredient', 'CHEESE SPRD,CRM CHS BASE')]",44,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,253,1,"[('containsIngredient', 'HADDOCK,RAW')]",41,90656,0.0,0.0,1.0,0.125
+ground_truth_size_1,254,1,"[('containsIngredient', 'PORK,CURED,BACON,PRE-SLICED,CKD,PAN-FRIED')]",54,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,255,1,"[('containsIngredient', 'RESTAURANT,FAMILY STYLE,HASH BROWNS')]",52,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,256,1,"[('containsIngredient', 'CARROTS,RAW')]",46,90656,0.0,0.0,1.0,0.14285714285714285
+ground_truth_size_1,257,1,"[('containsIngredient', 'ARROWROOT FLOUR')]",91,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,258,1,"[('containsIngredient', 'PEPPERS,JALAPENO,RAW')]",76,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,259,1,"[('containsIngredient', 'BLOOD SAUSAGE')]",76,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,260,1,"[('containsIngredient', 'Radish, red, large')]",82,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,261,1,"[('containsIngredient', 'PRUNE PUREE')]",87,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,262,1,"[('containsIngredient', 'CHICKPEA FLOUR (BESAN)')]",86,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,263,1,"[('containsIngredient', 'NECTARINES,RAW')]",62,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,264,1,"[('containsIngredient', 'SPINACH,RAW')]",85,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,265,1,"[('containsIngredient', 'COCONUT MILK,RAW (LIQ EXPRESSED FROM GRATED MEAT&H2O)')]",101,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,266,1,"[('containsIngredient', 'TOPPINGS,MARSHMLLW CRM')]",105,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,267,1,"[('containsIngredient', 'DATES,DEGLET NOOR')]",95,90656,0.0,0.0,1.0,0.125
+ground_truth_size_1,268,1,"[('containsIngredient', 'Parsnip raw')]",92,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,269,1,"[('containsIngredient', 'BEEF,LOIN,TENDERLOIN STK,BNLESS,L & F,0"" F,CHOIC,CKD,GRLLED')]",65,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,270,1,"[('containsIngredient', 'Figs, dried, Aydın, from highland')]",68,90656,0.0,0.0,1.0,0.1
+ground_truth_size_1,271,1,"[('containsIngredient', 'LAMB,NZ,IMP,LEG CHOP/STEAK,BONE-IN,LN,RAW')]",73,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,272,1,"[('containsIngredient', 'SAUCE,SOFRITO,PREP FROM RECIPE')]",104,90656,0.0,0.0,0.0,0.09090909090909091
+ground_truth_size_1,273,1,"[('containsIngredient', 'EDAMAME,FRZ,PREP')]",69,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,274,1,"[('containsIngredient', 'CRANBERRY JUC,UNSWTND')]",93,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,275,1,"[('containsIngredient', 'CHICKEN,BROILERS OR FRYERS,LT MEAT,MEAT&SKN,CKD,FRIED,BATTER')]",101,90656,0.0,0.0,0.0,0.047619047619047616
+ground_truth_size_1,276,1,"[('containsIngredient', 'BEANS,BLACK,MATURE SEEDS,CKD,BLD,W/SALT')]",96,90656,0.0,0.0,0.0,0.0625
+ground_truth_size_1,277,1,"[('containsIngredient', 'POMEGRANATES,RAW')]",61,90656,0.0,0.0,0.0,0.09090909090909091
+ground_truth_size_1,278,1,"[('containsIngredient', 'CATFISH,CHANNEL,FARMED,RAW')]",80,90656,0.0,0.0,1.0,0.1111111111111111
+ground_truth_size_1,279,1,"[('containsIngredient', 'Okra raw')]",97,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,280,1,"[('containsIngredient', 'CEREALS,OATS,REG & QUICK,UNENR,CKD W/ H2O,WO/ SALT')]",76,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,281,1,"[('containsIngredient', 'SILK VANILLA SOY YOGURT (SINGLE SERVING SIZE)')]",85,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,282,1,"[('containsIngredient', 'CHERRIES,SWEET,RAW')]",62,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,283,1,"[('containsIngredient', 'CHEESE,MOZZARELLA,NON-FAT')]",148,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,284,1,"[('containsIngredient', 'TOFU,FRIED')]",128,90656,0.0,0.0,1.0,0.1
+ground_truth_size_1,285,1,"[('containsIngredient', 'Anchovy raw')]",125,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,286,1,"[('containsIngredient', 'Raisin, seedless, Sultaniye, dried')]",134,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,287,1,"[('containsIngredient', 'CHEESE,CREAM,FAT FREE')]",140,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,288,1,"[('containsIngredient', 'PLUMS,RAW')]",107,90656,0.0,0.0,0.0,0.0625
+ground_truth_size_1,289,1,"[('containsIngredient', 'LETTUCE,BUTTERHEAD (INCL BOSTON&BIBB TYPES),RAW')]",113,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,290,1,"[('containsIngredient', 'PIE FILLINGS,CND,CHERRY')]",139,90656,0.0,0.0,0.0,0.07142857142857142
+ground_truth_size_1,291,1,"[('containsIngredient', 'POTATOES,RED,FLESH & SKN,RAW')]",164,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,292,1,"[('containsIngredient', 'BISCUITS,PLN OR BTTRMLK,DRY MIX,PREP')]",167,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,293,1,"[('containsIngredient', 'CABBAGE,RED,RAW')]",157,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,294,1,"[('containsIngredient', 'Redcurrants')]",149,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,295,1,"[('containsIngredient', 'FENUGREEK SEED')]",112,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,296,1,"[('containsIngredient', 'Kiwi')]",109,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,297,1,"[('containsIngredient', 'Paprika powder')]",123,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,298,1,"[('containsIngredient', 'BACON BITS,MEATLESS')]",163,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,299,1,"[('containsIngredient', 'CROUTONS,PLAIN')]",122,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,300,1,"[('containsIngredient', 'CHEESE,COTTAGE,NONFAT,UNCRMD,DRY,LRG OR SML CURD')]",148,90656,0.0,0.0,1.0,0.1111111111111111
+ground_truth_size_1,301,1,"[('containsIngredient', 'SALAD DRSNG,KRAFT MAYO LT MAYO')]",162,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,302,1,"[('containsIngredient', 'MILK,DRY,NONFAT,INST,W/ ADDED VIT A & VITAMIN D')]",150,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,303,1,"[('containsIngredient', 'SOUR CREAM,REDUCED FAT')]",112,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,304,1,"[('containsIngredient', 'ALCOHOLIC BEV,WINE,DSSRT,SWT')]",130,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,305,1,"[('containsIngredient', 'PACE,THICK & CHUNKY SALSA')]",152,90656,0.0,0.0,0.0,0.09090909090909091
+ground_truth_size_1,306,1,"[('containsIngredient', 'YOGURT,PLN,LOFAT,12 GRAMS PROT PER 8 OZ')]",124,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,307,1,"[('containsIngredient', 'RICE,WHITE,LONG-GRAIN,PARBLD,UNENR,CKD')]",141,90656,0.0,0.0,0.0,0.07692307692307693
+ground_truth_size_1,308,1,"[('containsIngredient', 'BLUEBERRIES,WILD,FRZ')]",119,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,309,1,"[('containsIngredient', 'BURGER KING,HAMBURGER')]",181,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,310,1,"[('containsIngredient', 'MUSHROOMS,SHIITAKE,RAW')]",210,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,311,1,"[('containsIngredient', 'BREAD,WHEAT GERM')]",195,90656,0.0,0.0,1.0,0.14285714285714285
+ground_truth_size_1,312,1,"[('containsIngredient', 'CHICKEN,GROUND,RAW')]",197,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,313,1,"[('containsIngredient', 'BROCCOLI,FLOWER CLUSTERS,RAW')]",224,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,314,1,"[('containsIngredient', 'PORK,FRSH,LOIN,TOP LOIN (CHOPS),BNLESS,LN,CKD,PAN-FRIED')]",232,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,315,1,"[('containsIngredient', 'COFFEE,BREWED,ESPRESSO,REST-PREP')]",250,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,316,1,"[('containsIngredient', 'Rocket, arrugula')]",224,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,317,1,"[('containsIngredient', 'SOUP,CHICK BROTH,CND,LESS/REDUCED NA')]",272,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,318,1,"[('containsIngredient', 'PIMENTO,CANNED')]",291,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,319,1,"[('containsIngredient', 'Cabbage sauerkraut raw')]",256,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,320,1,"[('containsIngredient', 'GELATINS,DRY PDR,UNSWTND')]",226,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,321,1,"[('containsIngredient', 'ALCOHOLIC BEV,DISTILLED,WHISKEY,86 PROOF')]",159,90656,0.0,0.0,1.0,0.14285714285714285
+ground_truth_size_1,322,1,"[('containsIngredient', 'CORN,SWT,WHITE,CND,WHL KERNEL,NO SALT,SOL&LIQUIDS')]",235,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,323,1,"[('containsIngredient', 'SCALLOP,(BAY&SEA),CKD,STMD')]",184,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,324,1,"[('containsIngredient', 'QUINOA,UNCKD')]",283,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,325,1,"[('containsIngredient', 'BARLEY,PEARLED,COOKED')]",173,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,326,1,"[('containsIngredient', 'Lettuce, crisp')]",186,90656,0.0,0.0,0.0,0.08333333333333333
+ground_truth_size_1,327,1,"[('containsIngredient', 'MILK,LOWFAT,FLUID,1% MILKFAT,W/ ADDED VIT A & VITAMIN D')]",263,90656,0.0,0.0,0.0,0.09090909090909091
+ground_truth_size_1,328,1,"[('containsIngredient', 'RHUBARB,RAW')]",239,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,329,1,"[('containsIngredient', 'CRABAPPLES,RAW')]",186,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,330,1,"[('containsIngredient', 'COCONUT MEAT,DRIED (DESICCATED),NOT SWTND')]",168,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,331,1,"[('containsIngredient', 'CHICKPEAS (GARBANZO BNS,BENGAL GM),MATURE SEEDS,RAW')]",243,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,332,1,"[('containsIngredient', 'MUSHROOMS,BROWN,ITALIAN,OR CRIMINI,RAW')]",226,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,333,1,"[('containsIngredient', 'CRUSTACEANS,SHRIMP,UNTREATED,RAW')]",186,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,334,1,"[('containsIngredient', 'CHEESE,BLUE')]",406,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,335,1,"[('containsIngredient', 'CARAWAY SEED')]",341,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,336,1,"[('containsIngredient', 'Lentils red boiled')]",339,90656,0.0,0.0,0.0,0.08333333333333333
+ground_truth_size_1,337,1,"[('containsIngredient', 'SILK VANILLA,SOYMILK')]",371,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,338,1,"[('containsIngredient', 'CORN,SWT,WHITE,FRZ,KRNLS ON COB,UNPREP')]",392,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,339,1,"[('containsIngredient', 'WHEAT FLR,WHITE,CAKE,ENR')]",376,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,340,1,"[('containsIngredient', 'SUGAR,TURBINADO')]",286,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,341,1,"[('containsIngredient', 'MARMALADE,ORANGE')]",365,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,342,1,"[('containsIngredient', 'SAUSAGE,ITALIAN,PORK,RAW')]",464,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,343,1,"[('containsIngredient', 'Chicken, thigh')]",506,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,344,1,"[('containsIngredient', 'PACE,CHIPOTLE CHUNKY SALSA')]",435,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,345,1,"[('containsIngredient', 'COFFEE,INST,W/CHICORY,PDR')]",364,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,346,1,"[('containsIngredient', 'CHOCOLATE,DK,60-69% CACAO SOL')]",276,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,347,1,"[('containsIngredient', 'TOFU YOGURT')]",313,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,348,1,"[('containsIngredient', 'CHEESE FD,COLD PK,AMERICAN')]",326,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,349,1,"[('containsIngredient', 'PUMPKIN PIE SPICE')]",469,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,350,1,"[('containsIngredient', 'BEANS,PINTO,MATURE SEEDS,RAW')]",322,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,351,1,"[('containsIngredient', 'EGG,WHL,CKD,HARD-BOILED')]",399,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,352,1,"[('containsIngredient', 'SMOKED LINK SAUSAGE,PORK')]",448,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,353,1,"[('containsIngredient', 'KASHI PESTO PASTA PRIMAVERA,FRZ,UNPREP')]",409,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,354,1,"[('containsIngredient', 'PEANUT BUTTER W/ OMEGA-3,CREAMY')]",287,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,355,1,"[('containsIngredient', 'CHEESE,CHEDDAR,NONFAT OR FAT FREE')]",360,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,356,1,"[('containsIngredient', 'CRANBERRIES,RAW')]",386,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,357,1,"[('containsIngredient', 'Pepper red hot paste')]",335,90656,0.0,0.0,0.0,0.09090909090909091
+ground_truth_size_1,358,1,"[('containsIngredient', 'SEEDS,FLAXSEED')]",375,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,359,1,"[('containsIngredient', 'SPAGHETTI,WHOLE-WHEAT,DRY')]",298,90656,0.0,0.0,0.0,0.023809523809523808
+ground_truth_size_1,360,1,"[('containsIngredient', 'SESAME SEEDS,WHOLE,DRIED')]",924,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,361,1,"[('containsIngredient', 'Eggplant, aubergine, long')]",670,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,362,1,"[('containsIngredient', 'SAUCE,RTS,PEPPER,TABASCO')]",705,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,363,1,"[('containsIngredient', 'Corn, sweet')]",811,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,364,1,"[('containsIngredient', 'MOLASSES')]",812,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,365,1,"[('containsIngredient', 'CLOVES,GROUND')]",860,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,366,1,"[('containsIngredient', 'EGG SUBSTITUTE,POWDER')]",524,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,367,1,"[('containsIngredient', 'LEEKS,(BULB&LOWER LEAF-PORTION),RAW')]",812,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,368,1,"[('containsIngredient', 'Pasta white raw')]",1073,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,369,1,"[('containsIngredient', 'Broccoli')]",1206,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,370,1,"[('containsIngredient', 'Cabbage, white')]",1030,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,371,1,"[('containsIngredient', 'Pineapple')]",915,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,372,1,"[('containsIngredient', 'CANDIES,MARSHMALLOWS')]",487,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,373,1,"[('containsIngredient', 'CEREALS,QUAKER,QUICK OATS,DRY')]",548,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,374,1,"[('containsIngredient', 'CHEESE,RICOTTA,WHOLE MILK')]",627,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,375,1,"[('containsIngredient', 'YOGURT,GREEK,PLN,NONFAT')]",1140,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,376,1,"[('containsIngredient', 'RICE,BROWN,LONG-GRAIN,RAW')]",613,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,377,1,"[('containsIngredient', 'CHICKEN,MEATLESS')]",921,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,378,1,"[('containsIngredient', 'Potato,yellow, Marfona, Granola, Marabel')]",1063,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,379,1,"[('containsIngredient', 'CHEESE,PAST PROCESS,SWISS')]",981,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,380,1,"[('containsIngredient', 'SOUP,BOUILLON CUBES&GRANULES,LO NA,DRY')]",499,90656,0.0,0.0,1.0,0.16666666666666666
+ground_truth_size_1,381,1,"[('containsIngredient', 'Green bean, canned')]",774,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,382,1,"[('containsIngredient', 'ASPARAGUS,RAW')]",1006,90656,0.0,1.0,1.0,0.2
+ground_truth_size_1,383,1,"[('containsIngredient', 'MUSTARD,PREPARED,YELLOW')]",677,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,384,1,"[('containsIngredient', 'BLUEBERRIES,RAW')]",806,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,385,1,"[('containsIngredient', 'COCONUT MEAT,DRIED (DESICCATED),SWTND,FLAKED,CND')]",484,90656,0.0,0.0,0.0,0.09090909090909091
+ground_truth_size_1,386,1,"[('containsIngredient', 'ONIONS,YOUNG GRN,TOPS ONLY')]",4590,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,387,1,"[('containsIngredient', 'Onion, purple, dried')]",2318,90656,0.0,1.0,1.0,0.25
+ground_truth_size_1,388,1,"[('containsIngredient', 'PECANS')]",2364,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,389,1,"[('containsIngredient', 'Sweet pepper green raw')]",3640,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,390,1,"[('containsIngredient', 'CORNSTARCH')]",3709,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,391,1,"[('containsIngredient', 'Soy sauce salt')]",3912,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,392,1,"[('containsIngredient', 'TURMERIC,GROUND')]",1437,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,393,1,"[('containsIngredient', 'PAPRIKA')]",3639,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,394,1,"[('containsIngredient', 'Flour rice')]",10507,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,395,1,"[('containsIngredient', 'Salt sea')]",39502,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,396,1,"[('containsIngredient', 'CHEESE,PARMESAN,GRATED')]",6859,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,397,1,"[('containsIngredient', 'GARLIC POWDER')]",4564,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,398,1,"[('containsIngredient', 'SHORTENING,VEG,HOUSEHOLD,COMP')]",1273,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,399,1,"[('containsIngredient', 'RAISINS,SEEDED')]",1701,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,400,1,"[('containsIngredient', 'Flour wheat white')]",1751,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,401,1,"[('containsIngredient', 'ONIONS,RAW')]",20637,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,402,1,"[('containsIngredient', 'Catsup')]",1761,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,403,1,"[('containsIngredient', 'Celery, stem')]",4572,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,404,1,"[('containsIngredient', 'Cinnamon powder')]",8911,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,405,1,"[('containsIngredient', 'CUMIN SEED')]",4872,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,406,1,"[('containsIngredient', 'OLIVES,RIPE,CND (JUMBO-SUPER COLOSSAL)')]",1229,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,407,1,"[('containsIngredient', 'SAUCE,WORCESTERSHIRE')]",2894,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,408,1,"[('containsIngredient', 'LEAVENING AGENTS,BAKING SODA')]",5905,90656,1.0,1.0,1.0,1.0
+ground_truth_size_1,409,1,"[('containsIngredient', 'MUSHROOMS,WHITE,RAW')]",2209,90656,0.0,1.0,1.0,0.3333333333333333
+ground_truth_size_1,410,1,"[('containsIngredient', 'SOUP,CHICK BROTH,RTS')]",3801,90656,0.0,1.0,1.0,0.5
+ground_truth_size_1,411,1,"[('containsIngredient', 'Salad shrimp')]",1266,90656,1.0,1.0,1.0,1.0

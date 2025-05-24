@@ -1,0 +1,45 @@
+scenario_global_id,scenario_index_in_size,criteria,matching_recipe_count,candidate_recipe_count,hits@1,hits@5,hits@10,mrr
+0,0,"[('HasProteinLevel', 'Low Protein')]",33644,90656,1.0,1.0,1.0,1.0
+1,1,"[('HasProteinLevel', 'Medium Protein')]",15589,90656,1.0,1.0,1.0,1.0
+2,2,"[('HasProteinLevel', 'High Protein')]",39286,90656,1.0,1.0,1.0,1.0
+3,3,"[('HasCarbLevel', 'Low Carb')]",55182,90656,1.0,1.0,1.0,1.0
+4,4,"[('HasCarbLevel', 'Medium Carb')]",25108,90656,0.0,1.0,1.0,0.5
+5,5,"[('HasCarbLevel', 'High Carb')]",8229,90656,1.0,1.0,1.0,1.0
+6,6,"[('HasFatLevel', 'Low Fat')]",18121,90656,1.0,1.0,1.0,1.0
+7,7,"[('HasFatLevel', 'Medium Fat')]",41382,90656,1.0,1.0,1.0,1.0
+8,8,"[('HasFatLevel', 'High Fat')]",29016,90656,1.0,1.0,1.0,1.0
+9,9,"[('HasCalorieLevel', 'Low Calorie')]",35626,90656,1.0,1.0,1.0,1.0
+10,10,"[('HasCalorieLevel', 'Medium Calorie')]",43214,90656,1.0,1.0,1.0,1.0
+11,11,"[('HasCalorieLevel', 'High Calorie')]",9679,90656,1.0,1.0,1.0,1.0
+12,12,"[('isForMealType', 'breakfast')]",5461,90656,1.0,1.0,1.0,1.0
+13,13,"[('isForMealType', 'lunch')]",19023,90656,1.0,1.0,1.0,1.0
+14,14,"[('isForMealType', 'dinner')]",38891,90656,1.0,1.0,1.0,1.0
+15,15,"[('isForMealType', 'snack')]",7557,90656,1.0,1.0,1.0,1.0
+16,16,"[('isForMealType', 'dessert')]",15963,90656,1.0,1.0,1.0,1.0
+17,17,"[('isForMealType', 'starter')]",12117,90656,1.0,1.0,1.0,1.0
+18,18,"[('isForMealType', 'brunch')]",8031,90656,1.0,1.0,1.0,1.0
+19,19,"[('isForMealType', 'drink')]",1849,90656,1.0,1.0,1.0,1.0
+20,20,"[('hasDietType', 'Vegetarian')]",29125,90656,1.0,1.0,1.0,1.0
+21,21,"[('hasDietType', 'Vegan')]",8706,90656,1.0,1.0,1.0,1.0
+22,22,"[('hasDietType', 'Paleo')]",1144,90656,1.0,1.0,1.0,1.0
+23,23,"[('hasDietType', 'Standard')]",48370,90656,1.0,1.0,1.0,1.0
+24,24,"[('hasCuisineRegion', 'North America')]",44650,90656,1.0,1.0,1.0,1.0
+25,25,"[('hasCuisineRegion', 'Global')]",11247,90656,1.0,1.0,1.0,1.0
+26,26,"[('hasCuisineRegion', 'Mediterranean Europe')]",9402,90656,1.0,1.0,1.0,1.0
+27,27,"[('hasCuisineRegion', 'Northern/Western Europe')]",7134,90656,1.0,1.0,1.0,1.0
+28,28,"[('hasCuisineRegion', 'Latin America')]",3917,90656,1.0,1.0,1.0,1.0
+29,29,"[('hasCuisineRegion', 'East Asia')]",3296,90656,1.0,1.0,1.0,1.0
+30,30,"[('hasCuisineRegion', 'South Asia')]",2044,90656,1.0,1.0,1.0,1.0
+31,31,"[('hasCuisineRegion', 'Southeast Asia')]",1596,90656,1.0,1.0,1.0,1.0
+32,32,"[('hasCuisineRegion', 'Middle East & Anatolia')]",1574,90656,1.0,1.0,1.0,1.0
+33,33,"[('hasCuisineRegion', 'Oceania')]",1558,90656,1.0,1.0,1.0,1.0
+34,34,"[('hasCuisineRegion', 'Eastern Europe & Eurasia')]",1052,90656,1.0,1.0,1.0,1.0
+35,35,"[('hasCuisineRegion', 'Caribbean')]",487,90656,1.0,1.0,1.0,1.0
+36,36,"[('hasCuisineRegion', 'Sub-Saharan Africa')]",319,90656,1.0,1.0,1.0,1.0
+37,37,"[('usesCookingMethod', 'oven')]",41361,90656,1.0,1.0,1.0,1.0
+38,38,"[('usesCookingMethod', 'pot')]",34863,90656,1.0,1.0,1.0,1.0
+39,39,"[('usesCookingMethod', 'pan')]",30416,90656,1.0,1.0,1.0,1.0
+40,40,"[('usesCookingMethod', 'no cook')]",4575,90656,1.0,1.0,1.0,1.0
+41,41,"[('usesCookingMethod', 'barbecue')]",7085,90656,1.0,1.0,1.0,1.0
+42,42,"[('usesCookingMethod', 'air fryer')]",45,90656,1.0,1.0,1.0,1.0
+43,43,"[('usesCookingMethod', 'microwave')]",4210,90656,1.0,1.0,1.0,1.0

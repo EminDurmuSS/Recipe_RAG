@@ -1,0 +1,794 @@
+scenario_global_id,scenario_index_in_size,criteria,matching_recipe_count,candidate_recipe_count,hits@1,hits@5,hits@10,mrr
+44,0,"[('HasProteinLevel', 'Low Protein'), ('HasCarbLevel', 'Low Carb')]",24385,90656,1.0,1.0,1.0,1.0
+45,1,"[('HasProteinLevel', 'Low Protein'), ('HasCarbLevel', 'Medium Carb')]",8077,90656,1.0,1.0,1.0,1.0
+46,2,"[('HasProteinLevel', 'Low Protein'), ('HasCarbLevel', 'High Carb')]",1182,90656,1.0,1.0,1.0,1.0
+47,3,"[('HasProteinLevel', 'Medium Protein'), ('HasCarbLevel', 'Low Carb')]",7614,90656,1.0,1.0,1.0,1.0
+48,4,"[('HasProteinLevel', 'Medium Protein'), ('HasCarbLevel', 'Medium Carb')]",6068,90656,1.0,1.0,1.0,1.0
+49,5,"[('HasProteinLevel', 'Medium Protein'), ('HasCarbLevel', 'High Carb')]",1907,90656,1.0,1.0,1.0,1.0
+50,6,"[('HasProteinLevel', 'High Protein'), ('HasCarbLevel', 'Low Carb')]",23183,90656,1.0,1.0,1.0,1.0
+51,7,"[('HasProteinLevel', 'High Protein'), ('HasCarbLevel', 'Medium Carb')]",10963,90656,1.0,1.0,1.0,1.0
+52,8,"[('HasProteinLevel', 'High Protein'), ('HasCarbLevel', 'High Carb')]",5140,90656,1.0,1.0,1.0,1.0
+53,9,"[('HasProteinLevel', 'Low Protein'), ('HasFatLevel', 'Low Fat')]",13275,90656,1.0,1.0,1.0,1.0
+54,10,"[('HasProteinLevel', 'Low Protein'), ('HasFatLevel', 'Medium Fat')]",17020,90656,1.0,1.0,1.0,1.0
+55,11,"[('HasProteinLevel', 'Low Protein'), ('HasFatLevel', 'High Fat')]",3349,90656,1.0,1.0,1.0,1.0
+56,12,"[('HasProteinLevel', 'Medium Protein'), ('HasFatLevel', 'Low Fat')]",2564,90656,1.0,1.0,1.0,1.0
+57,13,"[('HasProteinLevel', 'Medium Protein'), ('HasFatLevel', 'Medium Fat')]",8368,90656,1.0,1.0,1.0,1.0
+58,14,"[('HasProteinLevel', 'Medium Protein'), ('HasFatLevel', 'High Fat')]",4657,90656,1.0,1.0,1.0,1.0
+59,15,"[('HasProteinLevel', 'High Protein'), ('HasFatLevel', 'Low Fat')]",2282,90656,1.0,1.0,1.0,1.0
+60,16,"[('HasProteinLevel', 'High Protein'), ('HasFatLevel', 'Medium Fat')]",15994,90656,1.0,1.0,1.0,1.0
+61,17,"[('HasProteinLevel', 'High Protein'), ('HasFatLevel', 'High Fat')]",21010,90656,1.0,1.0,1.0,1.0
+62,18,"[('HasProteinLevel', 'Low Protein'), ('HasCalorieLevel', 'Low Calorie')]",24811,90656,1.0,1.0,1.0,1.0
+63,19,"[('HasProteinLevel', 'Low Protein'), ('HasCalorieLevel', 'Medium Calorie')]",8553,90656,1.0,1.0,1.0,1.0
+64,20,"[('HasProteinLevel', 'Low Protein'), ('HasCalorieLevel', 'High Calorie')]",280,90656,1.0,1.0,1.0,1.0
+65,21,"[('HasProteinLevel', 'Medium Protein'), ('HasCalorieLevel', 'Low Calorie')]",5912,90656,1.0,1.0,1.0,1.0
+66,22,"[('HasProteinLevel', 'Medium Protein'), ('HasCalorieLevel', 'Medium Calorie')]",8782,90656,1.0,1.0,1.0,1.0
+67,23,"[('HasProteinLevel', 'Medium Protein'), ('HasCalorieLevel', 'High Calorie')]",895,90656,1.0,1.0,1.0,1.0
+68,24,"[('HasProteinLevel', 'High Protein'), ('HasCalorieLevel', 'Low Calorie')]",4903,90656,1.0,1.0,1.0,1.0
+69,25,"[('HasProteinLevel', 'High Protein'), ('HasCalorieLevel', 'Medium Calorie')]",25879,90656,1.0,1.0,1.0,1.0
+70,26,"[('HasProteinLevel', 'High Protein'), ('HasCalorieLevel', 'High Calorie')]",8504,90656,1.0,1.0,1.0,1.0
+71,27,"[('HasProteinLevel', 'Low Protein'), ('isForMealType', 'breakfast')]",2658,90656,1.0,1.0,1.0,1.0
+72,28,"[('HasProteinLevel', 'Low Protein'), ('isForMealType', 'lunch')]",5062,90656,1.0,1.0,1.0,1.0
+73,29,"[('HasProteinLevel', 'Low Protein'), ('isForMealType', 'dinner')]",5864,90656,1.0,1.0,1.0,1.0
+74,30,"[('HasProteinLevel', 'Low Protein'), ('isForMealType', 'snack')]",3651,90656,1.0,1.0,1.0,1.0
+75,31,"[('HasProteinLevel', 'Low Protein'), ('isForMealType', 'dessert')]",12181,90656,1.0,1.0,1.0,1.0
+76,32,"[('HasProteinLevel', 'Low Protein'), ('isForMealType', 'starter')]",5963,90656,1.0,1.0,1.0,1.0
+77,33,"[('HasProteinLevel', 'Low Protein'), ('isForMealType', 'brunch')]",3248,90656,1.0,1.0,1.0,1.0
+78,34,"[('HasProteinLevel', 'Low Protein'), ('isForMealType', 'drink')]",1490,90656,1.0,1.0,1.0,1.0
+79,35,"[('HasProteinLevel', 'Medium Protein'), ('isForMealType', 'breakfast')]",1453,90656,1.0,1.0,1.0,1.0
+80,36,"[('HasProteinLevel', 'Medium Protein'), ('isForMealType', 'lunch')]",4153,90656,1.0,1.0,1.0,1.0
+81,37,"[('HasProteinLevel', 'Medium Protein'), ('isForMealType', 'dinner')]",5046,90656,1.0,1.0,1.0,1.0
+82,38,"[('HasProteinLevel', 'Medium Protein'), ('isForMealType', 'snack')]",1599,90656,1.0,1.0,1.0,1.0
+83,39,"[('HasProteinLevel', 'Medium Protein'), ('isForMealType', 'dessert')]",3136,90656,1.0,1.0,1.0,1.0
+84,40,"[('HasProteinLevel', 'Medium Protein'), ('isForMealType', 'starter')]",2570,90656,1.0,1.0,1.0,1.0
+85,41,"[('HasProteinLevel', 'Medium Protein'), ('isForMealType', 'brunch')]",1784,90656,1.0,1.0,1.0,1.0
+86,42,"[('HasProteinLevel', 'Medium Protein'), ('isForMealType', 'drink')]",290,90656,1.0,1.0,1.0,1.0
+87,43,"[('HasProteinLevel', 'High Protein'), ('isForMealType', 'breakfast')]",1350,90656,1.0,1.0,1.0,1.0
+88,44,"[('HasProteinLevel', 'High Protein'), ('isForMealType', 'lunch')]",9808,90656,1.0,1.0,1.0,1.0
+89,45,"[('HasProteinLevel', 'High Protein'), ('isForMealType', 'dinner')]",27981,90656,1.0,1.0,1.0,1.0
+90,46,"[('HasProteinLevel', 'High Protein'), ('isForMealType', 'snack')]",2307,90656,1.0,1.0,1.0,1.0
+91,47,"[('HasProteinLevel', 'High Protein'), ('isForMealType', 'dessert')]",646,90656,1.0,1.0,1.0,1.0
+92,48,"[('HasProteinLevel', 'High Protein'), ('isForMealType', 'starter')]",3584,90656,1.0,1.0,1.0,1.0
+93,49,"[('HasProteinLevel', 'High Protein'), ('isForMealType', 'brunch')]",2999,90656,1.0,1.0,1.0,1.0
+94,50,"[('HasProteinLevel', 'High Protein'), ('isForMealType', 'drink')]",69,90656,1.0,1.0,1.0,1.0
+95,51,"[('HasProteinLevel', 'Low Protein'), ('hasDietType', 'Vegetarian')]",17367,90656,1.0,1.0,1.0,1.0
+96,52,"[('HasProteinLevel', 'Low Protein'), ('hasDietType', 'Vegan')]",6391,90656,1.0,1.0,1.0,1.0
+97,53,"[('HasProteinLevel', 'Low Protein'), ('hasDietType', 'Paleo')]",40,90656,0.0,0.0,0.0,0.05
+98,54,"[('HasProteinLevel', 'Low Protein'), ('hasDietType', 'Standard')]",9571,90656,1.0,1.0,1.0,1.0
+99,55,"[('HasProteinLevel', 'Medium Protein'), ('hasDietType', 'Vegetarian')]",7036,90656,1.0,1.0,1.0,1.0
+100,56,"[('HasProteinLevel', 'Medium Protein'), ('hasDietType', 'Vegan')]",1451,90656,1.0,1.0,1.0,1.0
+101,57,"[('HasProteinLevel', 'Medium Protein'), ('hasDietType', 'Paleo')]",96,90656,1.0,1.0,1.0,1.0
+102,58,"[('HasProteinLevel', 'Medium Protein'), ('hasDietType', 'Standard')]",6848,90656,1.0,1.0,1.0,1.0
+103,59,"[('HasProteinLevel', 'High Protein'), ('hasDietType', 'Vegetarian')]",4722,90656,1.0,1.0,1.0,1.0
+104,60,"[('HasProteinLevel', 'High Protein'), ('hasDietType', 'Vegan')]",864,90656,1.0,1.0,1.0,1.0
+105,61,"[('HasProteinLevel', 'High Protein'), ('hasDietType', 'Paleo')]",1008,90656,1.0,1.0,1.0,1.0
+106,62,"[('HasProteinLevel', 'High Protein'), ('hasDietType', 'Standard')]",31951,90656,1.0,1.0,1.0,1.0
+107,63,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'North America')]",18228,90656,1.0,1.0,1.0,1.0
+108,64,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'Global')]",5661,90656,1.0,1.0,1.0,1.0
+109,65,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'Mediterranean Europe')]",2514,90656,1.0,1.0,1.0,1.0
+110,66,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'Northern/Western Europe')]",2822,90656,1.0,1.0,1.0,1.0
+111,67,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'Latin America')]",841,90656,1.0,1.0,1.0,1.0
+112,68,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'East Asia')]",737,90656,1.0,1.0,1.0,1.0
+113,69,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'South Asia')]",748,90656,1.0,1.0,1.0,1.0
+114,70,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'Southeast Asia')]",350,90656,1.0,1.0,1.0,1.0
+115,71,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'Middle East & Anatolia')]",502,90656,1.0,1.0,1.0,1.0
+116,72,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'Oceania')]",587,90656,1.0,1.0,1.0,1.0
+117,73,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",309,90656,1.0,1.0,1.0,1.0
+118,74,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'Caribbean')]",137,90656,1.0,1.0,1.0,1.0
+119,75,"[('HasProteinLevel', 'Low Protein'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",126,90656,0.0,1.0,1.0,0.3333333333333333
+120,76,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'North America')]",7700,90656,1.0,1.0,1.0,1.0
+121,77,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'Global')]",2051,90656,1.0,1.0,1.0,1.0
+122,78,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'Mediterranean Europe')]",1677,90656,1.0,1.0,1.0,1.0
+123,79,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'Northern/Western Europe')]",1483,90656,1.0,1.0,1.0,1.0
+124,80,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'Latin America')]",611,90656,1.0,1.0,1.0,1.0
+125,81,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'East Asia')]",473,90656,1.0,1.0,1.0,1.0
+126,82,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'South Asia')]",397,90656,1.0,1.0,1.0,1.0
+127,83,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'Southeast Asia')]",206,90656,1.0,1.0,1.0,1.0
+128,84,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'Middle East & Anatolia')]",354,90656,0.0,1.0,1.0,0.5
+129,85,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'Oceania')]",288,90656,1.0,1.0,1.0,1.0
+130,86,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",186,90656,0.0,1.0,1.0,0.3333333333333333
+131,87,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'Caribbean')]",64,90656,1.0,1.0,1.0,1.0
+132,88,"[('HasProteinLevel', 'Medium Protein'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",64,90656,0.0,1.0,1.0,0.5
+133,89,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'North America')]",18722,90656,1.0,1.0,1.0,1.0
+134,90,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'Global')]",3535,90656,1.0,1.0,1.0,1.0
+135,91,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'Mediterranean Europe')]",5211,90656,1.0,1.0,1.0,1.0
+136,92,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'Northern/Western Europe')]",2829,90656,1.0,1.0,1.0,1.0
+137,93,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'Latin America')]",2465,90656,1.0,1.0,1.0,1.0
+138,94,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'East Asia')]",2086,90656,1.0,1.0,1.0,1.0
+139,95,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'South Asia')]",899,90656,1.0,1.0,1.0,1.0
+140,96,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'Southeast Asia')]",1040,90656,1.0,1.0,1.0,1.0
+141,97,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'Middle East & Anatolia')]",718,90656,1.0,1.0,1.0,1.0
+142,98,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'Oceania')]",683,90656,1.0,1.0,1.0,1.0
+143,99,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",557,90656,1.0,1.0,1.0,1.0
+144,100,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'Caribbean')]",286,90656,0.0,1.0,1.0,0.25
+145,101,"[('HasProteinLevel', 'High Protein'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",129,90656,0.0,0.0,0.0,0.058823529411764705
+146,102,"[('HasProteinLevel', 'Low Protein'), ('usesCookingMethod', 'oven')]",18104,90656,1.0,1.0,1.0,1.0
+147,103,"[('HasProteinLevel', 'Low Protein'), ('usesCookingMethod', 'pot')]",10972,90656,1.0,1.0,1.0,1.0
+148,104,"[('HasProteinLevel', 'Low Protein'), ('usesCookingMethod', 'pan')]",6098,90656,1.0,1.0,1.0,1.0
+149,105,"[('HasProteinLevel', 'Low Protein'), ('usesCookingMethod', 'no cook')]",3096,90656,1.0,1.0,1.0,1.0
+150,106,"[('HasProteinLevel', 'Low Protein'), ('usesCookingMethod', 'barbecue')]",1393,90656,1.0,1.0,1.0,1.0
+151,107,"[('HasProteinLevel', 'Low Protein'), ('usesCookingMethod', 'air fryer')]",16,90656,0.0,0.0,0.0,0.006622516556291391
+152,108,"[('HasProteinLevel', 'Low Protein'), ('usesCookingMethod', 'microwave')]",1921,90656,1.0,1.0,1.0,1.0
+153,109,"[('HasProteinLevel', 'Medium Protein'), ('usesCookingMethod', 'oven')]",7454,90656,1.0,1.0,1.0,1.0
+154,110,"[('HasProteinLevel', 'Medium Protein'), ('usesCookingMethod', 'pot')]",6644,90656,1.0,1.0,1.0,1.0
+155,111,"[('HasProteinLevel', 'Medium Protein'), ('usesCookingMethod', 'pan')]",4866,90656,1.0,1.0,1.0,1.0
+156,112,"[('HasProteinLevel', 'Medium Protein'), ('usesCookingMethod', 'no cook')]",839,90656,1.0,1.0,1.0,1.0
+157,113,"[('HasProteinLevel', 'Medium Protein'), ('usesCookingMethod', 'barbecue')]",628,90656,1.0,1.0,1.0,1.0
+158,114,"[('HasProteinLevel', 'Medium Protein'), ('usesCookingMethod', 'air fryer')]",5,90656,0.0,1.0,1.0,0.5
+159,115,"[('HasProteinLevel', 'Medium Protein'), ('usesCookingMethod', 'microwave')]",927,90656,1.0,1.0,1.0,1.0
+160,116,"[('HasProteinLevel', 'High Protein'), ('usesCookingMethod', 'oven')]",15803,90656,1.0,1.0,1.0,1.0
+161,117,"[('HasProteinLevel', 'High Protein'), ('usesCookingMethod', 'pot')]",17247,90656,1.0,1.0,1.0,1.0
+162,118,"[('HasProteinLevel', 'High Protein'), ('usesCookingMethod', 'pan')]",19452,90656,1.0,1.0,1.0,1.0
+163,119,"[('HasProteinLevel', 'High Protein'), ('usesCookingMethod', 'no cook')]",640,90656,1.0,1.0,1.0,1.0
+164,120,"[('HasProteinLevel', 'High Protein'), ('usesCookingMethod', 'barbecue')]",5064,90656,1.0,1.0,1.0,1.0
+165,121,"[('HasProteinLevel', 'High Protein'), ('usesCookingMethod', 'air fryer')]",24,90656,0.0,1.0,1.0,0.5
+166,122,"[('HasProteinLevel', 'High Protein'), ('usesCookingMethod', 'microwave')]",1362,90656,0.0,1.0,1.0,0.5
+167,123,"[('HasCarbLevel', 'Low Carb'), ('HasFatLevel', 'Low Fat')]",13901,90656,1.0,1.0,1.0,1.0
+168,124,"[('HasCarbLevel', 'Low Carb'), ('HasFatLevel', 'Medium Fat')]",26439,90656,1.0,1.0,1.0,1.0
+169,125,"[('HasCarbLevel', 'Low Carb'), ('HasFatLevel', 'High Fat')]",14842,90656,1.0,1.0,1.0,1.0
+170,126,"[('HasCarbLevel', 'Medium Carb'), ('HasFatLevel', 'Low Fat')]",3529,90656,1.0,1.0,1.0,1.0
+171,127,"[('HasCarbLevel', 'Medium Carb'), ('HasFatLevel', 'Medium Fat')]",12333,90656,1.0,1.0,1.0,1.0
+172,128,"[('HasCarbLevel', 'Medium Carb'), ('HasFatLevel', 'High Fat')]",9246,90656,1.0,1.0,1.0,1.0
+173,129,"[('HasCarbLevel', 'High Carb'), ('HasFatLevel', 'Low Fat')]",691,90656,1.0,1.0,1.0,1.0
+174,130,"[('HasCarbLevel', 'High Carb'), ('HasFatLevel', 'Medium Fat')]",2610,90656,1.0,1.0,1.0,1.0
+175,131,"[('HasCarbLevel', 'High Carb'), ('HasFatLevel', 'High Fat')]",4928,90656,1.0,1.0,1.0,1.0
+176,132,"[('HasCarbLevel', 'Low Carb'), ('HasCalorieLevel', 'Low Calorie')]",32005,90656,1.0,1.0,1.0,1.0
+177,133,"[('HasCarbLevel', 'Low Carb'), ('HasCalorieLevel', 'Medium Calorie')]",20538,90656,1.0,1.0,1.0,1.0
+178,134,"[('HasCarbLevel', 'Low Carb'), ('HasCalorieLevel', 'High Calorie')]",2639,90656,1.0,1.0,1.0,1.0
+179,135,"[('HasCarbLevel', 'Medium Carb'), ('HasCalorieLevel', 'Low Calorie')]",3621,90656,1.0,1.0,1.0,1.0
+180,136,"[('HasCarbLevel', 'Medium Carb'), ('HasCalorieLevel', 'Medium Calorie')]",18652,90656,1.0,1.0,1.0,1.0
+181,137,"[('HasCarbLevel', 'Medium Carb'), ('HasCalorieLevel', 'High Calorie')]",2835,90656,1.0,1.0,1.0,1.0
+182,138,"[('HasCarbLevel', 'High Carb'), ('HasCalorieLevel', 'Medium Calorie')]",4024,90656,1.0,1.0,1.0,1.0
+183,139,"[('HasCarbLevel', 'High Carb'), ('HasCalorieLevel', 'High Calorie')]",4205,90656,1.0,1.0,1.0,1.0
+184,140,"[('HasCarbLevel', 'Low Carb'), ('isForMealType', 'breakfast')]",3200,90656,1.0,1.0,1.0,1.0
+185,141,"[('HasCarbLevel', 'Low Carb'), ('isForMealType', 'lunch')]",11145,90656,1.0,1.0,1.0,1.0
+186,142,"[('HasCarbLevel', 'Low Carb'), ('isForMealType', 'dinner')]",24572,90656,1.0,1.0,1.0,1.0
+187,143,"[('HasCarbLevel', 'Low Carb'), ('isForMealType', 'snack')]",4968,90656,1.0,1.0,1.0,1.0
+188,144,"[('HasCarbLevel', 'Low Carb'), ('isForMealType', 'dessert')]",7245,90656,1.0,1.0,1.0,1.0
+189,145,"[('HasCarbLevel', 'Low Carb'), ('isForMealType', 'starter')]",9613,90656,1.0,1.0,1.0,1.0
+190,146,"[('HasCarbLevel', 'Low Carb'), ('isForMealType', 'brunch')]",5038,90656,1.0,1.0,1.0,1.0
+191,147,"[('HasCarbLevel', 'Low Carb'), ('isForMealType', 'drink')]",1312,90656,1.0,1.0,1.0,1.0
+192,148,"[('HasCarbLevel', 'Medium Carb'), ('isForMealType', 'breakfast')]",1805,90656,1.0,1.0,1.0,1.0
+193,149,"[('HasCarbLevel', 'Medium Carb'), ('isForMealType', 'lunch')]",5937,90656,1.0,1.0,1.0,1.0
+194,150,"[('HasCarbLevel', 'Medium Carb'), ('isForMealType', 'dinner')]",10780,90656,1.0,1.0,1.0,1.0
+195,151,"[('HasCarbLevel', 'Medium Carb'), ('isForMealType', 'snack')]",2008,90656,1.0,1.0,1.0,1.0
+196,152,"[('HasCarbLevel', 'Medium Carb'), ('isForMealType', 'dessert')]",6331,90656,1.0,1.0,1.0,1.0
+197,153,"[('HasCarbLevel', 'Medium Carb'), ('isForMealType', 'starter')]",1938,90656,1.0,1.0,1.0,1.0
+198,154,"[('HasCarbLevel', 'Medium Carb'), ('isForMealType', 'brunch')]",2309,90656,1.0,1.0,1.0,1.0
+199,155,"[('HasCarbLevel', 'Medium Carb'), ('isForMealType', 'drink')]",425,90656,1.0,1.0,1.0,1.0
+200,156,"[('HasCarbLevel', 'High Carb'), ('isForMealType', 'breakfast')]",456,90656,1.0,1.0,1.0,1.0
+201,157,"[('HasCarbLevel', 'High Carb'), ('isForMealType', 'lunch')]",1941,90656,1.0,1.0,1.0,1.0
+202,158,"[('HasCarbLevel', 'High Carb'), ('isForMealType', 'dinner')]",3539,90656,1.0,1.0,1.0,1.0
+203,159,"[('HasCarbLevel', 'High Carb'), ('isForMealType', 'snack')]",581,90656,1.0,1.0,1.0,1.0
+204,160,"[('HasCarbLevel', 'High Carb'), ('isForMealType', 'dessert')]",2387,90656,1.0,1.0,1.0,1.0
+205,161,"[('HasCarbLevel', 'High Carb'), ('isForMealType', 'starter')]",566,90656,1.0,1.0,1.0,1.0
+206,162,"[('HasCarbLevel', 'High Carb'), ('isForMealType', 'brunch')]",684,90656,1.0,1.0,1.0,1.0
+207,163,"[('HasCarbLevel', 'High Carb'), ('isForMealType', 'drink')]",112,90656,1.0,1.0,1.0,1.0
+208,164,"[('HasCarbLevel', 'Low Carb'), ('hasDietType', 'Vegetarian')]",16740,90656,1.0,1.0,1.0,1.0
+209,165,"[('HasCarbLevel', 'Low Carb'), ('hasDietType', 'Vegan')]",5741,90656,1.0,1.0,1.0,1.0
+210,166,"[('HasCarbLevel', 'Low Carb'), ('hasDietType', 'Paleo')]",1127,90656,1.0,1.0,1.0,1.0
+211,167,"[('HasCarbLevel', 'Low Carb'), ('hasDietType', 'Standard')]",30862,90656,1.0,1.0,1.0,1.0
+212,168,"[('HasCarbLevel', 'Medium Carb'), ('hasDietType', 'Vegetarian')]",9249,90656,1.0,1.0,1.0,1.0
+213,169,"[('HasCarbLevel', 'Medium Carb'), ('hasDietType', 'Vegan')]",2214,90656,1.0,1.0,1.0,1.0
+214,170,"[('HasCarbLevel', 'Medium Carb'), ('hasDietType', 'Paleo')]",15,90656,0.0,1.0,1.0,0.3333333333333333
+215,171,"[('HasCarbLevel', 'Medium Carb'), ('hasDietType', 'Standard')]",13273,90656,1.0,1.0,1.0,1.0
+216,172,"[('HasCarbLevel', 'High Carb'), ('hasDietType', 'Vegetarian')]",3136,90656,1.0,1.0,1.0,1.0
+217,173,"[('HasCarbLevel', 'High Carb'), ('hasDietType', 'Vegan')]",751,90656,1.0,1.0,1.0,1.0
+218,174,"[('HasCarbLevel', 'High Carb'), ('hasDietType', 'Paleo')]",2,90656,0.0,0.0,0.0,0.027777777777777776
+219,175,"[('HasCarbLevel', 'High Carb'), ('hasDietType', 'Standard')]",4235,90656,1.0,1.0,1.0,1.0
+220,176,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'North America')]",27320,90656,1.0,1.0,1.0,1.0
+221,177,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'Global')]",7405,90656,1.0,1.0,1.0,1.0
+222,178,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'Mediterranean Europe')]",5852,90656,1.0,1.0,1.0,1.0
+223,179,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'Northern/Western Europe')]",4519,90656,1.0,1.0,1.0,1.0
+224,180,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'Latin America')]",2402,90656,1.0,1.0,1.0,1.0
+225,181,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'East Asia')]",2264,90656,1.0,1.0,1.0,1.0
+226,182,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'South Asia')]",1275,90656,1.0,1.0,1.0,1.0
+227,183,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'Southeast Asia')]",975,90656,1.0,1.0,1.0,1.0
+228,184,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'Middle East & Anatolia')]",909,90656,1.0,1.0,1.0,1.0
+229,185,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'Oceania')]",914,90656,1.0,1.0,1.0,1.0
+230,186,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",700,90656,1.0,1.0,1.0,1.0
+231,187,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'Caribbean')]",295,90656,0.0,1.0,1.0,0.25
+232,188,"[('HasCarbLevel', 'Low Carb'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",203,90656,1.0,1.0,1.0,1.0
+233,189,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'North America')]",13434,90656,1.0,1.0,1.0,1.0
+234,190,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'Global')]",2963,90656,1.0,1.0,1.0,1.0
+235,191,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'Mediterranean Europe')]",2405,90656,1.0,1.0,1.0,1.0
+236,192,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'Northern/Western Europe')]",1985,90656,1.0,1.0,1.0,1.0
+237,193,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'Latin America')]",1201,90656,1.0,1.0,1.0,1.0
+238,194,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'East Asia')]",708,90656,1.0,1.0,1.0,1.0
+239,195,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'South Asia')]",556,90656,1.0,1.0,1.0,1.0
+240,196,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'Southeast Asia')]",403,90656,1.0,1.0,1.0,1.0
+241,197,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'Middle East & Anatolia')]",460,90656,0.0,1.0,1.0,0.25
+242,198,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'Oceania')]",464,90656,0.0,1.0,1.0,0.5
+243,199,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",258,90656,0.0,1.0,1.0,0.5
+244,200,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'Caribbean')]",118,90656,0.0,1.0,1.0,0.5
+245,201,"[('HasCarbLevel', 'Medium Carb'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",81,90656,0.0,0.0,1.0,0.14285714285714285
+246,202,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'North America')]",3896,90656,1.0,1.0,1.0,1.0
+247,203,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'Global')]",879,90656,1.0,1.0,1.0,1.0
+248,204,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'Mediterranean Europe')]",1145,90656,1.0,1.0,1.0,1.0
+249,205,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'Northern/Western Europe')]",630,90656,1.0,1.0,1.0,1.0
+250,206,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'Latin America')]",314,90656,1.0,1.0,1.0,1.0
+251,207,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'East Asia')]",324,90656,1.0,1.0,1.0,1.0
+252,208,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'South Asia')]",213,90656,1.0,1.0,1.0,1.0
+253,209,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'Southeast Asia')]",218,90656,0.0,1.0,1.0,0.5
+254,210,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'Middle East & Anatolia')]",205,90656,1.0,1.0,1.0,1.0
+255,211,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'Oceania')]",180,90656,0.0,1.0,1.0,0.5
+256,212,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",94,90656,0.0,1.0,1.0,0.3333333333333333
+257,213,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'Caribbean')]",74,90656,0.0,1.0,1.0,0.2
+258,214,"[('HasCarbLevel', 'High Carb'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",35,90656,0.0,0.0,1.0,0.16666666666666666
+259,215,"[('HasCarbLevel', 'Low Carb'), ('usesCookingMethod', 'oven')]",24324,90656,1.0,1.0,1.0,1.0
+260,216,"[('HasCarbLevel', 'Low Carb'), ('usesCookingMethod', 'pot')]",19307,90656,1.0,1.0,1.0,1.0
+261,217,"[('HasCarbLevel', 'Low Carb'), ('usesCookingMethod', 'pan')]",19183,90656,1.0,1.0,1.0,1.0
+262,218,"[('HasCarbLevel', 'Low Carb'), ('usesCookingMethod', 'no cook')]",3307,90656,1.0,1.0,1.0,1.0
+263,219,"[('HasCarbLevel', 'Low Carb'), ('usesCookingMethod', 'barbecue')]",5450,90656,1.0,1.0,1.0,1.0
+264,220,"[('HasCarbLevel', 'Low Carb'), ('usesCookingMethod', 'air fryer')]",34,90656,0.0,0.0,0.0,0.047619047619047616
+265,221,"[('HasCarbLevel', 'Low Carb'), ('usesCookingMethod', 'microwave')]",2520,90656,1.0,1.0,1.0,1.0
+266,222,"[('HasCarbLevel', 'Medium Carb'), ('usesCookingMethod', 'oven')]",13012,90656,1.0,1.0,1.0,1.0
+267,223,"[('HasCarbLevel', 'Medium Carb'), ('usesCookingMethod', 'pot')]",11304,90656,1.0,1.0,1.0,1.0
+268,224,"[('HasCarbLevel', 'Medium Carb'), ('usesCookingMethod', 'pan')]",8142,90656,1.0,1.0,1.0,1.0
+269,225,"[('HasCarbLevel', 'Medium Carb'), ('usesCookingMethod', 'no cook')]",984,90656,1.0,1.0,1.0,1.0
+270,226,"[('HasCarbLevel', 'Medium Carb'), ('usesCookingMethod', 'barbecue')]",1249,90656,1.0,1.0,1.0,1.0
+271,227,"[('HasCarbLevel', 'Medium Carb'), ('usesCookingMethod', 'air fryer')]",9,90656,0.0,0.0,0.0,0.012195121951219513
+272,228,"[('HasCarbLevel', 'Medium Carb'), ('usesCookingMethod', 'microwave')]",1273,90656,1.0,1.0,1.0,1.0
+273,229,"[('HasCarbLevel', 'High Carb'), ('usesCookingMethod', 'oven')]",4025,90656,1.0,1.0,1.0,1.0
+274,230,"[('HasCarbLevel', 'High Carb'), ('usesCookingMethod', 'pot')]",4252,90656,1.0,1.0,1.0,1.0
+275,231,"[('HasCarbLevel', 'High Carb'), ('usesCookingMethod', 'pan')]",3091,90656,1.0,1.0,1.0,1.0
+276,232,"[('HasCarbLevel', 'High Carb'), ('usesCookingMethod', 'no cook')]",284,90656,1.0,1.0,1.0,1.0
+277,233,"[('HasCarbLevel', 'High Carb'), ('usesCookingMethod', 'barbecue')]",386,90656,1.0,1.0,1.0,1.0
+278,234,"[('HasCarbLevel', 'High Carb'), ('usesCookingMethod', 'air fryer')]",2,90656,0.0,0.0,0.0,0.0013698630136986301
+279,235,"[('HasCarbLevel', 'High Carb'), ('usesCookingMethod', 'microwave')]",417,90656,1.0,1.0,1.0,1.0
+280,236,"[('HasFatLevel', 'Low Fat'), ('HasCalorieLevel', 'Low Calorie')]",16010,90656,1.0,1.0,1.0,1.0
+281,237,"[('HasFatLevel', 'Low Fat'), ('HasCalorieLevel', 'Medium Calorie')]",2026,90656,1.0,1.0,1.0,1.0
+282,238,"[('HasFatLevel', 'Low Fat'), ('HasCalorieLevel', 'High Calorie')]",85,90656,1.0,1.0,1.0,1.0
+283,239,"[('HasFatLevel', 'Medium Fat'), ('HasCalorieLevel', 'Low Calorie')]",19277,90656,1.0,1.0,1.0,1.0
+284,240,"[('HasFatLevel', 'Medium Fat'), ('HasCalorieLevel', 'Medium Calorie')]",21654,90656,1.0,1.0,1.0,1.0
+285,241,"[('HasFatLevel', 'Medium Fat'), ('HasCalorieLevel', 'High Calorie')]",451,90656,0.0,1.0,1.0,0.5
+286,242,"[('HasFatLevel', 'High Fat'), ('HasCalorieLevel', 'Low Calorie')]",339,90656,1.0,1.0,1.0,1.0
+287,243,"[('HasFatLevel', 'High Fat'), ('HasCalorieLevel', 'Medium Calorie')]",19534,90656,1.0,1.0,1.0,1.0
+288,244,"[('HasFatLevel', 'High Fat'), ('HasCalorieLevel', 'High Calorie')]",9143,90656,1.0,1.0,1.0,1.0
+289,245,"[('HasFatLevel', 'Low Fat'), ('isForMealType', 'breakfast')]",1439,90656,1.0,1.0,1.0,1.0
+290,246,"[('HasFatLevel', 'Low Fat'), ('isForMealType', 'lunch')]",4155,90656,1.0,1.0,1.0,1.0
+291,247,"[('HasFatLevel', 'Low Fat'), ('isForMealType', 'dinner')]",5242,90656,1.0,1.0,1.0,1.0
+292,248,"[('HasFatLevel', 'Low Fat'), ('isForMealType', 'snack')]",2143,90656,1.0,1.0,1.0,1.0
+293,249,"[('HasFatLevel', 'Low Fat'), ('isForMealType', 'dessert')]",3207,90656,1.0,1.0,1.0,1.0
+294,250,"[('HasFatLevel', 'Low Fat'), ('isForMealType', 'starter')]",3475,90656,1.0,1.0,1.0,1.0
+295,251,"[('HasFatLevel', 'Low Fat'), ('isForMealType', 'brunch')]",1515,90656,1.0,1.0,1.0,1.0
+296,252,"[('HasFatLevel', 'Low Fat'), ('isForMealType', 'drink')]",1371,90656,1.0,1.0,1.0,1.0
+297,253,"[('HasFatLevel', 'Medium Fat'), ('isForMealType', 'breakfast')]",2871,90656,1.0,1.0,1.0,1.0
+298,254,"[('HasFatLevel', 'Medium Fat'), ('isForMealType', 'lunch')]",9579,90656,1.0,1.0,1.0,1.0
+299,255,"[('HasFatLevel', 'Medium Fat'), ('isForMealType', 'dinner')]",17559,90656,1.0,1.0,1.0,1.0
+300,256,"[('HasFatLevel', 'Medium Fat'), ('isForMealType', 'snack')]",3494,90656,1.0,1.0,1.0,1.0
+301,257,"[('HasFatLevel', 'Medium Fat'), ('isForMealType', 'dessert')]",8227,90656,1.0,1.0,1.0,1.0
+302,258,"[('HasFatLevel', 'Medium Fat'), ('isForMealType', 'starter')]",5713,90656,1.0,1.0,1.0,1.0
+303,259,"[('HasFatLevel', 'Medium Fat'), ('isForMealType', 'brunch')]",3856,90656,1.0,1.0,1.0,1.0
+304,260,"[('HasFatLevel', 'Medium Fat'), ('isForMealType', 'drink')]",358,90656,1.0,1.0,1.0,1.0
+305,261,"[('HasFatLevel', 'High Fat'), ('isForMealType', 'breakfast')]",1151,90656,1.0,1.0,1.0,1.0
+306,262,"[('HasFatLevel', 'High Fat'), ('isForMealType', 'lunch')]",5289,90656,1.0,1.0,1.0,1.0
+307,263,"[('HasFatLevel', 'High Fat'), ('isForMealType', 'dinner')]",16090,90656,1.0,1.0,1.0,1.0
+308,264,"[('HasFatLevel', 'High Fat'), ('isForMealType', 'snack')]",1920,90656,1.0,1.0,1.0,1.0
+309,265,"[('HasFatLevel', 'High Fat'), ('isForMealType', 'dessert')]",4529,90656,1.0,1.0,1.0,1.0
+310,266,"[('HasFatLevel', 'High Fat'), ('isForMealType', 'starter')]",2929,90656,1.0,1.0,1.0,1.0
+311,267,"[('HasFatLevel', 'High Fat'), ('isForMealType', 'brunch')]",2660,90656,1.0,1.0,1.0,1.0
+312,268,"[('HasFatLevel', 'High Fat'), ('isForMealType', 'drink')]",120,90656,1.0,1.0,1.0,1.0
+313,269,"[('HasFatLevel', 'Low Fat'), ('hasDietType', 'Vegetarian')]",6410,90656,1.0,1.0,1.0,1.0
+314,270,"[('HasFatLevel', 'Low Fat'), ('hasDietType', 'Vegan')]",4726,90656,1.0,1.0,1.0,1.0
+315,271,"[('HasFatLevel', 'Low Fat'), ('hasDietType', 'Paleo')]",31,90656,0.0,1.0,1.0,0.3333333333333333
+316,272,"[('HasFatLevel', 'Low Fat'), ('hasDietType', 'Standard')]",6699,90656,1.0,1.0,1.0,1.0
+317,273,"[('HasFatLevel', 'Medium Fat'), ('hasDietType', 'Vegetarian')]",15533,90656,1.0,1.0,1.0,1.0
+318,274,"[('HasFatLevel', 'Medium Fat'), ('hasDietType', 'Vegan')]",3258,90656,1.0,1.0,1.0,1.0
+319,275,"[('HasFatLevel', 'Medium Fat'), ('hasDietType', 'Paleo')]",245,90656,1.0,1.0,1.0,1.0
+320,276,"[('HasFatLevel', 'Medium Fat'), ('hasDietType', 'Standard')]",21770,90656,1.0,1.0,1.0,1.0
+321,277,"[('HasFatLevel', 'High Fat'), ('hasDietType', 'Vegetarian')]",7182,90656,1.0,1.0,1.0,1.0
+322,278,"[('HasFatLevel', 'High Fat'), ('hasDietType', 'Vegan')]",722,90656,1.0,1.0,1.0,1.0
+323,279,"[('HasFatLevel', 'High Fat'), ('hasDietType', 'Paleo')]",868,90656,1.0,1.0,1.0,1.0
+324,280,"[('HasFatLevel', 'High Fat'), ('hasDietType', 'Standard')]",19901,90656,1.0,1.0,1.0,1.0
+325,281,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'North America')]",8615,90656,1.0,1.0,1.0,1.0
+326,282,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'Global')]",3379,90656,1.0,1.0,1.0,1.0
+327,283,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'Mediterranean Europe')]",1501,90656,1.0,1.0,1.0,1.0
+328,284,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'Northern/Western Europe')]",1235,90656,1.0,1.0,1.0,1.0
+329,285,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'Latin America')]",726,90656,1.0,1.0,1.0,1.0
+330,286,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'East Asia')]",746,90656,1.0,1.0,1.0,1.0
+331,287,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'South Asia')]",499,90656,1.0,1.0,1.0,1.0
+332,288,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'Southeast Asia')]",273,90656,0.0,1.0,1.0,0.5
+333,289,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'Middle East & Anatolia')]",376,90656,0.0,1.0,1.0,0.5
+334,290,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'Oceania')]",314,90656,1.0,1.0,1.0,1.0
+335,291,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",185,90656,1.0,1.0,1.0,1.0
+336,292,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'Caribbean')]",118,90656,1.0,1.0,1.0,1.0
+337,293,"[('HasFatLevel', 'Low Fat'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",95,90656,0.0,1.0,1.0,0.2
+338,294,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'North America')]",21473,90656,1.0,1.0,1.0,1.0
+339,295,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'Global')]",5197,90656,1.0,1.0,1.0,1.0
+340,296,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'Mediterranean Europe')]",4427,90656,1.0,1.0,1.0,1.0
+341,297,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'Northern/Western Europe')]",3110,90656,1.0,1.0,1.0,1.0
+342,298,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'Latin America')]",1720,90656,1.0,1.0,1.0,1.0
+343,299,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'East Asia')]",1587,90656,1.0,1.0,1.0,1.0
+344,300,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'South Asia')]",945,90656,1.0,1.0,1.0,1.0
+345,301,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'Southeast Asia')]",664,90656,1.0,1.0,1.0,1.0
+346,302,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'Middle East & Anatolia')]",748,90656,1.0,1.0,1.0,1.0
+347,303,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'Oceania')]",697,90656,1.0,1.0,1.0,1.0
+348,304,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",420,90656,1.0,1.0,1.0,1.0
+349,305,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'Caribbean')]",177,90656,1.0,1.0,1.0,1.0
+350,306,"[('HasFatLevel', 'Medium Fat'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",125,90656,0.0,0.0,0.0,0.047619047619047616
+351,307,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'North America')]",14562,90656,1.0,1.0,1.0,1.0
+352,308,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'Global')]",2671,90656,1.0,1.0,1.0,1.0
+353,309,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'Mediterranean Europe')]",3474,90656,1.0,1.0,1.0,1.0
+354,310,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'Northern/Western Europe')]",2789,90656,1.0,1.0,1.0,1.0
+355,311,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'Latin America')]",1471,90656,1.0,1.0,1.0,1.0
+356,312,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'East Asia')]",963,90656,1.0,1.0,1.0,1.0
+357,313,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'South Asia')]",600,90656,1.0,1.0,1.0,1.0
+358,314,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'Southeast Asia')]",659,90656,1.0,1.0,1.0,1.0
+359,315,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'Middle East & Anatolia')]",450,90656,1.0,1.0,1.0,1.0
+360,316,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'Oceania')]",547,90656,1.0,1.0,1.0,1.0
+361,317,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",447,90656,1.0,1.0,1.0,1.0
+362,318,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'Caribbean')]",192,90656,0.0,1.0,1.0,0.5
+363,319,"[('HasFatLevel', 'High Fat'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",99,90656,0.0,0.0,0.0,0.08333333333333333
+364,320,"[('HasFatLevel', 'Low Fat'), ('usesCookingMethod', 'oven')]",6683,90656,1.0,1.0,1.0,1.0
+365,321,"[('HasFatLevel', 'Low Fat'), ('usesCookingMethod', 'pot')]",7508,90656,1.0,1.0,1.0,1.0
+366,322,"[('HasFatLevel', 'Low Fat'), ('usesCookingMethod', 'pan')]",3868,90656,1.0,1.0,1.0,1.0
+367,323,"[('HasFatLevel', 'Low Fat'), ('usesCookingMethod', 'no cook')]",1882,90656,1.0,1.0,1.0,1.0
+368,324,"[('HasFatLevel', 'Low Fat'), ('usesCookingMethod', 'barbecue')]",996,90656,1.0,1.0,1.0,1.0
+369,325,"[('HasFatLevel', 'Low Fat'), ('usesCookingMethod', 'air fryer')]",10,90656,0.0,0.0,0.0,0.0196078431372549
+370,326,"[('HasFatLevel', 'Low Fat'), ('usesCookingMethod', 'microwave')]",889,90656,1.0,1.0,1.0,1.0
+371,327,"[('HasFatLevel', 'Medium Fat'), ('usesCookingMethod', 'oven')]",20048,90656,1.0,1.0,1.0,1.0
+372,328,"[('HasFatLevel', 'Medium Fat'), ('usesCookingMethod', 'pot')]",15533,90656,1.0,1.0,1.0,1.0
+373,329,"[('HasFatLevel', 'Medium Fat'), ('usesCookingMethod', 'pan')]",13784,90656,1.0,1.0,1.0,1.0
+374,330,"[('HasFatLevel', 'Medium Fat'), ('usesCookingMethod', 'no cook')]",1791,90656,1.0,1.0,1.0,1.0
+375,331,"[('HasFatLevel', 'Medium Fat'), ('usesCookingMethod', 'barbecue')]",2982,90656,1.0,1.0,1.0,1.0
+376,332,"[('HasFatLevel', 'Medium Fat'), ('usesCookingMethod', 'air fryer')]",17,90656,0.0,1.0,1.0,0.3333333333333333
+377,333,"[('HasFatLevel', 'Medium Fat'), ('usesCookingMethod', 'microwave')]",2023,90656,1.0,1.0,1.0,1.0
+378,334,"[('HasFatLevel', 'High Fat'), ('usesCookingMethod', 'oven')]",14630,90656,1.0,1.0,1.0,1.0
+379,335,"[('HasFatLevel', 'High Fat'), ('usesCookingMethod', 'pot')]",11822,90656,1.0,1.0,1.0,1.0
+380,336,"[('HasFatLevel', 'High Fat'), ('usesCookingMethod', 'pan')]",12764,90656,1.0,1.0,1.0,1.0
+381,337,"[('HasFatLevel', 'High Fat'), ('usesCookingMethod', 'no cook')]",902,90656,1.0,1.0,1.0,1.0
+382,338,"[('HasFatLevel', 'High Fat'), ('usesCookingMethod', 'barbecue')]",3107,90656,1.0,1.0,1.0,1.0
+383,339,"[('HasFatLevel', 'High Fat'), ('usesCookingMethod', 'air fryer')]",18,90656,0.0,0.0,0.0,0.05555555555555555
+384,340,"[('HasFatLevel', 'High Fat'), ('usesCookingMethod', 'microwave')]",1298,90656,1.0,1.0,1.0,1.0
+385,341,"[('HasCalorieLevel', 'Low Calorie'), ('isForMealType', 'breakfast')]",2831,90656,1.0,1.0,1.0,1.0
+386,342,"[('HasCalorieLevel', 'Low Calorie'), ('isForMealType', 'lunch')]",7667,90656,1.0,1.0,1.0,1.0
+387,343,"[('HasCalorieLevel', 'Low Calorie'), ('isForMealType', 'dinner')]",10534,90656,1.0,1.0,1.0,1.0
+388,344,"[('HasCalorieLevel', 'Low Calorie'), ('isForMealType', 'snack')]",3995,90656,1.0,1.0,1.0,1.0
+389,345,"[('HasCalorieLevel', 'Low Calorie'), ('isForMealType', 'dessert')]",6988,90656,1.0,1.0,1.0,1.0
+390,346,"[('HasCalorieLevel', 'Low Calorie'), ('isForMealType', 'starter')]",7229,90656,1.0,1.0,1.0,1.0
+391,347,"[('HasCalorieLevel', 'Low Calorie'), ('isForMealType', 'brunch')]",3382,90656,1.0,1.0,1.0,1.0
+392,348,"[('HasCalorieLevel', 'Low Calorie'), ('isForMealType', 'drink')]",1409,90656,1.0,1.0,1.0,1.0
+393,349,"[('HasCalorieLevel', 'Medium Calorie'), ('isForMealType', 'breakfast')]",2347,90656,1.0,1.0,1.0,1.0
+394,350,"[('HasCalorieLevel', 'Medium Calorie'), ('isForMealType', 'lunch')]",9496,90656,1.0,1.0,1.0,1.0
+395,351,"[('HasCalorieLevel', 'Medium Calorie'), ('isForMealType', 'dinner')]",22270,90656,1.0,1.0,1.0,1.0
+396,352,"[('HasCalorieLevel', 'Medium Calorie'), ('isForMealType', 'snack')]",2958,90656,1.0,1.0,1.0,1.0
+397,353,"[('HasCalorieLevel', 'Medium Calorie'), ('isForMealType', 'dessert')]",7781,90656,1.0,1.0,1.0,1.0
+398,354,"[('HasCalorieLevel', 'Medium Calorie'), ('isForMealType', 'starter')]",4093,90656,1.0,1.0,1.0,1.0
+399,355,"[('HasCalorieLevel', 'Medium Calorie'), ('isForMealType', 'brunch')]",3936,90656,1.0,1.0,1.0,1.0
+400,356,"[('HasCalorieLevel', 'Medium Calorie'), ('isForMealType', 'drink')]",390,90656,1.0,1.0,1.0,1.0
+401,357,"[('HasCalorieLevel', 'High Calorie'), ('isForMealType', 'breakfast')]",283,90656,1.0,1.0,1.0,1.0
+402,358,"[('HasCalorieLevel', 'High Calorie'), ('isForMealType', 'lunch')]",1860,90656,1.0,1.0,1.0,1.0
+403,359,"[('HasCalorieLevel', 'High Calorie'), ('isForMealType', 'dinner')]",6087,90656,1.0,1.0,1.0,1.0
+404,360,"[('HasCalorieLevel', 'High Calorie'), ('isForMealType', 'snack')]",604,90656,1.0,1.0,1.0,1.0
+405,361,"[('HasCalorieLevel', 'High Calorie'), ('isForMealType', 'dessert')]",1194,90656,1.0,1.0,1.0,1.0
+406,362,"[('HasCalorieLevel', 'High Calorie'), ('isForMealType', 'starter')]",795,90656,1.0,1.0,1.0,1.0
+407,363,"[('HasCalorieLevel', 'High Calorie'), ('isForMealType', 'brunch')]",713,90656,1.0,1.0,1.0,1.0
+408,364,"[('HasCalorieLevel', 'High Calorie'), ('isForMealType', 'drink')]",50,90656,1.0,1.0,1.0,1.0
+409,365,"[('HasCalorieLevel', 'Low Calorie'), ('hasDietType', 'Vegetarian')]",14656,90656,1.0,1.0,1.0,1.0
+410,366,"[('HasCalorieLevel', 'Low Calorie'), ('hasDietType', 'Vegan')]",6215,90656,1.0,1.0,1.0,1.0
+411,367,"[('HasCalorieLevel', 'Low Calorie'), ('hasDietType', 'Paleo')]",215,90656,0.0,1.0,1.0,0.5
+412,368,"[('HasCalorieLevel', 'Low Calorie'), ('hasDietType', 'Standard')]",14132,90656,1.0,1.0,1.0,1.0
+413,369,"[('HasCalorieLevel', 'Medium Calorie'), ('hasDietType', 'Vegetarian')]",12589,90656,1.0,1.0,1.0,1.0
+414,370,"[('HasCalorieLevel', 'Medium Calorie'), ('hasDietType', 'Vegan')]",2211,90656,1.0,1.0,1.0,1.0
+415,371,"[('HasCalorieLevel', 'Medium Calorie'), ('hasDietType', 'Paleo')]",656,90656,1.0,1.0,1.0,1.0
+416,372,"[('HasCalorieLevel', 'Medium Calorie'), ('hasDietType', 'Standard')]",27111,90656,1.0,1.0,1.0,1.0
+417,373,"[('HasCalorieLevel', 'High Calorie'), ('hasDietType', 'Vegetarian')]",1880,90656,1.0,1.0,1.0,1.0
+418,374,"[('HasCalorieLevel', 'High Calorie'), ('hasDietType', 'Vegan')]",280,90656,1.0,1.0,1.0,1.0
+419,375,"[('HasCalorieLevel', 'High Calorie'), ('hasDietType', 'Paleo')]",273,90656,1.0,1.0,1.0,1.0
+420,376,"[('HasCalorieLevel', 'High Calorie'), ('hasDietType', 'Standard')]",7127,90656,1.0,1.0,1.0,1.0
+421,377,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'North America')]",17743,90656,1.0,1.0,1.0,1.0
+422,378,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'Global')]",5942,90656,1.0,1.0,1.0,1.0
+423,379,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'Mediterranean Europe')]",3369,90656,1.0,1.0,1.0,1.0
+424,380,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'Northern/Western Europe')]",2641,90656,1.0,1.0,1.0,1.0
+425,381,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'Latin America')]",1312,90656,1.0,1.0,1.0,1.0
+426,382,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'East Asia')]",1304,90656,1.0,1.0,1.0,1.0
+427,383,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'South Asia')]",867,90656,1.0,1.0,1.0,1.0
+428,384,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'Southeast Asia')]",489,90656,1.0,1.0,1.0,1.0
+429,385,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'Middle East & Anatolia')]",658,90656,0.0,1.0,1.0,0.3333333333333333
+430,386,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'Oceania')]",578,90656,1.0,1.0,1.0,1.0
+431,387,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",350,90656,1.0,1.0,1.0,1.0
+432,388,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'Caribbean')]",149,90656,0.0,1.0,1.0,0.5
+433,389,"[('HasCalorieLevel', 'Low Calorie'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",133,90656,0.0,1.0,1.0,0.2
+434,390,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'North America')]",22509,90656,1.0,1.0,1.0,1.0
+435,391,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'Global')]",4486,90656,1.0,1.0,1.0,1.0
+436,392,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'Mediterranean Europe')]",4718,90656,1.0,1.0,1.0,1.0
+437,393,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'Northern/Western Europe')]",3552,90656,1.0,1.0,1.0,1.0
+438,394,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'Latin America')]",2069,90656,1.0,1.0,1.0,1.0
+439,395,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'East Asia')]",1551,90656,1.0,1.0,1.0,1.0
+440,396,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'South Asia')]",959,90656,1.0,1.0,1.0,1.0
+441,397,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'Southeast Asia')]",836,90656,1.0,1.0,1.0,1.0
+442,398,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'Middle East & Anatolia')]",715,90656,1.0,1.0,1.0,1.0
+443,399,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'Oceania')]",747,90656,1.0,1.0,1.0,1.0
+444,400,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",553,90656,1.0,1.0,1.0,1.0
+445,401,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'Caribbean')]",254,90656,1.0,1.0,1.0,1.0
+446,402,"[('HasCalorieLevel', 'Medium Calorie'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",145,90656,0.0,1.0,1.0,0.3333333333333333
+447,403,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'North America')]",4398,90656,1.0,1.0,1.0,1.0
+448,404,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'Global')]",819,90656,1.0,1.0,1.0,1.0
+449,405,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'Mediterranean Europe')]",1315,90656,1.0,1.0,1.0,1.0
+450,406,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'Northern/Western Europe')]",941,90656,1.0,1.0,1.0,1.0
+451,407,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'Latin America')]",536,90656,1.0,1.0,1.0,1.0
+452,408,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'East Asia')]",441,90656,1.0,1.0,1.0,1.0
+453,409,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'South Asia')]",218,90656,1.0,1.0,1.0,1.0
+454,410,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'Southeast Asia')]",271,90656,1.0,1.0,1.0,1.0
+455,411,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'Middle East & Anatolia')]",201,90656,1.0,1.0,1.0,1.0
+456,412,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'Oceania')]",233,90656,1.0,1.0,1.0,1.0
+457,413,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",149,90656,0.0,1.0,1.0,0.5
+458,414,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'Caribbean')]",84,90656,1.0,1.0,1.0,1.0
+459,415,"[('HasCalorieLevel', 'High Calorie'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",41,90656,0.0,0.0,0.0,0.043478260869565216
+460,416,"[('HasCalorieLevel', 'Low Calorie'), ('usesCookingMethod', 'oven')]",15744,90656,1.0,1.0,1.0,1.0
+461,417,"[('HasCalorieLevel', 'Low Calorie'), ('usesCookingMethod', 'pot')]",12537,90656,1.0,1.0,1.0,1.0
+462,418,"[('HasCalorieLevel', 'Low Calorie'), ('usesCookingMethod', 'pan')]",9143,90656,1.0,1.0,1.0,1.0
+463,419,"[('HasCalorieLevel', 'Low Calorie'), ('usesCookingMethod', 'no cook')]",2962,90656,1.0,1.0,1.0,1.0
+464,420,"[('HasCalorieLevel', 'Low Calorie'), ('usesCookingMethod', 'barbecue')]",2288,90656,1.0,1.0,1.0,1.0
+465,421,"[('HasCalorieLevel', 'Low Calorie'), ('usesCookingMethod', 'air fryer')]",18,90656,0.0,0.0,0.0,0.02040816326530612
+466,422,"[('HasCalorieLevel', 'Low Calorie'), ('usesCookingMethod', 'microwave')]",1914,90656,1.0,1.0,1.0,1.0
+467,423,"[('HasCalorieLevel', 'Medium Calorie'), ('usesCookingMethod', 'oven')]",21030,90656,1.0,1.0,1.0,1.0
+468,424,"[('HasCalorieLevel', 'Medium Calorie'), ('usesCookingMethod', 'pot')]",17647,90656,1.0,1.0,1.0,1.0
+469,425,"[('HasCalorieLevel', 'Medium Calorie'), ('usesCookingMethod', 'pan')]",16553,90656,1.0,1.0,1.0,1.0
+470,426,"[('HasCalorieLevel', 'Medium Calorie'), ('usesCookingMethod', 'no cook')]",1412,90656,1.0,1.0,1.0,1.0
+471,427,"[('HasCalorieLevel', 'Medium Calorie'), ('usesCookingMethod', 'barbecue')]",3715,90656,1.0,1.0,1.0,1.0
+472,428,"[('HasCalorieLevel', 'Medium Calorie'), ('usesCookingMethod', 'air fryer')]",20,90656,0.0,0.0,1.0,0.125
+473,429,"[('HasCalorieLevel', 'Medium Calorie'), ('usesCookingMethod', 'microwave')]",1886,90656,1.0,1.0,1.0,1.0
+474,430,"[('HasCalorieLevel', 'High Calorie'), ('usesCookingMethod', 'oven')]",4587,90656,1.0,1.0,1.0,1.0
+475,431,"[('HasCalorieLevel', 'High Calorie'), ('usesCookingMethod', 'pot')]",4679,90656,1.0,1.0,1.0,1.0
+476,432,"[('HasCalorieLevel', 'High Calorie'), ('usesCookingMethod', 'pan')]",4720,90656,1.0,1.0,1.0,1.0
+477,433,"[('HasCalorieLevel', 'High Calorie'), ('usesCookingMethod', 'no cook')]",201,90656,1.0,1.0,1.0,1.0
+478,434,"[('HasCalorieLevel', 'High Calorie'), ('usesCookingMethod', 'barbecue')]",1082,90656,1.0,1.0,1.0,1.0
+479,435,"[('HasCalorieLevel', 'High Calorie'), ('usesCookingMethod', 'air fryer')]",7,90656,0.0,1.0,1.0,0.25
+480,436,"[('HasCalorieLevel', 'High Calorie'), ('usesCookingMethod', 'microwave')]",410,90656,1.0,1.0,1.0,1.0
+481,437,"[('isForMealType', 'breakfast'), ('hasDietType', 'Vegetarian')]",3705,90656,1.0,1.0,1.0,1.0
+482,438,"[('isForMealType', 'breakfast'), ('hasDietType', 'Vegan')]",493,90656,1.0,1.0,1.0,1.0
+483,439,"[('isForMealType', 'breakfast'), ('hasDietType', 'Paleo')]",61,90656,1.0,1.0,1.0,1.0
+484,440,"[('isForMealType', 'breakfast'), ('hasDietType', 'Standard')]",1224,90656,1.0,1.0,1.0,1.0
+485,441,"[('isForMealType', 'lunch'), ('hasDietType', 'Vegetarian')]",4056,90656,1.0,1.0,1.0,1.0
+486,442,"[('isForMealType', 'lunch'), ('hasDietType', 'Vegan')]",2509,90656,1.0,1.0,1.0,1.0
+487,443,"[('isForMealType', 'lunch'), ('hasDietType', 'Paleo')]",144,90656,0.0,1.0,1.0,0.5
+488,444,"[('isForMealType', 'lunch'), ('hasDietType', 'Standard')]",11963,90656,1.0,1.0,1.0,1.0
+489,445,"[('isForMealType', 'dinner'), ('hasDietType', 'Vegetarian')]",4642,90656,1.0,1.0,1.0,1.0
+490,446,"[('isForMealType', 'dinner'), ('hasDietType', 'Vegan')]",2149,90656,1.0,1.0,1.0,1.0
+491,447,"[('isForMealType', 'dinner'), ('hasDietType', 'Paleo')]",819,90656,1.0,1.0,1.0,1.0
+492,448,"[('isForMealType', 'dinner'), ('hasDietType', 'Standard')]",30529,90656,1.0,1.0,1.0,1.0
+493,449,"[('isForMealType', 'snack'), ('hasDietType', 'Vegetarian')]",3475,90656,1.0,1.0,1.0,1.0
+494,450,"[('isForMealType', 'snack'), ('hasDietType', 'Vegan')]",1165,90656,1.0,1.0,1.0,1.0
+495,451,"[('isForMealType', 'snack'), ('hasDietType', 'Paleo')]",38,90656,0.0,0.0,0.0,0.08333333333333333
+496,452,"[('isForMealType', 'snack'), ('hasDietType', 'Standard')]",2814,90656,1.0,1.0,1.0,1.0
+497,453,"[('isForMealType', 'dessert'), ('hasDietType', 'Vegetarian')]",11058,90656,1.0,1.0,1.0,1.0
+498,454,"[('isForMealType', 'dessert'), ('hasDietType', 'Vegan')]",1418,90656,1.0,1.0,1.0,1.0
+499,455,"[('isForMealType', 'dessert'), ('hasDietType', 'Paleo')]",2,90656,0.0,0.0,0.0,0.0006798096532970768
+500,456,"[('isForMealType', 'dessert'), ('hasDietType', 'Standard')]",3400,90656,1.0,1.0,1.0,1.0
+501,457,"[('isForMealType', 'starter'), ('hasDietType', 'Vegetarian')]",3488,90656,1.0,1.0,1.0,1.0
+502,458,"[('isForMealType', 'starter'), ('hasDietType', 'Vegan')]",1926,90656,1.0,1.0,1.0,1.0
+503,459,"[('isForMealType', 'starter'), ('hasDietType', 'Paleo')]",179,90656,1.0,1.0,1.0,1.0
+504,460,"[('isForMealType', 'starter'), ('hasDietType', 'Standard')]",6373,90656,1.0,1.0,1.0,1.0
+505,461,"[('isForMealType', 'brunch'), ('hasDietType', 'Vegetarian')]",3821,90656,1.0,1.0,1.0,1.0
+506,462,"[('isForMealType', 'brunch'), ('hasDietType', 'Vegan')]",638,90656,1.0,1.0,1.0,1.0
+507,463,"[('isForMealType', 'brunch'), ('hasDietType', 'Paleo')]",59,90656,0.0,1.0,1.0,0.5
+508,464,"[('isForMealType', 'brunch'), ('hasDietType', 'Standard')]",3425,90656,1.0,1.0,1.0,1.0
+509,465,"[('isForMealType', 'drink'), ('hasDietType', 'Vegetarian')]",915,90656,1.0,1.0,1.0,1.0
+510,466,"[('isForMealType', 'drink'), ('hasDietType', 'Vegan')]",715,90656,1.0,1.0,1.0,1.0
+511,467,"[('isForMealType', 'drink'), ('hasDietType', 'Paleo')]",1,90656,0.0,0.0,0.0,0.02127659574468085
+512,468,"[('isForMealType', 'drink'), ('hasDietType', 'Standard')]",212,90656,1.0,1.0,1.0,1.0
+513,469,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'North America')]",3390,90656,1.0,1.0,1.0,1.0
+514,470,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'Global')]",1102,90656,1.0,1.0,1.0,1.0
+515,471,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'Mediterranean Europe')]",127,90656,1.0,1.0,1.0,1.0
+516,472,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'Northern/Western Europe')]",483,90656,1.0,1.0,1.0,1.0
+517,473,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'Latin America')]",103,90656,1.0,1.0,1.0,1.0
+518,474,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'East Asia')]",34,90656,1.0,1.0,1.0,1.0
+519,475,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'South Asia')]",49,90656,1.0,1.0,1.0,1.0
+520,476,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'Southeast Asia')]",14,90656,0.0,1.0,1.0,0.2
+521,477,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'Middle East & Anatolia')]",51,90656,1.0,1.0,1.0,1.0
+522,478,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'Oceania')]",62,90656,1.0,1.0,1.0,1.0
+523,479,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",29,90656,1.0,1.0,1.0,1.0
+524,480,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'Caribbean')]",3,90656,0.0,1.0,1.0,0.2
+525,481,"[('isForMealType', 'breakfast'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",7,90656,0.0,0.0,1.0,0.16666666666666666
+526,482,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'North America')]",8307,90656,1.0,1.0,1.0,1.0
+527,483,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'Global')]",2272,90656,1.0,1.0,1.0,1.0
+528,484,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'Mediterranean Europe')]",2711,90656,1.0,1.0,1.0,1.0
+529,485,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'Northern/Western Europe')]",1072,90656,1.0,1.0,1.0,1.0
+530,486,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'Latin America')]",1244,90656,1.0,1.0,1.0,1.0
+531,487,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'East Asia')]",987,90656,1.0,1.0,1.0,1.0
+532,488,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'South Asia')]",664,90656,1.0,1.0,1.0,1.0
+533,489,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'Southeast Asia')]",464,90656,1.0,1.0,1.0,1.0
+534,490,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'Middle East & Anatolia')]",488,90656,1.0,1.0,1.0,1.0
+535,491,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'Oceania')]",303,90656,1.0,1.0,1.0,1.0
+536,492,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",259,90656,1.0,1.0,1.0,1.0
+537,493,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'Caribbean')]",114,90656,1.0,1.0,1.0,1.0
+538,494,"[('isForMealType', 'lunch'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",82,90656,0.0,0.0,1.0,0.1
+539,495,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'North America')]",18071,90656,1.0,1.0,1.0,1.0
+540,496,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'Global')]",3425,90656,1.0,1.0,1.0,1.0
+541,497,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'Mediterranean Europe')]",5768,90656,1.0,1.0,1.0,1.0
+542,498,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'Northern/Western Europe')]",2568,90656,1.0,1.0,1.0,1.0
+543,499,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'Latin America')]",2385,90656,1.0,1.0,1.0,1.0
+544,500,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'East Asia')]",2132,90656,1.0,1.0,1.0,1.0
+545,501,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'South Asia')]",1060,90656,1.0,1.0,1.0,1.0
+546,502,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'Southeast Asia')]",962,90656,1.0,1.0,1.0,1.0
+547,503,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'Middle East & Anatolia')]",818,90656,1.0,1.0,1.0,1.0
+548,504,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'Oceania')]",567,90656,1.0,1.0,1.0,1.0
+549,505,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",608,90656,0.0,1.0,1.0,0.5
+550,506,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'Caribbean')]",276,90656,1.0,1.0,1.0,1.0
+551,507,"[('isForMealType', 'dinner'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",138,90656,0.0,1.0,1.0,0.2
+552,508,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'North America')]",4176,90656,1.0,1.0,1.0,1.0
+553,509,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'Global')]",1325,90656,1.0,1.0,1.0,1.0
+554,510,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'Mediterranean Europe')]",481,90656,1.0,1.0,1.0,1.0
+555,511,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'Northern/Western Europe')]",458,90656,1.0,1.0,1.0,1.0
+556,512,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'Latin America')]",384,90656,1.0,1.0,1.0,1.0
+557,513,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'East Asia')]",126,90656,1.0,1.0,1.0,1.0
+558,514,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'South Asia')]",138,90656,1.0,1.0,1.0,1.0
+559,515,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'Southeast Asia')]",63,90656,0.0,1.0,1.0,0.5
+560,516,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'Middle East & Anatolia')]",88,90656,1.0,1.0,1.0,1.0
+561,517,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'Oceania')]",205,90656,1.0,1.0,1.0,1.0
+562,518,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",46,90656,0.0,0.0,1.0,0.125
+563,519,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'Caribbean')]",16,90656,1.0,1.0,1.0,1.0
+564,520,"[('isForMealType', 'snack'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",23,90656,1.0,1.0,1.0,1.0
+565,521,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'North America')]",10069,90656,1.0,1.0,1.0,1.0
+566,522,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'Global')]",2798,90656,1.0,1.0,1.0,1.0
+567,523,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'Mediterranean Europe')]",535,90656,1.0,1.0,1.0,1.0
+568,524,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'Northern/Western Europe')]",1459,90656,1.0,1.0,1.0,1.0
+569,525,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'Latin America')]",195,90656,1.0,1.0,1.0,1.0
+570,526,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'East Asia')]",75,90656,1.0,1.0,1.0,1.0
+571,527,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'South Asia')]",102,90656,1.0,1.0,1.0,1.0
+572,528,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'Southeast Asia')]",86,90656,1.0,1.0,1.0,1.0
+573,529,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'Middle East & Anatolia')]",125,90656,1.0,1.0,1.0,1.0
+574,530,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'Oceania')]",295,90656,1.0,1.0,1.0,1.0
+575,531,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",97,90656,1.0,1.0,1.0,1.0
+576,532,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'Caribbean')]",56,90656,0.0,1.0,1.0,0.3333333333333333
+577,533,"[('isForMealType', 'dessert'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",45,90656,1.0,1.0,1.0,1.0
+578,534,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'North America')]",4697,90656,1.0,1.0,1.0,1.0
+579,535,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'Global')]",1297,90656,1.0,1.0,1.0,1.0
+580,536,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'Mediterranean Europe')]",1901,90656,1.0,1.0,1.0,1.0
+581,537,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'Northern/Western Europe')]",1428,90656,1.0,1.0,1.0,1.0
+582,538,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'Latin America')]",493,90656,1.0,1.0,1.0,1.0
+583,539,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'East Asia')]",653,90656,0.0,1.0,1.0,0.3333333333333333
+584,540,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'South Asia')]",475,90656,1.0,1.0,1.0,1.0
+585,541,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'Southeast Asia')]",356,90656,0.0,1.0,1.0,0.5
+586,542,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'Middle East & Anatolia')]",309,90656,1.0,1.0,1.0,1.0
+587,543,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'Oceania')]",204,90656,0.0,1.0,1.0,0.5
+588,544,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",160,90656,1.0,1.0,1.0,1.0
+589,545,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'Caribbean')]",54,90656,0.0,1.0,1.0,0.5
+590,546,"[('isForMealType', 'starter'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",43,90656,0.0,0.0,0.0,0.09090909090909091
+591,547,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'North America')]",4437,90656,1.0,1.0,1.0,1.0
+592,548,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'Global')]",1022,90656,1.0,1.0,1.0,1.0
+593,549,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'Mediterranean Europe')]",718,90656,1.0,1.0,1.0,1.0
+594,550,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'Northern/Western Europe')]",850,90656,1.0,1.0,1.0,1.0
+595,551,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'Latin America')]",259,90656,1.0,1.0,1.0,1.0
+596,552,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'East Asia')]",96,90656,0.0,1.0,1.0,0.5
+597,553,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'South Asia')]",79,90656,1.0,1.0,1.0,1.0
+598,554,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'Southeast Asia')]",62,90656,1.0,1.0,1.0,1.0
+599,555,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'Middle East & Anatolia')]",111,90656,1.0,1.0,1.0,1.0
+600,556,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'Oceania')]",236,90656,1.0,1.0,1.0,1.0
+601,557,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",82,90656,0.0,1.0,1.0,0.25
+602,558,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'Caribbean')]",27,90656,1.0,1.0,1.0,1.0
+603,559,"[('isForMealType', 'brunch'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",27,90656,0.0,1.0,1.0,0.5
+604,560,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'North America')]",785,90656,1.0,1.0,1.0,1.0
+605,561,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'Global')]",519,90656,1.0,1.0,1.0,1.0
+606,562,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'Mediterranean Europe')]",65,90656,1.0,1.0,1.0,1.0
+607,563,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'Northern/Western Europe')]",115,90656,1.0,1.0,1.0,1.0
+608,564,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'Latin America')]",93,90656,0.0,1.0,1.0,0.5
+609,565,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'East Asia')]",21,90656,0.0,0.0,0.0,0.058823529411764705
+610,566,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'South Asia')]",102,90656,1.0,1.0,1.0,1.0
+611,567,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'Southeast Asia')]",17,90656,1.0,1.0,1.0,1.0
+612,568,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'Middle East & Anatolia')]",40,90656,1.0,1.0,1.0,1.0
+613,569,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'Oceania')]",18,90656,0.0,1.0,1.0,0.3333333333333333
+614,570,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",13,90656,0.0,0.0,1.0,0.1
+615,571,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'Caribbean')]",34,90656,1.0,1.0,1.0,1.0
+616,572,"[('isForMealType', 'drink'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",19,90656,0.0,1.0,1.0,0.5
+617,573,"[('isForMealType', 'breakfast'), ('usesCookingMethod', 'oven')]",3334,90656,1.0,1.0,1.0,1.0
+618,574,"[('isForMealType', 'breakfast'), ('usesCookingMethod', 'pot')]",719,90656,1.0,1.0,1.0,1.0
+619,575,"[('isForMealType', 'breakfast'), ('usesCookingMethod', 'pan')]",1706,90656,1.0,1.0,1.0,1.0
+620,576,"[('isForMealType', 'breakfast'), ('usesCookingMethod', 'no cook')]",166,90656,1.0,1.0,1.0,1.0
+621,577,"[('isForMealType', 'breakfast'), ('usesCookingMethod', 'barbecue')]",79,90656,0.0,0.0,1.0,0.16666666666666666
+622,578,"[('isForMealType', 'breakfast'), ('usesCookingMethod', 'microwave')]",378,90656,1.0,1.0,1.0,1.0
+623,579,"[('isForMealType', 'lunch'), ('usesCookingMethod', 'oven')]",5167,90656,1.0,1.0,1.0,1.0
+624,580,"[('isForMealType', 'lunch'), ('usesCookingMethod', 'pot')]",9702,90656,1.0,1.0,1.0,1.0
+625,581,"[('isForMealType', 'lunch'), ('usesCookingMethod', 'pan')]",8173,90656,1.0,1.0,1.0,1.0
+626,582,"[('isForMealType', 'lunch'), ('usesCookingMethod', 'no cook')]",796,90656,1.0,1.0,1.0,1.0
+627,583,"[('isForMealType', 'lunch'), ('usesCookingMethod', 'barbecue')]",1738,90656,1.0,1.0,1.0,1.0
+628,584,"[('isForMealType', 'lunch'), ('usesCookingMethod', 'air fryer')]",5,90656,1.0,1.0,1.0,1.0
+629,585,"[('isForMealType', 'lunch'), ('usesCookingMethod', 'microwave')]",760,90656,1.0,1.0,1.0,1.0
+630,586,"[('isForMealType', 'dinner'), ('usesCookingMethod', 'oven')]",15229,90656,1.0,1.0,1.0,1.0
+631,587,"[('isForMealType', 'dinner'), ('usesCookingMethod', 'pot')]",19437,90656,1.0,1.0,1.0,1.0
+632,588,"[('isForMealType', 'dinner'), ('usesCookingMethod', 'pan')]",18622,90656,1.0,1.0,1.0,1.0
+633,589,"[('isForMealType', 'dinner'), ('usesCookingMethod', 'no cook')]",360,90656,1.0,1.0,1.0,1.0
+634,590,"[('isForMealType', 'dinner'), ('usesCookingMethod', 'barbecue')]",4476,90656,1.0,1.0,1.0,1.0
+635,591,"[('isForMealType', 'dinner'), ('usesCookingMethod', 'air fryer')]",16,90656,1.0,1.0,1.0,1.0
+636,592,"[('isForMealType', 'dinner'), ('usesCookingMethod', 'microwave')]",1199,90656,1.0,1.0,1.0,1.0
+637,593,"[('isForMealType', 'snack'), ('usesCookingMethod', 'oven')]",4462,90656,1.0,1.0,1.0,1.0
+638,594,"[('isForMealType', 'snack'), ('usesCookingMethod', 'pot')]",1429,90656,1.0,1.0,1.0,1.0
+639,595,"[('isForMealType', 'snack'), ('usesCookingMethod', 'pan')]",2062,90656,1.0,1.0,1.0,1.0
+640,596,"[('isForMealType', 'snack'), ('usesCookingMethod', 'no cook')]",502,90656,0.0,1.0,1.0,0.5
+641,597,"[('isForMealType', 'snack'), ('usesCookingMethod', 'barbecue')]",423,90656,1.0,1.0,1.0,1.0
+642,598,"[('isForMealType', 'snack'), ('usesCookingMethod', 'air fryer')]",15,90656,0.0,0.0,1.0,0.16666666666666666
+643,599,"[('isForMealType', 'snack'), ('usesCookingMethod', 'microwave')]",575,90656,1.0,1.0,1.0,1.0
+644,600,"[('isForMealType', 'dessert'), ('usesCookingMethod', 'oven')]",12257,90656,1.0,1.0,1.0,1.0
+645,601,"[('isForMealType', 'dessert'), ('usesCookingMethod', 'pot')]",4289,90656,1.0,1.0,1.0,1.0
+646,602,"[('isForMealType', 'dessert'), ('usesCookingMethod', 'pan')]",972,90656,1.0,1.0,1.0,1.0
+647,603,"[('isForMealType', 'dessert'), ('usesCookingMethod', 'no cook')]",1166,90656,1.0,1.0,1.0,1.0
+648,604,"[('isForMealType', 'dessert'), ('usesCookingMethod', 'barbecue')]",147,90656,1.0,1.0,1.0,1.0
+649,605,"[('isForMealType', 'dessert'), ('usesCookingMethod', 'air fryer')]",3,90656,0.0,0.0,0.0,0.0022935779816513763
+650,606,"[('isForMealType', 'dessert'), ('usesCookingMethod', 'microwave')]",1231,90656,0.0,1.0,1.0,0.5
+651,607,"[('isForMealType', 'starter'), ('usesCookingMethod', 'oven')]",3927,90656,1.0,1.0,1.0,1.0
+652,608,"[('isForMealType', 'starter'), ('usesCookingMethod', 'pot')]",5271,90656,1.0,1.0,1.0,1.0
+653,609,"[('isForMealType', 'starter'), ('usesCookingMethod', 'pan')]",4081,90656,1.0,1.0,1.0,1.0
+654,610,"[('isForMealType', 'starter'), ('usesCookingMethod', 'no cook')]",1047,90656,1.0,1.0,1.0,1.0
+655,611,"[('isForMealType', 'starter'), ('usesCookingMethod', 'barbecue')]",1455,90656,1.0,1.0,1.0,1.0
+656,612,"[('isForMealType', 'starter'), ('usesCookingMethod', 'air fryer')]",8,90656,0.0,0.0,0.0,0.016666666666666666
+657,613,"[('isForMealType', 'starter'), ('usesCookingMethod', 'microwave')]",416,90656,1.0,1.0,1.0,1.0
+658,614,"[('isForMealType', 'brunch'), ('usesCookingMethod', 'oven')]",4728,90656,1.0,1.0,1.0,1.0
+659,615,"[('isForMealType', 'brunch'), ('usesCookingMethod', 'pot')]",1972,90656,1.0,1.0,1.0,1.0
+660,616,"[('isForMealType', 'brunch'), ('usesCookingMethod', 'pan')]",2918,90656,1.0,1.0,1.0,1.0
+661,617,"[('isForMealType', 'brunch'), ('usesCookingMethod', 'no cook')]",462,90656,1.0,1.0,1.0,1.0
+662,618,"[('isForMealType', 'brunch'), ('usesCookingMethod', 'barbecue')]",432,90656,1.0,1.0,1.0,1.0
+663,619,"[('isForMealType', 'brunch'), ('usesCookingMethod', 'air fryer')]",3,90656,0.0,0.0,0.0,0.015873015873015872
+664,620,"[('isForMealType', 'brunch'), ('usesCookingMethod', 'microwave')]",350,90656,1.0,1.0,1.0,1.0
+665,621,"[('isForMealType', 'drink'), ('usesCookingMethod', 'oven')]",11,90656,0.0,0.0,0.0,0.010752688172043012
+666,622,"[('isForMealType', 'drink'), ('usesCookingMethod', 'pot')]",910,90656,1.0,1.0,1.0,1.0
+667,623,"[('isForMealType', 'drink'), ('usesCookingMethod', 'pan')]",20,90656,0.0,1.0,1.0,0.2
+668,624,"[('isForMealType', 'drink'), ('usesCookingMethod', 'no cook')]",884,90656,1.0,1.0,1.0,1.0
+669,625,"[('isForMealType', 'drink'), ('usesCookingMethod', 'barbecue')]",3,90656,0.0,0.0,0.0,0.00030395136778115504
+670,626,"[('isForMealType', 'drink'), ('usesCookingMethod', 'microwave')]",91,90656,0.0,1.0,1.0,0.5
+671,627,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'North America')]",16194,90656,1.0,1.0,1.0,1.0
+672,628,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'Global')]",4815,90656,1.0,1.0,1.0,1.0
+673,629,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'Mediterranean Europe')]",2489,90656,1.0,1.0,1.0,1.0
+674,630,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'Northern/Western Europe')]",2619,90656,1.0,1.0,1.0,1.0
+675,631,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'Latin America')]",789,90656,1.0,1.0,1.0,1.0
+676,632,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'East Asia')]",251,90656,1.0,1.0,1.0,1.0
+677,633,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'South Asia')]",509,90656,1.0,1.0,1.0,1.0
+678,634,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'Southeast Asia')]",144,90656,1.0,1.0,1.0,1.0
+679,635,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'Middle East & Anatolia')]",318,90656,0.0,1.0,1.0,0.3333333333333333
+680,636,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'Oceania')]",520,90656,1.0,1.0,1.0,1.0
+681,637,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",252,90656,1.0,1.0,1.0,1.0
+682,638,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'Caribbean')]",73,90656,0.0,0.0,1.0,0.14285714285714285
+683,639,"[('hasDietType', 'Vegetarian'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",94,90656,1.0,1.0,1.0,1.0
+684,640,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'North America')]",3314,90656,1.0,1.0,1.0,1.0
+685,641,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'Global')]",1881,90656,1.0,1.0,1.0,1.0
+686,642,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'Mediterranean Europe')]",891,90656,1.0,1.0,1.0,1.0
+687,643,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'Northern/Western Europe')]",493,90656,1.0,1.0,1.0,1.0
+688,644,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'Latin America')]",376,90656,1.0,1.0,1.0,1.0
+689,645,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'East Asia')]",463,90656,1.0,1.0,1.0,1.0
+690,646,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'South Asia')]",425,90656,1.0,1.0,1.0,1.0
+691,647,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'Southeast Asia')]",160,90656,1.0,1.0,1.0,1.0
+692,648,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'Middle East & Anatolia')]",349,90656,1.0,1.0,1.0,1.0
+693,649,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'Oceania')]",106,90656,0.0,0.0,1.0,0.16666666666666666
+694,650,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",79,90656,1.0,1.0,1.0,1.0
+695,651,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'Caribbean')]",69,90656,1.0,1.0,1.0,1.0
+696,652,"[('hasDietType', 'Vegan'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",65,90656,0.0,1.0,1.0,0.25
+697,653,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'North America')]",352,90656,1.0,1.0,1.0,1.0
+698,654,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'Global')]",171,90656,1.0,1.0,1.0,1.0
+699,655,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'Mediterranean Europe')]",263,90656,1.0,1.0,1.0,1.0
+700,656,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'Northern/Western Europe')]",75,90656,0.0,1.0,1.0,0.2
+701,657,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'Latin America')]",59,90656,1.0,1.0,1.0,1.0
+702,658,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'East Asia')]",16,90656,1.0,1.0,1.0,1.0
+703,659,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'South Asia')]",36,90656,1.0,1.0,1.0,1.0
+704,660,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'Southeast Asia')]",11,90656,0.0,1.0,1.0,0.3333333333333333
+705,661,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'Middle East & Anatolia')]",81,90656,1.0,1.0,1.0,1.0
+706,662,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'Oceania')]",28,90656,1.0,1.0,1.0,1.0
+707,663,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",27,90656,1.0,1.0,1.0,1.0
+708,664,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'Caribbean')]",15,90656,0.0,0.0,0.0,0.03333333333333333
+709,665,"[('hasDietType', 'Paleo'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",6,90656,0.0,0.0,0.0,0.06666666666666667
+710,666,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'North America')]",24340,90656,1.0,1.0,1.0,1.0
+711,667,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'Global')]",4299,90656,1.0,1.0,1.0,1.0
+712,668,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'Mediterranean Europe')]",5643,90656,1.0,1.0,1.0,1.0
+713,669,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'Northern/Western Europe')]",3843,90656,1.0,1.0,1.0,1.0
+714,670,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'Latin America')]",2617,90656,1.0,1.0,1.0,1.0
+715,671,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'East Asia')]",2481,90656,1.0,1.0,1.0,1.0
+716,672,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'South Asia')]",1043,90656,1.0,1.0,1.0,1.0
+717,673,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'Southeast Asia')]",1231,90656,1.0,1.0,1.0,1.0
+718,674,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'Middle East & Anatolia')]",766,90656,1.0,1.0,1.0,1.0
+719,675,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'Oceania')]",827,90656,0.0,1.0,1.0,0.5
+720,676,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'Eastern Europe & Eurasia')]",680,90656,1.0,1.0,1.0,1.0
+721,677,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'Caribbean')]",319,90656,0.0,1.0,1.0,0.3333333333333333
+722,678,"[('hasDietType', 'Standard'), ('hasCuisineRegion', 'Sub-Saharan Africa')]",148,90656,0.0,0.0,0.0,0.06666666666666667
+723,679,"[('hasDietType', 'Vegetarian'), ('usesCookingMethod', 'oven')]",18101,90656,1.0,1.0,1.0,1.0
+724,680,"[('hasDietType', 'Vegetarian'), ('usesCookingMethod', 'pot')]",8500,90656,1.0,1.0,1.0,1.0
+725,681,"[('hasDietType', 'Vegetarian'), ('usesCookingMethod', 'pan')]",5832,90656,1.0,1.0,1.0,1.0
+726,682,"[('hasDietType', 'Vegetarian'), ('usesCookingMethod', 'no cook')]",1908,90656,1.0,1.0,1.0,1.0
+727,683,"[('hasDietType', 'Vegetarian'), ('usesCookingMethod', 'barbecue')]",961,90656,1.0,1.0,1.0,1.0
+728,684,"[('hasDietType', 'Vegetarian'), ('usesCookingMethod', 'air fryer')]",11,90656,0.0,0.0,0.0,0.030303030303030304
+729,685,"[('hasDietType', 'Vegetarian'), ('usesCookingMethod', 'microwave')]",1918,90656,1.0,1.0,1.0,1.0
+730,686,"[('hasDietType', 'Vegan'), ('usesCookingMethod', 'oven')]",2898,90656,1.0,1.0,1.0,1.0
+731,687,"[('hasDietType', 'Vegan'), ('usesCookingMethod', 'pot')]",3737,90656,1.0,1.0,1.0,1.0
+732,688,"[('hasDietType', 'Vegan'), ('usesCookingMethod', 'pan')]",2122,90656,1.0,1.0,1.0,1.0
+733,689,"[('hasDietType', 'Vegan'), ('usesCookingMethod', 'no cook')]",1054,90656,1.0,1.0,1.0,1.0
+734,690,"[('hasDietType', 'Vegan'), ('usesCookingMethod', 'barbecue')]",349,90656,1.0,1.0,1.0,1.0
+735,691,"[('hasDietType', 'Vegan'), ('usesCookingMethod', 'air fryer')]",4,90656,0.0,0.0,0.0,0.0025974025974025974
+736,692,"[('hasDietType', 'Vegan'), ('usesCookingMethod', 'microwave')]",403,90656,1.0,1.0,1.0,1.0
+737,693,"[('hasDietType', 'Paleo'), ('usesCookingMethod', 'oven')]",368,90656,1.0,1.0,1.0,1.0
+738,694,"[('hasDietType', 'Paleo'), ('usesCookingMethod', 'pot')]",332,90656,1.0,1.0,1.0,1.0
+739,695,"[('hasDietType', 'Paleo'), ('usesCookingMethod', 'pan')]",443,90656,1.0,1.0,1.0,1.0
+740,696,"[('hasDietType', 'Paleo'), ('usesCookingMethod', 'no cook')]",15,90656,0.0,1.0,1.0,0.25
+741,697,"[('hasDietType', 'Paleo'), ('usesCookingMethod', 'barbecue')]",311,90656,1.0,1.0,1.0,1.0
+742,698,"[('hasDietType', 'Paleo'), ('usesCookingMethod', 'air fryer')]",4,90656,0.0,0.0,0.0,0.047619047619047616
+743,699,"[('hasDietType', 'Paleo'), ('usesCookingMethod', 'microwave')]",19,90656,0.0,0.0,1.0,0.125
+744,700,"[('hasDietType', 'Standard'), ('usesCookingMethod', 'oven')]",19593,90656,1.0,1.0,1.0,1.0
+745,701,"[('hasDietType', 'Standard'), ('usesCookingMethod', 'pot')]",21693,90656,1.0,1.0,1.0,1.0
+746,702,"[('hasDietType', 'Standard'), ('usesCookingMethod', 'pan')]",21503,90656,1.0,1.0,1.0,1.0
+747,703,"[('hasDietType', 'Standard'), ('usesCookingMethod', 'no cook')]",1554,90656,1.0,1.0,1.0,1.0
+748,704,"[('hasDietType', 'Standard'), ('usesCookingMethod', 'barbecue')]",5300,90656,1.0,1.0,1.0,1.0
+749,705,"[('hasDietType', 'Standard'), ('usesCookingMethod', 'air fryer')]",25,90656,0.0,1.0,1.0,0.3333333333333333
+750,706,"[('hasDietType', 'Standard'), ('usesCookingMethod', 'microwave')]",1832,90656,1.0,1.0,1.0,1.0
+751,707,"[('hasCuisineRegion', 'North America'), ('usesCookingMethod', 'oven')]",24436,90656,1.0,1.0,1.0,1.0
+752,708,"[('hasCuisineRegion', 'North America'), ('usesCookingMethod', 'pot')]",15722,90656,1.0,1.0,1.0,1.0
+753,709,"[('hasCuisineRegion', 'North America'), ('usesCookingMethod', 'pan')]",12615,90656,1.0,1.0,1.0,1.0
+754,710,"[('hasCuisineRegion', 'North America'), ('usesCookingMethod', 'no cook')]",2280,90656,1.0,1.0,1.0,1.0
+755,711,"[('hasCuisineRegion', 'North America'), ('usesCookingMethod', 'barbecue')]",3342,90656,1.0,1.0,1.0,1.0
+756,712,"[('hasCuisineRegion', 'North America'), ('usesCookingMethod', 'air fryer')]",25,90656,0.0,1.0,1.0,0.5
+757,713,"[('hasCuisineRegion', 'North America'), ('usesCookingMethod', 'microwave')]",2368,90656,1.0,1.0,1.0,1.0
+758,714,"[('hasCuisineRegion', 'Global'), ('usesCookingMethod', 'oven')]",5362,90656,1.0,1.0,1.0,1.0
+759,715,"[('hasCuisineRegion', 'Global'), ('usesCookingMethod', 'pot')]",3522,90656,1.0,1.0,1.0,1.0
+760,716,"[('hasCuisineRegion', 'Global'), ('usesCookingMethod', 'pan')]",2739,90656,1.0,1.0,1.0,1.0
+761,717,"[('hasCuisineRegion', 'Global'), ('usesCookingMethod', 'no cook')]",1013,90656,1.0,1.0,1.0,1.0
+762,718,"[('hasCuisineRegion', 'Global'), ('usesCookingMethod', 'barbecue')]",789,90656,1.0,1.0,1.0,1.0
+763,719,"[('hasCuisineRegion', 'Global'), ('usesCookingMethod', 'air fryer')]",11,90656,0.0,1.0,1.0,0.5
+764,720,"[('hasCuisineRegion', 'Global'), ('usesCookingMethod', 'microwave')]",839,90656,1.0,1.0,1.0,1.0
+765,721,"[('hasCuisineRegion', 'Mediterranean Europe'), ('usesCookingMethod', 'oven')]",3553,90656,1.0,1.0,1.0,1.0
+766,722,"[('hasCuisineRegion', 'Mediterranean Europe'), ('usesCookingMethod', 'pot')]",4645,90656,1.0,1.0,1.0,1.0
+767,723,"[('hasCuisineRegion', 'Mediterranean Europe'), ('usesCookingMethod', 'pan')]",4460,90656,1.0,1.0,1.0,1.0
+768,724,"[('hasCuisineRegion', 'Mediterranean Europe'), ('usesCookingMethod', 'no cook')]",392,90656,1.0,1.0,1.0,1.0
+769,725,"[('hasCuisineRegion', 'Mediterranean Europe'), ('usesCookingMethod', 'barbecue')]",871,90656,1.0,1.0,1.0,1.0
+770,726,"[('hasCuisineRegion', 'Mediterranean Europe'), ('usesCookingMethod', 'air fryer')]",1,90656,0.0,0.0,0.0,0.00034153005464480874
+771,727,"[('hasCuisineRegion', 'Mediterranean Europe'), ('usesCookingMethod', 'microwave')]",233,90656,0.0,1.0,1.0,0.3333333333333333
+772,728,"[('hasCuisineRegion', 'Northern/Western Europe'), ('usesCookingMethod', 'oven')]",3762,90656,1.0,1.0,1.0,1.0
+773,729,"[('hasCuisineRegion', 'Northern/Western Europe'), ('usesCookingMethod', 'pot')]",3291,90656,1.0,1.0,1.0,1.0
+774,730,"[('hasCuisineRegion', 'Northern/Western Europe'), ('usesCookingMethod', 'pan')]",2648,90656,1.0,1.0,1.0,1.0
+775,731,"[('hasCuisineRegion', 'Northern/Western Europe'), ('usesCookingMethod', 'no cook')]",214,90656,1.0,1.0,1.0,1.0
+776,732,"[('hasCuisineRegion', 'Northern/Western Europe'), ('usesCookingMethod', 'barbecue')]",346,90656,1.0,1.0,1.0,1.0
+777,733,"[('hasCuisineRegion', 'Northern/Western Europe'), ('usesCookingMethod', 'air fryer')]",1,90656,0.0,0.0,0.0,0.0002745744096650192
+778,734,"[('hasCuisineRegion', 'Northern/Western Europe'), ('usesCookingMethod', 'microwave')]",220,90656,1.0,1.0,1.0,1.0
+779,735,"[('hasCuisineRegion', 'Latin America'), ('usesCookingMethod', 'oven')]",1486,90656,1.0,1.0,1.0,1.0
+780,736,"[('hasCuisineRegion', 'Latin America'), ('usesCookingMethod', 'pot')]",1611,90656,1.0,1.0,1.0,1.0
+781,737,"[('hasCuisineRegion', 'Latin America'), ('usesCookingMethod', 'pan')]",1922,90656,1.0,1.0,1.0,1.0
+782,738,"[('hasCuisineRegion', 'Latin America'), ('usesCookingMethod', 'no cook')]",226,90656,1.0,1.0,1.0,1.0
+783,739,"[('hasCuisineRegion', 'Latin America'), ('usesCookingMethod', 'barbecue')]",448,90656,0.0,1.0,1.0,0.5
+784,740,"[('hasCuisineRegion', 'Latin America'), ('usesCookingMethod', 'air fryer')]",1,90656,0.0,0.0,0.0,0.00045495905368516835
+785,741,"[('hasCuisineRegion', 'Latin America'), ('usesCookingMethod', 'microwave')]",232,90656,0.0,1.0,1.0,0.3333333333333333
+786,742,"[('hasCuisineRegion', 'East Asia'), ('usesCookingMethod', 'oven')]",490,90656,1.0,1.0,1.0,1.0
+787,743,"[('hasCuisineRegion', 'East Asia'), ('usesCookingMethod', 'pot')]",1361,90656,1.0,1.0,1.0,1.0
+788,744,"[('hasCuisineRegion', 'East Asia'), ('usesCookingMethod', 'pan')]",2012,90656,1.0,1.0,1.0,1.0
+789,745,"[('hasCuisineRegion', 'East Asia'), ('usesCookingMethod', 'no cook')]",98,90656,0.0,1.0,1.0,0.5
+790,746,"[('hasCuisineRegion', 'East Asia'), ('usesCookingMethod', 'barbecue')]",345,90656,1.0,1.0,1.0,1.0
+791,747,"[('hasCuisineRegion', 'East Asia'), ('usesCookingMethod', 'air fryer')]",3,90656,0.0,0.0,0.0,0.02857142857142857
+792,748,"[('hasCuisineRegion', 'East Asia'), ('usesCookingMethod', 'microwave')]",97,90656,1.0,1.0,1.0,1.0
+793,749,"[('hasCuisineRegion', 'South Asia'), ('usesCookingMethod', 'oven')]",301,90656,0.0,1.0,1.0,0.3333333333333333
+794,750,"[('hasCuisineRegion', 'South Asia'), ('usesCookingMethod', 'pot')]",1191,90656,0.0,1.0,1.0,0.5
+795,751,"[('hasCuisineRegion', 'South Asia'), ('usesCookingMethod', 'pan')]",1119,90656,1.0,1.0,1.0,1.0
+796,752,"[('hasCuisineRegion', 'South Asia'), ('usesCookingMethod', 'no cook')]",68,90656,1.0,1.0,1.0,1.0
+797,753,"[('hasCuisineRegion', 'South Asia'), ('usesCookingMethod', 'barbecue')]",157,90656,0.0,1.0,1.0,0.5
+798,754,"[('hasCuisineRegion', 'South Asia'), ('usesCookingMethod', 'air fryer')]",2,90656,0.0,0.0,0.0,0.008
+799,755,"[('hasCuisineRegion', 'South Asia'), ('usesCookingMethod', 'microwave')]",44,90656,0.0,1.0,1.0,0.5
+800,756,"[('hasCuisineRegion', 'Southeast Asia'), ('usesCookingMethod', 'oven')]",190,90656,1.0,1.0,1.0,1.0
+801,757,"[('hasCuisineRegion', 'Southeast Asia'), ('usesCookingMethod', 'pot')]",863,90656,1.0,1.0,1.0,1.0
+802,758,"[('hasCuisineRegion', 'Southeast Asia'), ('usesCookingMethod', 'pan')]",863,90656,0.0,1.0,1.0,0.5
+803,759,"[('hasCuisineRegion', 'Southeast Asia'), ('usesCookingMethod', 'no cook')]",55,90656,1.0,1.0,1.0,1.0
+804,760,"[('hasCuisineRegion', 'Southeast Asia'), ('usesCookingMethod', 'barbecue')]",224,90656,1.0,1.0,1.0,1.0
+805,761,"[('hasCuisineRegion', 'Southeast Asia'), ('usesCookingMethod', 'air fryer')]",1,90656,0.0,0.0,0.0,9.238728750923873e-05
+806,762,"[('hasCuisineRegion', 'Southeast Asia'), ('usesCookingMethod', 'microwave')]",37,90656,0.0,1.0,1.0,0.2
+807,763,"[('hasCuisineRegion', 'Middle East & Anatolia'), ('usesCookingMethod', 'oven')]",446,90656,1.0,1.0,1.0,1.0
+808,764,"[('hasCuisineRegion', 'Middle East & Anatolia'), ('usesCookingMethod', 'pot')]",919,90656,1.0,1.0,1.0,1.0
+809,765,"[('hasCuisineRegion', 'Middle East & Anatolia'), ('usesCookingMethod', 'pan')]",619,90656,0.0,1.0,1.0,0.3333333333333333
+810,766,"[('hasCuisineRegion', 'Middle East & Anatolia'), ('usesCookingMethod', 'no cook')]",70,90656,1.0,1.0,1.0,1.0
+811,767,"[('hasCuisineRegion', 'Middle East & Anatolia'), ('usesCookingMethod', 'barbecue')]",147,90656,1.0,1.0,1.0,1.0
+812,768,"[('hasCuisineRegion', 'Middle East & Anatolia'), ('usesCookingMethod', 'microwave')]",21,90656,0.0,1.0,1.0,0.3333333333333333
+813,769,"[('hasCuisineRegion', 'Oceania'), ('usesCookingMethod', 'oven')]",766,90656,1.0,1.0,1.0,1.0
+814,770,"[('hasCuisineRegion', 'Oceania'), ('usesCookingMethod', 'pot')]",587,90656,1.0,1.0,1.0,1.0
+815,771,"[('hasCuisineRegion', 'Oceania'), ('usesCookingMethod', 'pan')]",569,90656,1.0,1.0,1.0,1.0
+816,772,"[('hasCuisineRegion', 'Oceania'), ('usesCookingMethod', 'no cook')]",58,90656,1.0,1.0,1.0,1.0
+817,773,"[('hasCuisineRegion', 'Oceania'), ('usesCookingMethod', 'barbecue')]",223,90656,1.0,1.0,1.0,1.0
+818,774,"[('hasCuisineRegion', 'Oceania'), ('usesCookingMethod', 'microwave')]",93,90656,1.0,1.0,1.0,1.0
+819,775,"[('hasCuisineRegion', 'Eastern Europe & Eurasia'), ('usesCookingMethod', 'oven')]",297,90656,1.0,1.0,1.0,1.0
+820,776,"[('hasCuisineRegion', 'Eastern Europe & Eurasia'), ('usesCookingMethod', 'pot')]",625,90656,0.0,1.0,1.0,0.3333333333333333
+821,777,"[('hasCuisineRegion', 'Eastern Europe & Eurasia'), ('usesCookingMethod', 'pan')]",476,90656,1.0,1.0,1.0,1.0
+822,778,"[('hasCuisineRegion', 'Eastern Europe & Eurasia'), ('usesCookingMethod', 'no cook')]",32,90656,0.0,1.0,1.0,0.5
+823,779,"[('hasCuisineRegion', 'Eastern Europe & Eurasia'), ('usesCookingMethod', 'barbecue')]",31,90656,0.0,1.0,1.0,0.5
+824,780,"[('hasCuisineRegion', 'Eastern Europe & Eurasia'), ('usesCookingMethod', 'microwave')]",12,90656,0.0,0.0,1.0,0.16666666666666666
+825,781,"[('hasCuisineRegion', 'Caribbean'), ('usesCookingMethod', 'oven')]",120,90656,1.0,1.0,1.0,1.0
+826,782,"[('hasCuisineRegion', 'Caribbean'), ('usesCookingMethod', 'pot')]",209,90656,0.0,1.0,1.0,0.2
+827,783,"[('hasCuisineRegion', 'Caribbean'), ('usesCookingMethod', 'pan')]",156,90656,1.0,1.0,1.0,1.0
+828,784,"[('hasCuisineRegion', 'Caribbean'), ('usesCookingMethod', 'no cook')]",35,90656,0.0,1.0,1.0,0.5
+829,785,"[('hasCuisineRegion', 'Caribbean'), ('usesCookingMethod', 'barbecue')]",121,90656,1.0,1.0,1.0,1.0
+830,786,"[('hasCuisineRegion', 'Caribbean'), ('usesCookingMethod', 'microwave')]",3,90656,0.0,0.0,0.0,0.00014590020426028595
+831,787,"[('hasCuisineRegion', 'Sub-Saharan Africa'), ('usesCookingMethod', 'oven')]",72,90656,0.0,1.0,1.0,0.3333333333333333
+832,788,"[('hasCuisineRegion', 'Sub-Saharan Africa'), ('usesCookingMethod', 'pot')]",190,90656,0.0,1.0,1.0,0.5
+833,789,"[('hasCuisineRegion', 'Sub-Saharan Africa'), ('usesCookingMethod', 'pan')]",105,90656,0.0,1.0,1.0,0.25
+834,790,"[('hasCuisineRegion', 'Sub-Saharan Africa'), ('usesCookingMethod', 'no cook')]",28,90656,1.0,1.0,1.0,1.0
+835,791,"[('hasCuisineRegion', 'Sub-Saharan Africa'), ('usesCookingMethod', 'barbecue')]",19,90656,0.0,0.0,0.0,0.058823529411764705
+836,792,"[('hasCuisineRegion', 'Sub-Saharan Africa'), ('usesCookingMethod', 'microwave')]",5,90656,0.0,0.0,0.0,0.0032258064516129032
