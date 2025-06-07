@@ -1,0 +1,62 @@
+[
+  {
+    "meal_type": [
+      "snack"
+    ]
+  },
+  {
+    "cuisine_region": "Middle East & Anatolia"
+  },
+  {
+    "diet_types": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "meal_type": [
+      "dessert"
+    ],
+    "health_types": [
+      "Low Calorie"
+    ]
+  },
+  {
+    "cooking_method": "pot",
+    "cuisine_region": "South Asia"
+  },
+  {
+    "diet_types": [
+      "Standard"
+    ],
+    "health_types": [
+      "High Carb"
+    ]
+  },
+  {
+    "cooking_method": "pot",
+    "meal_type": [
+      "drink"
+    ],
+    "cuisine_region": "Sub-Saharan Africa"
+  },
+  {
+    "meal_type": [
+      "dessert"
+    ],
+    "health_types": [
+      "Low Calorie"
+    ],
+    "cuisine_region": "East Asia"
+  },
+  {
+    "diet_types": [
+      "Vegan"
+    ],
+    "meal_type": [
+      "lunch"
+    ],
+    "health_types": [
+      "Medium Fat"
+    ]
+  }
+]
