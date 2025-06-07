@@ -100,8 +100,21 @@ def save_json(json_path, json_text):
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(json_text, f, indent=2, ensure_ascii=False)
 
-def create_combinations(RECIPE_PATH_CSV, JSON_PATH, k, max_combinations):
-    combos_without_ingredients = generate_random_combinations(k, max_combinations)
-    save_json(JSON_PATH + '_without_ingredients.json', combos_without_ingredients)
-    combos_with_ingredients = generate_random_ingredient_combinations(RECIPE_PATH_CSV, k, max_combinations)
-    save_json(JSON_PATH + '_with_ingredients.json', combos_with_ingredients)
+def create_combinations(RECIPE_PATH_CSV, JSON_PATH, max_combinations):
+    combos_without_ingredients_1 = generate_random_combinations(1, max_combinations)
+    combos_without_ingredients_2 = generate_random_combinations(2, max_combinations)
+    combos_without_ingredients_3 = generate_random_combinations(3, max_combinations)
+    combos_without_ingredients_combined = combos_without_ingredients_1 + \
+                                          combos_without_ingredients_2 + \
+                                          combos_without_ingredients_3
+    save_json(JSON_PATH + '_without_ingredients.json', combos_without_ingredients_combined)
+
+    combos_with_ingredients_1 = generate_random_ingredient_combinations(RECIPE_PATH_CSV, 1, max_combinations)
+    combos_with_ingredients_2 = generate_random_ingredient_combinations(RECIPE_PATH_CSV, 2, max_combinations)
+    combos_with_ingredients_3 = generate_random_ingredient_combinations(RECIPE_PATH_CSV, 3, max_combinations)
+    combos_with_ingredients_combined = combos_with_ingredients_1 + \
+                                       combos_with_ingredients_2 + \
+                                       combos_with_ingredients_3
+    save_json(JSON_PATH + '_with_ingredients.json', combos_with_ingredients_combined)
+
+    return combos_without_ingredients_combined, combos_with_ingredients_combined

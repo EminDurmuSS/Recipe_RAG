@@ -1,88 +1,62 @@
 [
   {
-    "diet_types": [
-      "Paleo"
-    ],
-    "health_types": [
-      "Medium Fat"
-    ],
-    "cuisine_region": "Latin America"
+    "meal_type": [
+      "snack"
+    ]
   },
   {
-    "cooking_method": "barbecue",
+    "cuisine_region": "Middle East & Anatolia"
+  },
+  {
     "diet_types": [
-      "Vegan"
-    ],
+      "Vegetarian"
+    ]
+  },
+  {
     "meal_type": [
       "dessert"
+    ],
+    "health_types": [
+      "Low Calorie"
     ]
   },
   {
     "cooking_method": "pot",
-    "diet_types": [
-      "Paleo"
-    ],
-    "health_types": [
-      "Medium Protein"
-    ]
-  },
-  {
-    "cooking_method": "no cook",
-    "health_types": [
-      "Medium Protein"
-    ],
-    "cuisine_region": "Mediterranean Europe"
-  },
-  {
-    "meal_type": [
-      "snack"
-    ],
-    "health_types": [
-      "High Protein"
-    ],
-    "cuisine_region": "Northern/Western Europe"
+    "cuisine_region": "South Asia"
   },
   {
     "diet_types": [
       "Standard"
     ],
+    "health_types": [
+      "High Carb"
+    ]
+  },
+  {
+    "cooking_method": "pot",
     "meal_type": [
-      "lunch"
+      "drink"
+    ],
+    "cuisine_region": "Sub-Saharan Africa"
+  },
+  {
+    "meal_type": [
+      "dessert"
     ],
     "health_types": [
-      "High Calorie"
-    ]
+      "Low Calorie"
+    ],
+    "cuisine_region": "East Asia"
   },
   {
     "diet_types": [
       "Vegan"
     ],
     "meal_type": [
-      "breakfast"
-    ],
-    "cuisine_region": "Northern/Western Europe"
-  },
-  {
-    "cooking_method": "microwave",
-    "meal_type": [
       "lunch"
     ],
-    "cuisine_region": "Mediterranean Europe"
-  },
-  {
-    "cooking_method": "no cook",
-    "meal_type": [
-      "brunch"
-    ],
     "health_types": [
-      "High Fat"
+      "Medium Fat"
     ]
-  },
-  {
-    "cooking_method": "oven",
-    "diet_types": [
-      "Vegan"
-    ],
-    "cuisine_region": "Southeast Asia"
   }
 ]
