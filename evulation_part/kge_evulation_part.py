@@ -235,23 +235,23 @@ def main() -> None:
         pk_version = "unknown"
     logger.info("PyKEEN version: %s", pk_version)
 
-    # 1) KG yükle
+    # 1) Load KG
     tf = load_triples_factory(TRIPLES_CSV)
 
-    # 2) train_new_kge_model altında tüm trained_*_model_new_without_ct_ss klasörlerini bul
+    # 2) Find all trained_*_model_new_without_ct_ss folders under train_new_kge_model
     MODEL_ROOT = BASE_DIR / "train_new_kge_model"
     model_dirs = sorted(MODEL_ROOT.glob("trained_*_model_new_without_ct_ss"))
 
     for model_dir in model_dirs:
-        # klasör adı: trained_QuatE_model_new_without_ct_ss → model_name = QuatE
+        # folder name: trained_QuatE_model_new_without_ct_ss → model_name = QuatE
         model_name = model_dir.name.split("_")[1]
         logger.info("=== Evaluating model: %s ===", model_name)
 
-        # .pkl dosyasını yükle
+        # load .pkl file
         pretrained_model_path = model_dir / "trained_model.pkl"
         if not pretrained_model_path.exists():
             logger.error(
-                "[%s] Önceden eğitilmiş model bulunamadı: %s",
+                "[%s] Pretrained model not found: %s",
                 model_name,
                 pretrained_model_path,
             )
@@ -263,11 +263,11 @@ def main() -> None:
         logger.info("[%s] Model loaded and set to eval() mode.", model_name)
         log_mem()
 
-        # ground-truth CSV’lerini işle
+        # process ground-truth CSV files
         gt_files = sorted(GT_DIR.glob("ground_truth_*.csv"))
         logger.info("[%s] Found %d ground-truth file(s).", model_name, len(gt_files))
 
-        # Her model için ayrı çıktı dizini
+        # create a separate output directory for each model
         out_dir = OUTPUT_DIR / model_name
         out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -319,7 +319,7 @@ def main() -> None:
                 ]
             ]
 
-            # Geçici dosya + atomik taşınma
+            # Atomic move via temporary file
             fd, tmp = tempfile.mkstemp(
                 suffix=".csv",
                 prefix=f"{model_name}_{gt_name}_",
