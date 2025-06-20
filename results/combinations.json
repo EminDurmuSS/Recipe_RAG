@@ -1,0 +1,889 @@
+[
+  {
+    "ingredients": [
+      "CHOCOLATE SYRUP",
+      "LAMB,GROUND,RAW",
+      "REDDI WIP FAT FREE WHIPPED TOPPING",
+      "VANILLA EXTRACT"
+    ]
+  },
+  {
+    "ingredients": [
+      "CHEESE,CREAM,FAT FREE",
+      "STRAWBERRIES,FRZ,UNSWTND",
+      "TOMATOES,CRUSHED,CANNED",
+      "nan"
+    ]
+  },
+  {
+    "ingredients": [
+      "BEEF,CHUCK FOR STEW,LN & FAT,SEL,RAW",
+      "CORN,SWT,WHITE,CND,WHL KERNEL,NO SALT,SOL&LIQUIDS",
+      "DATES,MEDJOOL",
+      "Flour wheat white",
+      "TURMERIC,GROUND"
+    ]
+  },
+  {
+    "ingredients": [
+      "FENUGREEK SEED",
+      "LEAVENING AGENTS,BAKING PDR,DOUBLE-ACTING,NA AL SULFATE",
+      "PEAS,GRN,FRZ,UNPREP"
+    ]
+  },
+  {
+    "cooking_method": "pan",
+    "meal_type": [
+      "starter"
+    ],
+    "health_types": [
+      "Medium Calorie"
+    ]
+  },
+  {
+    "ingredients": [
+      "HAZELNUTS OR FILBERTS",
+      "RICE,WHITE,GLUTINOUS,RAW",
+      "SHALLOTS,RAW",
+      "TOMATOES,RED,RIPE,CND,W/GRN CHILIES"
+    ]
+  },
+  {
+    "cooking_method": "oven",
+    "diet_types": [
+      "Vegetarian"
+    ],
+    "meal_type": [
+      "dinner"
+    ],
+    "cuisine_region": "South Asia"
+  },
+  {
+    "ingredients": [
+      "Onion, purple, dried",
+      "Pasta white raw",
+      "Pumpkin, winter"
+    ]
+  },
+  {
+    "cooking_method": "microwave",
+    "diet_types": [
+      "Standard"
+    ],
+    "meal_type": [
+      "dessert"
+    ],
+    "health_types": [
+      "Low Protein"
+    ],
+    "cuisine_region": "Eastern Europe & Eurasia"
+  },
+  {
+    "diet_types": [
+      "Vegan"
+    ],
+    "meal_type": [
+      "starter"
+    ],
+    "cuisine_region": "Caribbean"
+  },
+  {
+    "ingredients": [
+      "FENNEL SEED",
+      "SAUCE,WORCESTERSHIRE",
+      "YEAST EXTRACT SPREAD"
+    ]
+  },
+  {
+    "ingredients": [
+      "Corn, sweet",
+      "KASHI PESTO PASTA PRIMAVERA,FRZ,UNPREP",
+      "Tomato, chopped, canned"
+    ]
+  },
+  {
+    "ingredients": [
+      "APPLES,RAW,GRANNY SMITH,W/ SKN",
+      "CORIANDER (CILANTRO) LEAVES,RAW",
+      "TOFU YOGURT",
+      "TURNIPS,RAW"
+    ]
+  },
+  {
+    "ingredients": [
+      "PEANUT BUTTER W/ OMEGA-3,CREAMY",
+      "SHRIMP,MIXED SPECIES,RAW"
+    ]
+  },
+  {
+    "cooking_method": "microwave",
+    "diet_types": [
+      "Paleo"
+    ],
+    "meal_type": [
+      "lunch"
+    ],
+    "health_types": [
+      "High Fat"
+    ]
+  },
+  {
+    "cooking_method": "air fryer",
+    "diet_types": [
+      "Vegan"
+    ],
+    "meal_type": [
+      "starter"
+    ],
+    "health_types": [
+      "Medium Fat"
+    ],
+    "cuisine_region": "Eastern Europe & Eurasia"
+  },
+  {
+    "ingredients": [
+      "CORN,SWT,WHITE,CND,WHL KERNEL,NO SALT,SOL&LIQUIDS",
+      "DILL SEED",
+      "GUMS,SD GUMS (INCL LOCUST BEAN,GUAR)",
+      "RHUBARB,RAW",
+      "RICE,BROWN,LONG-GRAIN,RAW"
+    ]
+  },
+  {
+    "health_types": [
+      "High Carb"
+    ],
+    "cuisine_region": "Sub-Saharan Africa"
+  },
+  {
+    "diet_types": [
+      "Standard"
+    ],
+    "meal_type": [
+      "snack"
+    ]
+  },
+  {
+    "cooking_method": "microwave",
+    "diet_types": [
+      "Paleo"
+    ],
+    "meal_type": [
+      "starter"
+    ],
+    "cuisine_region": "South Asia"
+  },
+  {
+    "ingredients": [
+      "MACARONI,WHOLE-WHEAT,DRY",
+      "PINE NUTS,PINYON,DRIED",
+      "WILD RICE,RAW",
+      "nan"
+    ]
+  },
+  {
+    "ingredients": [
+      "CHEESE,CREAM",
+      "CHEESE,PROVOLONE",
+      "PEARS,RAW",
+      "PLUMS,RAW"
+    ]
+  },
+  {
+    "cooking_method": "microwave",
+    "meal_type": [
+      "starter"
+    ],
+    "cuisine_region": "Sub-Saharan Africa"
+  },
+  {
+    "cooking_method": "microwave",
+    "diet_types": [
+      "Vegetarian"
+    ],
+    "health_types": [
+      "High Carb"
+    ]
+  },
+  {
+    "cooking_method": "microwave",
+    "diet_types": [
+      "Paleo"
+    ],
+    "meal_type": [
+      "snack"
+    ],
+    "health_types": [
+      "Low Carb"
+    ],
+    "cuisine_region": "Oceania"
+  },
+  {
+    "cooking_method": "pan",
+    "diet_types": [
+      "Paleo"
+    ],
+    "meal_type": [
+      "brunch"
+    ],
+    "health_types": [
+      "High Fat"
+    ],
+    "cuisine_region": "Middle East & Anatolia"
+  },
+  {
+    "ingredients": [
+      "BURGER KING,HAMBURGER",
+      "CRUSTACEANS,SHRIMP,UNTREATED,RAW",
+      "Flour rice",
+      "ONIONS,YEL,SAUTEED"
+    ]
+  },
+  {
+    "ingredients": [
+      "ANIMAL FAT,BACON GREASE",
+      "SOUP,CHICK BROTH,RTS"
+    ]
+  },
+  {
+    "cooking_method": "pan",
+    "meal_type": [
+      "lunch"
+    ],
+    "health_types": [
+      "Low Calorie"
+    ],
+    "cuisine_region": "South Asia"
+  },
+  {
+    "ingredients": [
+      "BARLEY,PEARLED,COOKED",
+      "GINGER,GROUND",
+      "PACE,CHIPOTLE CHUNKY SALSA",
+      "PUDDINGS,VANILLA,DRY MIX,INST",
+      "Strawberry"
+    ]
+  },
+  {
+    "ingredients": [
+      "MILK,LO NA,FLUID",
+      "SAUCE,HOMEMADE,WHITE,MED"
+    ]
+  },
+  {
+    "ingredients": [
+      "BREAD CRUMBS,DRY,GRATED,SEASONED",
+      "CEREALS,QUAKER,QUICK OATS,DRY",
+      "Lentils green and brown dried",
+      "MILK,CND,EVAP,W/ VIT A",
+      "PIMENTO,CANNED"
+    ]
+  },
+  {
+    "cooking_method": "barbecue",
+    "meal_type": [
+      "lunch"
+    ],
+    "health_types": [
+      "Low Calorie"
+    ]
+  },
+  {
+    "cooking_method": "pot",
+    "meal_type": [
+      "brunch"
+    ],
+    "health_types": [
+      "High Fat"
+    ]
+  },
+  {
+    "diet_types": [
+      "Paleo"
+    ],
+    "meal_type": [
+      "breakfast"
+    ],
+    "health_types": [
+      "High Carb"
+    ],
+    "cuisine_region": "East Asia"
+  },
+  {
+    "health_types": [
+      "High Fat"
+    ],
+    "cuisine_region": "East Asia"
+  },
+  {
+    "ingredients": [
+      "CHICKEN,ROASTING,MEAT&SKN,CKD,RSTD",
+      "Garlic raw",
+      "SYRUP,CANE"
+    ]
+  },
+  {
+    "ingredients": [
+      "BACON BITS,MEATLESS",
+      "Beans chilli canned",
+      "CHICKEN,STEWING,MEAT&SKN,RAW",
+      "HORMEL,CURE 81 HAM",
+      "LEAVENING AGENTS,YEAST,BAKER'S,ACTIVE DRY"
+    ]
+  },
+  {
+    "ingredients": [
+      "Orange, Navelina Navel",
+      "Tomatoes classic round raw",
+      "VANILLA EXTRACT"
+    ]
+  },
+  {
+    "ingredients": [
+      "CHICKEN,BROILERS OR FRYERS,LT MEAT,MEAT&SKN,CKD,FRIED,BATTER",
+      "PORK,CURED,HAM W/ NAT JUCS,SPRL SLCE,BNLES,LN & FAT,HTD,RSTD",
+      "Poppy seeds",
+      "SALMON,CHINOOK,SMOKED",
+      "Spinach cut frozen unprepared"
+    ]
+  },
+  {
+    "cooking_method": "barbecue",
+    "diet_types": [
+      "Standard"
+    ],
+    "meal_type": [
+      "breakfast"
+    ],
+    "health_types": [
+      "Medium Fat"
+    ]
+  },
+  {
+    "cooking_method": "no cook",
+    "diet_types": [
+      "Vegan"
+    ],
+    "meal_type": [
+      "drink"
+    ],
+    "health_types": [
+      "Low Fat"
+    ],
+    "cuisine_region": "North America"
+  },
+  {
+    "cooking_method": "barbecue",
+    "diet_types": [
+      "Paleo"
+    ],
+    "health_types": [
+      "Low Calorie"
+    ],
+    "cuisine_region": "Oceania"
+  },
+  {
+    "cooking_method": "no cook",
+    "diet_types": [
+      "Standard"
+    ],
+    "meal_type": [
+      "dinner"
+    ],
+    "health_types": [
+      "High Calorie"
+    ],
+    "cuisine_region": "Sub-Saharan Africa"
+  },
+  {
+    "cooking_method": "barbecue",
+    "diet_types": [
+      "Standard"
+    ],
+    "meal_type": [
+      "dessert"
+    ],
+    "health_types": [
+      "Medium Carb"
+    ],
+    "cuisine_region": "Oceania"
+  },
+  {
+    "cooking_method": "oven",
+    "diet_types": [
+      "Paleo"
+    ]
+  },
+  {
+    "ingredients": [
+      "CARL BUDDIG,SMOKED SLICED HAM",
+      "Lemon grass powder",
+      "MARMALADE,ORANGE"
+    ]
+  },
+  {
+    "cooking_method": "oven",
+    "meal_type": [
+      "lunch"
+    ],
+    "health_types": [
+      "Medium Fat"
+    ],
+    "cuisine_region": "Eastern Europe & Eurasia"
+  },
+  {
+    "diet_types": [
+      "Paleo"
+    ],
+    "meal_type": [
+      "drink"
+    ]
+  },
+  {
+    "ingredients": [
+      "Cauliflower",
+      "Marjoram dried",
+      "STRAWBERRIES,RAW",
+      "SYRUP,CANE",
+      "WORTHINGTON PROSAGE ROLL,FRZ,UNPREP"
+    ]
+  },
+  {
+    "cooking_method": "pan",
+    "diet_types": [
+      "Standard"
+    ],
+    "health_types": [
+      "Medium Carb"
+    ],
+    "cuisine_region": "South Asia"
+  },
+  {
+    "ingredients": [
+      "Beef, bottom round, roast,lean only, 0\" fat, choice, roasted",
+      "Eggplant, aubergine, long",
+      "PEANUT BUTTER,CHUNK STYLE,W/SALT",
+      "Tomato, red"
+    ]
+  },
+  {
+    "ingredients": [
+      "CHEESE,FETA",
+      "Oregano dried",
+      "VINEGAR,RED WINE"
+    ]
+  },
+  {
+    "ingredients": [
+      "CHICKPEAS (GARBANZO BNS,BENGAL GM),MATURE SEEDS,RAW",
+      "CREAM,FLUID,HVY WHIPPING",
+      "LOBSTER,NORTHERN,RAW",
+      "PINEAPPLE,FRZ,CHUNKS,SWTND",
+      "SAUCE,SALSA,VERDE,RTS"
+    ]
+  },
+  {
+    "health_types": [
+      "Medium Protein"
+    ],
+    "cuisine_region": "Oceania"
+  },
+  {
+    "cooking_method": "barbecue",
+    "diet_types": [
+      "Paleo"
+    ],
+    "meal_type": [
+      "lunch"
+    ],
+    "health_types": [
+      "High Protein"
+    ],
+    "cuisine_region": "South Asia"
+  },
+  {
+    "cooking_method": "air fryer",
+    "diet_types": [
+      "Vegetarian"
+    ],
+    "meal_type": [
+      "starter"
+    ],
+    "health_types": [
+      "High Carb"
+    ],
+    "cuisine_region": "Global"
+  },
+  {
+    "ingredients": [
+      "CHEESE,CREAM,LOW FAT",
+      "FENUGREEK SEED",
+      "OLIVES,RIPE,CND (JUMBO-SUPER COLOSSAL)",
+      "SOUP,CHICK BROTH CUBES,DRY,PREP W/ H2O",
+      "Wrap/Tortilla"
+    ]
+  },
+  {
+    "ingredients": [
+      "Banana",
+      "CREAM,SOUR,CULTURED",
+      "Flour wheat wholemeal",
+      "Salad shrimp",
+      "VINEGAR,RED WINE"
+    ]
+  },
+  {
+    "ingredients": [
+      "SAUCE,HOISIN,RTS",
+      "Tomato puree concentrated tinned"
+    ]
+  },
+  {
+    "ingredients": [
+      "ALCOHOLIC BEV,WINE,DSSRT,SWT",
+      "CORIANDER (CILANTRO) LEAVES,RAW",
+      "TOFU,FRIED"
+    ]
+  },
+  {
+    "ingredients": [
+      "ALLSPICE,GROUND",
+      "MILK,LOWFAT,FLUID,1% MILKFAT,W/ ADD NONFAT MILK SOL,VIT A/ D",
+      "Oil coconut",
+      "Oregano dried",
+      "Potatoes fried"
+    ]
+  },
+  {
+    "cooking_method": "air fryer",
+    "diet_types": [
+      "Standard"
+    ]
+  },
+  {
+    "ingredients": [
+      "CHICKEN,STEWING,MEAT&SKN,RAW",
+      "Salad cucumber",
+      "Salad tuna"
+    ]
+  },
+  {
+    "diet_types": [
+      "Standard"
+    ],
+    "meal_type": [
+      "drink"
+    ],
+    "health_types": [
+      "Low Fat"
+    ]
+  },
+  {
+    "ingredients": [
+      "CORN,SWT,WHITE,FRZ,KRNLS ON COB,UNPREP",
+      "LAMB,NZ,IMP,CHUMP,BNLESS,LN,RAW"
+    ]
+  },
+  {
+    "cooking_method": "pot",
+    "diet_types": [
+      "Standard"
+    ],
+    "health_types": [
+      "Low Calorie"
+    ],
+    "cuisine_region": "Latin America"
+  },
+  {
+    "cooking_method": "microwave",
+    "diet_types": [
+      "Paleo"
+    ],
+    "meal_type": [
+      "starter"
+    ],
+    "health_types": [
+      "High Fat"
+    ]
+  },
+  {
+    "cooking_method": "oven",
+    "diet_types": [
+      "Vegetarian"
+    ],
+    "meal_type": [
+      "dessert"
+    ],
+    "cuisine_region": "Caribbean"
+  },
+  {
+    "cooking_method": "barbecue",
+    "health_types": [
+      "High Calorie"
+    ],
+    "cuisine_region": "Southeast Asia"
+  },
+  {
+    "cooking_method": "barbecue",
+    "diet_types": [
+      "Standard"
+    ],
+    "health_types": [
+      "Low Fat"
+    ]
+  },
+  {
+    "diet_types": [
+      "Vegan"
+    ],
+    "meal_type": [
+      "dessert"
+    ]
+  },
+  {
+    "ingredients": [
+      "POTATOES,RED,FLESH & SKN,RAW",
+      "RASPBERRIES,FRZ,UNSWTND",
+      "SESAME SEEDS,WHL,RSTD&TSTD",
+      "WILD RICE,COOKED"
+    ]
+  },
+  {
+    "cooking_method": "pot",
+    "diet_types": [
+      "Paleo"
+    ]
+  },
+  {
+    "ingredients": [
+      "Cabbage sauerkraut raw",
+      "PACE,SALSA VERDE",
+      "TOMATO SAU,CND,NO SALT ADDED",
+      "Wrap/Tortilla"
+    ]
+  },
+  {
+    "cooking_method": "air fryer",
+    "cuisine_region": "Southeast Asia"
+  },
+  {
+    "cooking_method": "no cook",
+    "meal_type": [
+      "snack"
+    ],
+    "health_types": [
+      "Low Protein"
+    ],
+    "cuisine_region": "Latin America"
+  },
+  {
+    "ingredients": [
+      "Green bean, canned",
+      "Walnuts salted"
+    ]
+  },
+  {
+    "ingredients": [
+      "APPLES,RAW,GOLDEN DELICIOUS,W/ SKN",
+      "Sweet pepper red raw"
+    ]
+  },
+  {
+    "cooking_method": "no cook",
+    "diet_types": [
+      "Vegetarian"
+    ],
+    "meal_type": [
+      "dessert"
+    ],
+    "health_types": [
+      "Low Calorie"
+    ],
+    "cuisine_region": "Caribbean"
+  },
+  {
+    "ingredients": [
+      "KASHI,STEAM MEAL,CHICK FETTUCCINE,FRZ ENTREE",
+      "Potatoes mashed instant prepared av"
+    ]
+  },
+  {
+    "cooking_method": "barbecue",
+    "diet_types": [
+      "Paleo"
+    ],
+    "meal_type": [
+      "dessert"
+    ],
+    "health_types": [
+      "Medium Fat"
+    ],
+    "cuisine_region": "Northern/Western Europe"
+  },
+  {
+    "ingredients": [
+      "Beans cannellini canned",
+      "MILK,LOWFAT,FLUID,1% MILKFAT,W/ ADDED VIT A & VITAMIN D",
+      "Rosemary dried"
+    ]
+  },
+  {
+    "cooking_method": "air fryer",
+    "diet_types": [
+      "Standard"
+    ],
+    "health_types": [
+      "High Fat"
+    ],
+    "cuisine_region": "Northern/Western Europe"
+  },
+  {
+    "diet_types": [
+      "Paleo"
+    ],
+    "health_types": [
+      "High Calorie"
+    ]
+  },
+  {
+    "cooking_method": "oven",
+    "health_types": [
+      "High Protein"
+    ]
+  },
+  {
+    "meal_type": [
+      "snack"
+    ],
+    "health_types": [
+      "High Protein"
+    ],
+    "cuisine_region": "Southeast Asia"
+  },
+  {
+    "meal_type": [
+      "breakfast"
+    ],
+    "health_types": [
+      "Low Calorie"
+    ],
+    "cuisine_region": "Caribbean"
+  },
+  {
+    "cooking_method": "oven",
+    "meal_type": [
+      "starter"
+    ],
+    "health_types": [
+      "High Protein"
+    ],
+    "cuisine_region": "Middle East & Anatolia"
+  },
+  {
+    "ingredients": [
+      "CANDIES,WHITE CHOC",
+      "GARLIC POWDER",
+      "MUSHROOMS,WHITE,RAW",
+      "Parsnip raw",
+      "SHORTENING,VEG,HOUSEHOLD,COMP"
+    ]
+  },
+  {
+    "cooking_method": "microwave",
+    "diet_types": [
+      "Paleo"
+    ],
+    "meal_type": [
+      "dinner"
+    ],
+    "health_types": [
+      "High Carb"
+    ],
+    "cuisine_region": "South Asia"
+  },
+  {
+    "cooking_method": "pan",
+    "diet_types": [
+      "Standard"
+    ],
+    "meal_type": [
+      "snack"
+    ],
+    "health_types": [
+      "Low Protein"
+    ]
+  },
+  {
+    "cooking_method": "pot",
+    "meal_type": [
+      "lunch"
+    ],
+    "health_types": [
+      "Medium Fat"
+    ]
+  },
+  {
+    "ingredients": [
+      "GRAPES,RED OR GRN (EURO TYPE,SUCH AS THOMPSON SEEDLESS),RAW",
+      "GROUND TURKEY,RAW"
+    ]
+  },
+  {
+    "meal_type": [
+      "dessert"
+    ],
+    "health_types": [
+      "Medium Carb"
+    ]
+  },
+  {
+    "cooking_method": "microwave",
+    "diet_types": [
+      "Vegan"
+    ],
+    "health_types": [
+      "Low Calorie"
+    ]
+  },
+  {
+    "cooking_method": "oven",
+    "diet_types": [
+      "Vegetarian"
+    ],
+    "meal_type": [
+      "dessert"
+    ],
+    "health_types": [
+      "Medium Fat"
+    ],
+    "cuisine_region": "East Asia"
+  },
+  {
+    "ingredients": [
+      "ALLSPICE,GROUND",
+      "CHEESE,RICOTTA,PART SKIM MILK",
+      "WILD RICE,COOKED"
+    ]
+  },
+  {
+    "meal_type": [
+      "dessert"
+    ],
+    "health_types": [
+      "Low Fat"
+    ],
+    "cuisine_region": "Sub-Saharan Africa"
+  },
+  {
+    "diet_types": [
+      "Paleo"
+    ],
+    "meal_type": [
+      "dessert"
+    ],
+    "health_types": [
+      "Medium Protein"
+    ],
+    "cuisine_region": "Oceania"
+  }
+]

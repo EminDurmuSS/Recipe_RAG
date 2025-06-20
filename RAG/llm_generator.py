@@ -207,21 +207,13 @@ def get_prompt_evaluation(recipe_text):
     Your task is to evaluate AI-generated recipes using the following criteria. 
     Provide only numerical scores from 1 (poor) to 5 (excellent), with no explanation:
 
-- Correctness (are the steps valid and logical?)
-- Completeness (does it have all ingredients and instructions?)
-- Clarity (are the instructions clear and easy to follow?)
-- Creativity (is the recipe unique or imaginative?)
+- Satisfiability (do we satisfy all given criteria?)
 - Feasibility (can it be realistically cooked at home?)
-- Estimated Taste (based on known flavor combinations)
 
 Respond in JSON format like:
 {
-  "Correctness": X,
-  "Completeness": X,
-  "Clarity": X,
-  "Creativity": X,
-  "Feasibility": X,
-  "Estimated_Taste": X
+  "Satisfiability": X,
+  "Feasibility": X
 }
 """
 
@@ -249,12 +241,8 @@ def get_json_evaluation(raw_text):
         fallback = {
             "evaluation": [
                 {
-                    "Correctness": "",
-                    "Completeness": "",
-                    "Clarity": "",
-                    "Creativity": "",
-                    "Feasibility": "",
-                    "Estimated_Taste": ""
+                    "Satisfiability": "",
+                    "Feasibility": ""
                 }
             ]
         }
