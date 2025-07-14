@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# train_kge_models_en.py
-
 """Train multiple knowledge‑graph embedding (KGE) models on a CSV of triples.
 
 This script loads a (Head, Relation, Tail) triples CSV, converts tuple‑shaped
@@ -17,11 +13,6 @@ import pandas as pd
 import numpy as np
 from pykeen.pipeline import pipeline
 from pykeen.triples import TriplesFactory
-
-###############################################################################
-# Helper Functions
-###############################################################################
-
 
 def tuple_to_canonical(s: str) -> str:
     """Convert textual tuples read from the CSV into a canonical string.
@@ -47,12 +38,6 @@ def tuple_to_canonical(s: str) -> str:
     except Exception as e:
         print(f"Tuple parse error: {s}, error: {e}")
         return s
-
-
-###############################################################################
-# Main Training Function
-###############################################################################
-
 
 def train_kge_model(
     triples_csv_path: str,
@@ -123,14 +108,9 @@ def train_kge_model(
 
     return result
 
-
-###############################################################################
-# Script Entry Point
-###############################################################################
-
 if __name__ == "__main__":
     # 1) Path to the CSV file containing the triples
-    triples_csv = "/app/train_new_kge_model/triples_new_without_ct_ss.csv"
+    triples_csv = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data', 'triples_new_without_ct_ss.csv'))
 
     # 2) Models to train and their respective output folders
     models = {
@@ -142,7 +122,7 @@ if __name__ == "__main__":
     # 3) Shared hyper‑parameters
     num_epochs = 250
     num_negs_per_pos = 40
-    base_output_dir = "/app/train_new_kge_model"
+    base_output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data', 'kge'))
 
     print(">>> Starting multi‑model training run <<<")
     for model_name, folder in models.items():

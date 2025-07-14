@@ -2,6 +2,7 @@ import json
 import openai
 import os
 from dotenv import load_dotenv
+from sentence_transformers import util
 from recommender import *
 
 load_dotenv()
@@ -19,12 +20,19 @@ def get_response(model, messages):
         api_key=os.environ["OPENROUTER_API_KEY"]
     )
 
-    completion = client.chat.completions.create(
-        model=model,
-        messages=messages
-    )
-
-    return completion.choices[0].message.content
+    try: 
+        completion = client.chat.completions.create(
+            model=model,
+            messages=messages
+        )
+        if completion and completion.choices:
+            return completion.choices[0].message.content
+        else:
+            print("No choices returned in the completion.")
+            return None
+    except Exception as e:
+        print(f"Error during completion: {e}")
+        return None
 
 def get_prompt(user_criteria: dict, MODEL_PATH: Path, TRIPLES_PATH: Path, RECIPE_PATH_CSV: Path) -> str:
     """
@@ -156,6 +164,231 @@ Now, please generate the recipe.
     # print(prompt)
     # print("---- End of Prompt ----\n")
     
+    return prompt
+
+def get_prompt_no_rag(user_criteria: dict, MODEL_PATH: Path, TRIPLES_PATH: Path, RECIPE_PATH_CSV: Path) -> str:
+    """
+    Generate a new recipe using the LLM based on user criteria.
+    Returns a JSON string containing { "recipes": [ {...}, ... ] }.
+    """
+
+    formatted_criteria = format_user_criteria(user_criteria)
+
+    # Construct final LLM prompt
+    prompt = f"""
+You are a world-class culinary expert and innovative chef known for your exceptionally creative dishes.
+Your task is to generate a completely new recipe that meets the following criteria:
+
+{formatted_criteria}
+
+Output a single JSON object with a top-level key "recipes". This key should map
+to an array containing exactly one recipe object with these keys (and no extra keys):
+
+- "id": A unique identifier (can be empty)
+- "title": A creative and enticing recipe title
+- "description": A vivid and imaginative description 
+- "imageUrl": The final image URL of the dish
+- "cookingTime": Total cooking time (minutes)
+- "servings": Number of servings
+- "calories": Calorie count
+- "difficulty": Recipe difficulty (Easy, Medium, Hard)
+- "categories": An array of category strings
+- "cookingMethod": The cooking method used
+- "ingredients": An array of ingredient objects
+- "steps": An array of instruction objects
+- "nutritionInfo": An object containing nutritional details
+
+Example JSON:
+{{
+  "recipes": [
+    {{
+      "id": "",
+      "title": "Example Recipe Title",
+      "description": "A brief creative description incorporating.",
+      "cookingTime": 45,
+      "servings": 4,
+      "calories": 500,
+      "difficulty": "Medium",
+      "categories": ["Example", "Inspiration"],
+      "cookingMethod": "baking",
+      "ingredients": [
+        {{
+          "name": "Ingredient 1",
+          "amount": "1",
+          "unit": "cup",
+          "notes": "",
+          "category": "Category",
+          "amountInGrams": 100
+        }}
+      ],
+      "steps": [
+        {{
+          "title": "Step 1",
+          "description": "Do something.",
+          "duration": 10
+        }}
+      ],
+      "nutritionInfo": {{
+        "calories": 500,
+        "protein": 20,
+        "carbohydrates": 50,
+        "fat": 10,
+        "saturatedFat": 2,
+        "transFat": 0,
+        "cholesterol": 0,
+        "sodium": 300,
+        "fiber": 5,
+        "sugars": 8,
+        "vitaminD": 0,
+        "calcium": 100,
+        "iron": 5,
+        "potassium": 400,
+        "fatDailyValue": 15,
+        "saturatedFatDailyValue": 10,
+        "cholesterolDailyValue": 0,
+        "sodiumDailyValue": 13,
+        "carbohydratesDailyValue": 20,
+        "fiberDailyValue": 25,
+        "proteinDailyValue": 30,
+        "vitaminDDailyValue": 0,
+        "calciumDailyValue": 10,
+        "ironDailyValue": 15,
+        "potassiumDailyValue": 12,
+        "servingSize": "1 serving"
+      }}
+    }}
+  ]
+}}
+Now, please generate the recipe.
+"""
+    # print("---- Prompt Sent to LLM ----")
+    # print(prompt)
+    # print("---- End of Prompt ----\n")
+    
+    return prompt
+
+def get_prompt_txt_embd(user_criteria: dict, MODEL_PATH: Path, TRIPLES_PATH: Path, RECIPE_PATH_CSV: Path, model, recipe_ids, recipe_embs) -> str:
+    """
+    Generate a new recipe using the LLM based on user criteria + 5 example recipes for inspiration.
+    Returns a JSON string containing { "recipes": [ {...}, ... ] }.
+    """
+    # Get the embedding of user criteria
+    formatted_criteria = format_user_criteria(user_criteria)
+    criteria_embedding = model.encode(formatted_criteria, convert_to_tensor=True)
+
+    # Compute cosine similarity between user criteria and recipe embeddings
+    similarities = util.cos_sim(criteria_embedding, recipe_embs)[0]
+    
+    # Get top 5
+    top_k_indices = np.argsort(-similarities.cpu().numpy())[:5]
+    example_recipe_ids = [recipe_ids[i].replace('recipe_id_', '') for i in top_k_indices]
+  
+    # Fetch detailed info for the sample recipes
+    example_recipes = []
+    for rid in example_recipe_ids:
+        recipe_info = fetch_recipe_info(rid, RECIPE_PATH_CSV)
+        if recipe_info:
+            example_recipes.append(recipe_info)
+
+    # Format the example recipes for the prompt
+    formatted_examples = ""
+    for idx, recipe in enumerate(example_recipes, start=1):
+        formatted_examples += f"Example Recipe {idx}:\n{format_recipe_example(recipe)}\n{'-'*40}\n"
+
+    # Construct final LLM prompt
+    prompt = f"""
+You are a world-class culinary expert and innovative chef known for your exceptionally creative dishes.
+Your task is to generate a completely new recipe that meets the following criteria:
+
+{formatted_criteria}
+
+Use the following example recipes for inspiration:
+{formatted_examples}
+
+Output a single JSON object with a top-level key "recipes". This key should map
+to an array containing exactly one recipe object with these keys (and no extra keys):
+
+- "id": A unique identifier (can be empty)
+- "title": A creative and enticing recipe title
+- "description": A vivid and imaginative description 
+- "imageUrl": The final image URL of the dish
+- "cookingTime": Total cooking time (minutes)
+- "servings": Number of servings
+- "calories": Calorie count
+- "difficulty": Recipe difficulty (Easy, Medium, Hard)
+- "categories": An array of category strings
+- "cookingMethod": The cooking method used
+- "ingredients": An array of ingredient objects
+- "steps": An array of instruction objects
+- "nutritionInfo": An object containing nutritional details
+
+Example JSON:
+{{
+  "recipes": [
+    {{
+      "id": "",
+      "title": "Example Recipe Title",
+      "description": "A brief creative description incorporating.",
+      "cookingTime": 45,
+      "servings": 4,
+      "calories": 500,
+      "difficulty": "Medium",
+      "categories": ["Example", "Inspiration"],
+      "cookingMethod": "baking",
+      "ingredients": [
+        {{
+          "name": "Ingredient 1",
+          "amount": "1",
+          "unit": "cup",
+          "notes": "",
+          "category": "Category",
+          "amountInGrams": 100
+        }}
+      ],
+      "steps": [
+        {{
+          "title": "Step 1",
+          "description": "Do something.",
+          "duration": 10
+        }}
+      ],
+      "nutritionInfo": {{
+        "calories": 500,
+        "protein": 20,
+        "carbohydrates": 50,
+        "fat": 10,
+        "saturatedFat": 2,
+        "transFat": 0,
+        "cholesterol": 0,
+        "sodium": 300,
+        "fiber": 5,
+        "sugars": 8,
+        "vitaminD": 0,
+        "calcium": 100,
+        "iron": 5,
+        "potassium": 400,
+        "fatDailyValue": 15,
+        "saturatedFatDailyValue": 10,
+        "cholesterolDailyValue": 0,
+        "sodiumDailyValue": 13,
+        "carbohydratesDailyValue": 20,
+        "fiberDailyValue": 25,
+        "proteinDailyValue": 30,
+        "vitaminDDailyValue": 0,
+        "calciumDailyValue": 10,
+        "ironDailyValue": 15,
+        "potassiumDailyValue": 12,
+        "servingSize": "1 serving"
+      }}
+    }}
+  ]
+}}
+Now, please generate the recipe.
+"""
+    # print("---- Prompt Sent to LLM ----")
+    # print(prompt)
+    # print("---- End of Prompt ----\n")
+
     return prompt
 
 def get_json(raw_text):

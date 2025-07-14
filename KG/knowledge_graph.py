@@ -19,19 +19,14 @@ Author: [Emin Durmuş]
 Date: [1.02.2025]
 """
 
+import os
 import numpy as np
 import networkx as nx
 import pickle
 import pandas as pd
 from typing import Dict, Any, Tuple, List
 
-
 UNKNOWN_PLACEHOLDER = "unknown"
-
-# ---------------------------
-# Helper Functions
-# ---------------------------
-
 
 def map_health_attribute(element: str) -> str:
     """
@@ -65,7 +60,6 @@ def map_health_attribute(element: str) -> str:
     else:
         return "HasHealthAttribute"
 
-
 def split_and_clean(value: str, delimiter: str) -> List[str]:
     """
     Splits a string by the specified delimiter and trims whitespace from each element.
@@ -78,7 +72,6 @@ def split_and_clean(value: str, delimiter: str) -> List[str]:
         List[str]: A list of cleaned substrings.
     """
     return [v.strip() for v in value.split(delimiter) if v.strip()]
-
 
 def load_recipes_from_dataframe(df: pd.DataFrame) -> Dict[Any, Dict[str, Any]]:
     """
@@ -115,12 +108,6 @@ def load_recipes_from_dataframe(df: pd.DataFrame) -> Dict[Any, Dict[str, Any]]:
         recipes[recipe_id] = recipe_data
 
     return recipes
-
-
-# ---------------------------
-# Graph Construction Functions
-# ---------------------------
-
 
 def create_graph_and_triples(
     recipes: Dict[Any, Dict[str, Any]],
@@ -237,7 +224,6 @@ def create_graph_and_triples(
     triples_array = np.array(triples, dtype=str)
     return G, triples_array
 
-
 def save_triples(triples_array: np.ndarray, file_path: str) -> None:
     """
     Save the triples array to a CSV file.
@@ -248,7 +234,6 @@ def save_triples(triples_array: np.ndarray, file_path: str) -> None:
     """
     triples_df = pd.DataFrame(triples_array, columns=["Head", "Relation", "Tail"])
     triples_df.to_csv(file_path, index=False)
-
 
 def save_graph(G: nx.DiGraph, file_path: str) -> None:
     """
@@ -261,14 +246,9 @@ def save_graph(G: nx.DiGraph, file_path: str) -> None:
     with open(file_path, "wb") as f:
         pickle.dump(G, f)
 
-
-# ---------------------------
-# Main Execution Block
-# ---------------------------
-
 if __name__ == "__main__":
     # Read the CSV file using Pandas.
-    csv_path = "/app/data/dataFullLargerRegionAndCountryWithServingsBin.csv"
+    csv_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data', 'dataFullLargerRegionAndCountryWithServingsBin.csv'))
     df = pd.read_csv(csv_path)
 
     # Load recipes from the DataFrame; only retain the necessary columns.
@@ -278,8 +258,7 @@ if __name__ == "__main__":
     graph, triples = create_graph_and_triples(recipes)
 
     # Save the extracted triples and the graph.
-    save_triples(triples, "/app/train_new_kge_model/triples_new_without_ct_ss.csv")
-    save_graph(graph, "/app/train_new_kge_model/knowledge_graph_new_without_ct_ss.pkl")
+    save_triples(triples, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data', 'triples_new_without_ct_ss.csv')))
 
     # For demonstration, print the first few triples.
     print("Sample triples:")
